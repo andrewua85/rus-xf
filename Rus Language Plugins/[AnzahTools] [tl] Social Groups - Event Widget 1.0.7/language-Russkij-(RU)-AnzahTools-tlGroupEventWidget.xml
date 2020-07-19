@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="AnzahTools/tlGroupEventWidget" base_version_id="1000770" export_version="2">
+  <phrase title="at_tlgew_address" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000570" version_string="1.0.5"><![CDATA[Address]]></phrase>
+  <phrase title="at_tlgew_both" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000570" version_string="1.0.5"><![CDATA[Both]]></phrase>
+  <phrase title="at_tlgew_group" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000570" version_string="1.0.5"><![CDATA[Group]]></phrase>
+  <phrase title="at_tlgew_noevents" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000570" version_string="1.0.5"><![CDATA[No events available]]></phrase>
+  <phrase title="at_tlgew_subrow" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000570" version_string="1.0.5"><![CDATA[Subrow]]></phrase>
+  <phrase title="widget_def.at_tlgew_widget" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000370" version_string="1.0.3"><![CDATA[[tl] Social Groups - Event Widget]]></phrase>
+  <phrase title="widget_def_desc.at_tlgew_widget" addon_id="AnzahTools/tlGroupEventWidget" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[]]></phrase>
+</language>

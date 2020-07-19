@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="XFES" base_version_id="2010370" export_version="2">
+  <phrase title="admin_navigation.xfes" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Расширенный поиск]]></phrase>
+  <phrase title="cron_entry.xfesReindex" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Расширенный поиск: переиндексация]]></phrase>
+  <phrase title="option.xfesConfig" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Конфигурация расширенного поиска]]></phrase>
+  <phrase title="option.xfesEnabled" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Расширенный поиск включен]]></phrase>
+  <phrase title="option.xfesRecencyRelevance" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Управление релевантностью свежего контента]]></phrase>
+  <phrase title="option_explain.xfesConfig" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Эти параметры устанавливаются в разделе настроек Расширенного поиска.]]></phrase>
+  <phrase title="option_explain.xfesEnabled" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xfesRecencyRelevance" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Эти параметры устанавливаются в разделе настроек Расширенного поиска.]]></phrase>
+  <phrase title="xfes_allocated_memory" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Выделено памяти]]></phrase>
+  <phrase title="xfes_changes_have_been_saved_must_rebuild" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Изменения успешно сохранены. Теперь необходимо выполнить <a href="{link}">перестроение поискового индекса</a>.]]></phrase>
+  <phrase title="xfes_configure_enhanced_search" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Настроить расширенный поиск]]></phrase>
+  <phrase title="xfes_confirm_enhanced_search_configuration" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Подтверждение конфигурации расширенного поиска]]></phrase>
+  <phrase title="xfes_connection_could_not_be_made_to_elasticsearch_server" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Не удалось установить соединение с сервером Elasticsearch.]]></phrase>
+  <phrase title="xfes_current_index_configuration_not_supported" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Текущая конфигурация индекса не поддерживается XenForo. Обновление параметров индекса приведет к удалению существующей конфигурации.]]></phrase>
+  <phrase title="xfes_documents" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Документов в индексе]]></phrase>
+  <phrase title="xfes_does_not_appear_to_be_elasticsearch_server" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Это не похоже на сервер Elasticsearch.]]></phrase>
+  <phrase title="xfes_elasticsearch_server" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Сервер Elasticsearch]]></phrase>
+  <phrase title="xfes_elasticsearch_server_could_not_be_reached" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Не удалось получить доступ к серверу Elasticsearch. Убедитесь, что сервер запущен.]]></phrase>
+  <phrase title="xfes_elasticsearch_version_does_not_meet_requirements" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Ваша версия Elasticsearch не соответствует минимальным требованиям. Требуется версия 2.0.0 и выше. Ваша версия {version}.]]></phrase>
+  <phrase title="xfes_empty_mysql_search_index" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Очистить поисковый индекс MySQL]]></phrase>
+  <phrase title="xfes_enable_accent_removal_and_character_simplification" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Включить удаление акцентов и упрощение символов]]></phrase>
+  <phrase title="xfes_enable_enhanced_search_now" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Включить расширенный поиск сейчас]]></phrase>
+  <phrase title="xfes_enable_recency_weighted_relevance_searches" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Повышать релевантность свежего контента]]></phrase>
+  <phrase title="xfes_enable_stemming_for_language" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Включить стемминг для языка]]></phrase>
+  <phrase title="xfes_enhanced_search" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Расширенный поиск]]></phrase>
+  <phrase title="xfes_enhanced_search_explain" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[<p>Расширенный поиск использует сервер Elasticsearch для улучшения функциональности поисковой системы XenForo. Сюда входит сортировка по релевантности, поиск сокращенных слов, поддержка стемминга, настройка стоп-слов и повышение производительности.</p>
+
+<p>Расширенный поиск требует Elasticsearch версии 2.0 и новее. Elasticsearch - это отдельный сервис, который должен быть установлен отдельно от вашего веб-сервера, PHP и MySQL. Для установки Elasticsearch требуется root-доступ к вашему серверу. По вопросам установки Elasticsearch обратитесь к администратору сервера.</p>]]></phrase>
+  <phrase title="xfes_enhanced_search_not_currently_enabled" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Расширенный поиск сейчас отключен. Поисковая система XenForo не использует его.]]></phrase>
+  <phrase title="xfes_error_was_triggered_while_indexing_see_log" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Во время индексации произошла ошибка. Дополнительные сведения см. в журнале ошибок XenForo.]]></phrase>
+  <phrase title="xfes_half_life" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Период устаревания]]></phrase>
+  <phrase title="xfes_if_left_blank_this_will_default_to_your_mysql_database_name" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Если оставить поле пустым, то по умолчанию будет использоваться имя базы данных MySQL XenForo.]]></phrase>
+  <phrase title="xfes_index_already_exists_used_as_is" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Этот индекс уже существует. Он будет использоваться как есть.]]></phrase>
+  <phrase title="xfes_index_configuration" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Конфигурация индекса]]></phrase>
+  <phrase title="xfes_index_does_not_exist_yet" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Этот индекс пока не существует.]]></phrase>
+  <phrase title="xfes_index_name" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Имя индекса]]></phrase>
+  <phrase title="xfes_index_updates" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Обновлений индекса]]></phrase>
+  <phrase title="xfes_optimization_required" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Требуется оптимизация]]></phrase>
+  <phrase title="xfes_optimize" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Оптимизировать]]></phrase>
+  <phrase title="xfes_optimize_elasticsearch_index" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Оптимизировать индекс Elasticsearch]]></phrase>
+  <phrase title="xfes_optimize_now" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Оптимизировать сейчас]]></phrase>
+  <phrase title="xfes_optimizing_index_can_reduce_space_required" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Оптимизация индекса может уменьшить объем требуемого пространства и повысить производительность.]]></phrase>
+  <phrase title="xfes_reconfigure" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Перенастройка]]></phrase>
+  <phrase title="xfes_relevancy_recency_weighted_explain" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Если включено, алгоритм релевантности поиска будет смещен в сторону более нового контента.<br/>
+Контент, созданный сегодня, будет в два раза актуальнее, чем идентичный контент, созданный X дней назад.
+Чем меньшее значение данного параметра, тем больший вес будет иметь свежий контент.]]></phrase>
+  <phrase title="xfes_remove_accents_simplify_explain" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Если включено, перед индексацией акценты будут удалены, а другие сложные символы будут преобразованы в более простые. Это может улучшить результаты поиска, разрешая соответствие нескольким вариациям слова с акцентом (воды́, во́ды). Однако, это может вызвать неожиданные совпадения для слов, отличающихся только акцентом.]]></phrase>
+  <phrase title="xfes_search_could_not_be_completed_try_again_later" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Не удалось выполнить поиск. Пожалуйста, попробуйте позже.]]></phrase>
+  <phrase title="xfes_search_options" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Параметры поиска]]></phrase>
+  <phrase title="xfes_searches" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Поисковых запросов]]></phrase>
+  <phrase title="xfes_searches_will_now_use_elasticsearch_rebuild_index" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Поисковая система XenForo будет использовать сервер Elasticsearch. Необходимо перестроить поисковый индекс, чтобы сделать существующий контент доступным для поиска.]]></phrase>
+  <phrase title="xfes_stats" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Статистика]]></phrase>
+  <phrase title="xfes_stop_words" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Стоп-слова]]></phrase>
+  <phrase title="xfes_stop_words_explain" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Стоп-слова - это слова, которые не будут включены в поисковый индекс. Запрет индексирования определенных слов может сэкономить дисковое пространство за счет усложнения поиска.]]></phrase>
+  <phrase title="xfes_test_settings" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Тестировать настройки]]></phrase>
+  <phrase title="xfes_toggle_advanced_options" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Показать/скрыть дополнительные настройки]]></phrase>
+  <phrase title="xfes_toggle_enhanced_search" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Включить/отключить расширенный поиск]]></phrase>
+  <phrase title="xfes_use_custom_list" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Использовать собственный список]]></phrase>
+  <phrase title="xfes_use_https_connection" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Использовать HTTPS-соединение]]></phrase>
+  <phrase title="xfes_use_language_defaults" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Использовать языковые значения по умолчанию]]></phrase>
+  <phrase title="xfes_version" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Версия]]></phrase>
+  <phrase title="xfes_will_save_disk_space_but_index_rebuild_required_mysql" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Это сэкономит дисковое пространство, но если Вы решите вернуться к MySQL-поиску, потребуется перестроение поискового индекса.]]></phrase>
+  <phrase title="xfes_word_stemming" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Стемминг слов]]></phrase>
+  <phrase title="xfes_word_stemming_explain" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[<a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BC%D0%BC%D0%B8%D0%BD%D0%B3" target="_blank">Стемминг</a> слов  может улучшить поиск, позволяя совместить несколько форм слова.
+Например, поисковый запрос по слову "тест" будет в равной степени соответствовать словам "тесты", "тестирование", "тестовый" и т.д.]]></phrase>
+  <phrase title="xfes_x_milliseconds_average" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[в среднем {time} мсек.]]></phrase>
+  <phrase title="xfes_you_sure_want_to_optimize_elasticsearch_delete_create" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Вы уверены, что хотите оптимизировать индекс Elasticsearch? Это приведет к удалению существующего индекса и созданию нового на его месте.]]></phrase>
+  <phrase title="xfes_you_sure_you_want_to_disable_enhanced_search" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Вы уверены, что хотите отключить расширенный поиск?]]></phrase>
+  <phrase title="xfes_you_sure_you_want_to_enable_enhanced_search" addon_id="XFES" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Вы уверены, что хотите включить расширенный поиск?]]></phrase>
+</language>

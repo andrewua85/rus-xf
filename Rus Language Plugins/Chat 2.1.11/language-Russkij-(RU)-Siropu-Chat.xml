@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Siropu/Chat" base_version_id="2011170" export_version="2">
+  <phrase title="admin_navigation.siropuChat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="admin_navigation.siropuChatBotMessages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Сообщения Бота]]></phrase>
+  <phrase title="admin_navigation.siropuChatBotResponses" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Ответы Бота]]></phrase>
+  <phrase title="admin_navigation.siropuChatCommands" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Команды]]></phrase>
+  <phrase title="admin_navigation.siropuChatOptions" addon_id="Siropu/Chat" version_id="2000270" version_string="2.0.2"><![CDATA[Настройки]]></phrase>
+  <phrase title="admin_permission.siropuChat" addon_id="Siropu/Chat" version_id="2000370" version_string="2.0.3"><![CDATA[Управлять чатом]]></phrase>
+  <phrase title="alert_opt_out.siropu_chat_conv_message_reaction" addon_id="Siropu/Chat" version_id="2010270" version_string="2.1.2"><![CDATA[Reacts to your chat conversation message]]></phrase>
+  <phrase title="alert_opt_out.siropu_chat_room_message_reaction" addon_id="Siropu/Chat" version_id="2010270" version_string="2.1.2"><![CDATA[Reacts to your chat room message]]></phrase>
+  <phrase title="cron_entry.siropuChatBotMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Публикация сообщения Бота]]></phrase>
+  <phrase title="cron_entry.siropuChatCleanActionLog" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Очистка журнала действий]]></phrase>
+  <phrase title="cron_entry.siropuChatIgnoredMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Удалить игнорируемые сообщения]]></phrase>
+  <phrase title="cron_entry.siropuChatInactiveRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Удалить неактивные комнаты]]></phrase>
+  <phrase title="cron_entry.siropuChatOlderMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Удалить старые сообщения]]></phrase>
+  <phrase title="cron_entry.siropuChatRoomAutoPrune" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Автоматическая очистка комнаты]]></phrase>
+  <phrase title="cron_entry.siropuChatRoomUsers" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Обновления количества пользователей в комнате]]></phrase>
+  <phrase title="cron_entry.siropuChatSanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Удалить наказания, которые закончились]]></phrase>
+  <phrase title="nav.siropuChat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="nav.siropuChatArchive" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Архив]]></phrase>
+  <phrase title="nav.siropuChatSanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказания]]></phrase>
+  <phrase title="nav.siropuChatTopChatters" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Топ пользователей]]></phrase>
+  <phrase title="option.siropuChatActiveStatusTimeout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Тайм-аут активного состояния]]></phrase>
+  <phrase title="option.siropuChatActivityNotificationsBot" addon_id="Siropu/Chat" version_id="2000170" version_string="2.0.1"><![CDATA[Отображать оповещения Бота о действиях на форуме]]></phrase>
+  <phrase title="option.siropuChatAdsAboveEditor" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Объявления над редактором]]></phrase>
+  <phrase title="option.siropuChatAdsBelowEditor" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Объявления под редактором]]></phrase>
+  <phrase title="option.siropuChatArchiveMessagesPerPage" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщений архива на страницу]]></phrase>
+  <phrase title="option.siropuChatAutoLoginUsers" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Авто-вход пользователей]]></phrase>
+  <phrase title="option.siropuChatAvatarInMessageList" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображать аватар в списке сообщений]]></phrase>
+  <phrase title="option.siropuChatAvatarInUserList" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображать аватар в списке пользователей]]></phrase>
+  <phrase title="option.siropuChatBotAvatar" addon_id="Siropu/Chat" version_id="2001170" version_string="2.0.11"><![CDATA[Bot avatar]]></phrase>
+  <phrase title="option.siropuChatBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя Бота]]></phrase>
+  <phrase title="option.siropuChatCompactMobileMode" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Compact mobile mode]]></phrase>
+  <phrase title="option.siropuChatComplyWithUserPrivacy" addon_id="Siropu/Chat" version_id="2001970" version_string="2.0.19"><![CDATA[Comply with user privacy settings]]></phrase>
+  <phrase title="option.siropuChatConvLoadMoreButton" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[Enable "Load more messages" button for conversations]]></phrase>
+  <phrase title="option.siropuChatConvTabCount" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[Conversations tab info]]></phrase>
+  <phrase title="option.siropuChatConversationMessageAlert" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[Enable conversation message alert]]></phrase>
+  <phrase title="option.siropuChatDefaultJoinedRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Комнаты, к которым подключаются по умолчанию]]></phrase>
+  <phrase title="option.siropuChatDefaultMiscSettings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Различные настройки по умолчанию]]></phrase>
+  <phrase title="option.siropuChatDefaultNotificationSettings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Настройка всплывающих оповещений по умолчанию]]></phrase>
+  <phrase title="option.siropuChatDefaultSoundSettings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Настройка звуковых оповещений по умолчанию]]></phrase>
+  <phrase title="option.siropuChatDeleteMessagesOlderThan" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить сообщение старше, чем]]></phrase>
+  <phrase title="option.siropuChatDeleteUserConversationIfDeleted" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Delete private conversations if user account is deleted]]></phrase>
+  <phrase title="option.siropuChatDisableCustomEditorButtons" addon_id="Siropu/Chat" version_id="2000670" version_string="2.0.6"><![CDATA[Disable custom editor buttons]]></phrase>
+  <phrase title="option.siropuChatDisableSmilieButton" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отключить кнопку смайликов]]></phrase>
+  <phrase title="option.siropuChatDisallowedCustomBbCodes" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отключить собственные BB-коды]]></phrase>
+  <phrase title="option.siropuChatDisallowedPages" addon_id="Siropu/Chat" version_id="2011070" version_string="2.1.10"><![CDATA[Disallowed pages]]></phrase>
+  <phrase title="option.siropuChatDisplayMode" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Место отображения]]></phrase>
+  <phrase title="option.siropuChatDynamicTitle" addon_id="Siropu/Chat" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Динамический заголовок в чате]]></phrase>
+  <phrase title="option.siropuChatEditorSubmitButton" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить кнопку "Отправить" в редакторе]]></phrase>
+  <phrase title="option.siropuChatEditorToggleBbcode" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить кнопку "Режим ВВ-кодов" в редакторе]]></phrase>
+  <phrase title="option.siropuChatEnabled" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Включить чат]]></phrase>
+  <phrase title="option.siropuChatEnabledBBCodes" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить BB-коды]]></phrase>
+  <phrase title="option.siropuChatFloodCheckLength" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Минимальное время между сообщениями]]></phrase>
+  <phrase title="option.siropuChatForumActivityBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя Бота для XenForo]]></phrase>
+  <phrase title="option.siropuChatForumActivityForums" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отображать уведомления только из выбранных разделов форума]]></phrase>
+  <phrase title="option.siropuChatForumActivityPosts" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить уведомления о новых сообщениях]]></phrase>
+  <phrase title="option.siropuChatForumActivityPostsExcept" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Обрезать сообщения]]></phrase>
+  <phrase title="option.siropuChatForumActivityRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Комната для оповещений о действиях на форуме]]></phrase>
+  <phrase title="option.siropuChatForumActivityThreads" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить оповещения о новых темах]]></phrase>
+  <phrase title="option.siropuChatForumActivityUsers" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить оповещения о новых пользователях]]></phrase>
+  <phrase title="option.siropuChatGuestRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Гостевая комната]]></phrase>
+  <phrase title="option.siropuChatHideMessageContentFromUserGroups" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Скрыть содержимое сообщения для выбранных групп пользователей]]></phrase>
+  <phrase title="option.siropuChatIdleStatusTimeout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Тайм-аут не активного состояния]]></phrase>
+  <phrase title="option.siropuChatKeepUsersLoggedIn" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Оставаться в чате]]></phrase>
+  <phrase title="option.siropuChatLoadRoomsIfNoneJoined" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Display room list if no rooms joined]]></phrase>
+  <phrase title="option.siropuChatLogoutUserOnSiteLogout" addon_id="Siropu/Chat" version_id="2010870" version_string="2.1.8"><![CDATA[Logout user from all joined rooms on site logout]]></phrase>
+  <phrase title="option.siropuChatMaxImageSize" addon_id="Siropu/Chat" version_id="2002370" version_string="2.0.23"><![CDATA[Maximum image upload file size]]></phrase>
+  <phrase title="option.siropuChatMaxMessageLength" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Максимальная длина сообщения]]></phrase>
+  <phrase title="option.siropuChatMessageContentReplacementCharacter" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Символ замены содержимого в сообщениях]]></phrase>
+  <phrase title="option.siropuChatMessageDisplayLimit" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ограничение отображения сообщения]]></phrase>
+  <phrase title="option.siropuChatMultiLineMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Разрешить многострочные сообщения]]></phrase>
+  <phrase title="option.siropuChatNavIcon" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Иконка для вкладки навигации]]></phrase>
+  <phrase title="option.siropuChatNavUserCount" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отобразить количество пользователей на вкладке навигации]]></phrase>
+  <phrase title="option.siropuChatNavigationPopup" addon_id="Siropu/Chat" version_id="2000770" version_string="2.0.7"><![CDATA[Open chat navigation link in a popup]]></phrase>
+  <phrase title="option.siropuChatNotice" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Примечание]]></phrase>
+  <phrase title="option.siropuChatNotificationTimeout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Тайм-аут отображения оповещения]]></phrase>
+  <phrase title="option.siropuChatOpenInternalLinksInNewTab" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Open internal links in a new tab]]></phrase>
+  <phrase title="option.siropuChatPage" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить страницу]]></phrase>
+  <phrase title="option.siropuChatPrimaryRoom" addon_id="Siropu/Chat" version_id="2001770" version_string="2.0.17"><![CDATA[Primary room]]></phrase>
+  <phrase title="option.siropuChatPrivateConversations" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Включить приватные разговоры]]></phrase>
+  <phrase title="option.siropuChatReactions" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Enable reactions]]></phrase>
+  <phrase title="option.siropuChatRefreshIntervalActive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Интервал обновления для активных пользователей (чат видимый)]]></phrase>
+  <phrase title="option.siropuChatRefreshIntervalActiveHidden" addon_id="Siropu/Chat" version_id="2000270" version_string="2.0.2"><![CDATA[Интервал обновления для активных пользователей (чат скрытый)]]></phrase>
+  <phrase title="option.siropuChatRefreshIntervalInactive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Интервал обновления для неактивных пользователей (чат видимый)]]></phrase>
+  <phrase title="option.siropuChatRefreshIntervalInactiveHidden" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Интервал обновления для неактивных пользователей (чат скрытый)]]></phrase>
+  <phrase title="option.siropuChatRoomJoinLimitAction" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[If room join limit is reached]]></phrase>
+  <phrase title="option.siropuChatRoomLoadMoreButton" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[Enable "Load more messages" button for rooms]]></phrase>
+  <phrase title="option.siropuChatRoomNotifications" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Оповещения Бота]]></phrase>
+  <phrase title="option.siropuChatRoomTabUserCount" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[Display user count in room tabs]]></phrase>
+  <phrase title="option.siropuChatRooms" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Включить комнаты]]></phrase>
+  <phrase title="option.siropuChatRoomsOrder" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Сортировать комнаты по]]></phrase>
+  <phrase title="option.siropuChatRules" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Правила]]></phrase>
+  <phrase title="option.siropuChatStatus" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Включить статус пользователя]]></phrase>
+  <phrase title="option.siropuChatStatusMaxLength" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Максимальная длина статуса]]></phrase>
+  <phrase title="option.siropuChatTabNotification" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить оповещения для вкладки браузера]]></phrase>
+  <phrase title="option.siropuChatThreadMessageMinLength" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Минимальная длина сообщения для темы]]></phrase>
+  <phrase title="option.siropuChatTopChatters" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимальное количество пользователей в топе]]></phrase>
+  <phrase title="option.siropuChatUserMentionAlert" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить оповещения при упоминании пользователя]]></phrase>
+  <phrase title="option.siropuChatUserSanctionAlert" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[User sanction alert]]></phrase>
+  <phrase title="option.siropuChatUserTagging" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Quick user tagging]]></phrase>
+  <phrase title="option.siropuChatUsersOrder" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сортировать пользователей по]]></phrase>
+  <phrase title="option.siropuChatXFMGActivityBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя Бота для XFMG]]></phrase>
+  <phrase title="option.siropuChatXFMGActivityComment" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить оповещения о новых комментариях к медиа-файлам]]></phrase>
+  <phrase title="option.siropuChatXFMGActivityMediaAlbum" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить уведомления о новых медиа-альбомах]]></phrase>
+  <phrase title="option.siropuChatXFMGActivityMediaItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить уведомления о новых медиа-элементах]]></phrase>
+  <phrase title="option.siropuChatXFMGActivityRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Комната оповещений о действиях в XFMG]]></phrase>
+  <phrase title="option.siropuChatXFRMActivityBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя Бота для XFRM]]></phrase>
+  <phrase title="option.siropuChatXFRMActivityRating" addon_id="Siropu/Chat" version_id="2001170" version_string="2.0.11"><![CDATA[Enable new resource ratings notifications]]></phrase>
+  <phrase title="option.siropuChatXFRMActivityRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Комната оповещений о действиях в XFRM]]></phrase>
+  <phrase title="option_explain.siropuChatActiveStatusTimeout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[После последнего сообщения в комнате пользователь будет считаться активным в этой комнате в течение определенного времени, прежде чем стать неактивным.]]></phrase>
+  <phrase title="option_explain.siropuChatActivityNotificationsBot" addon_id="Siropu/Chat" version_id="2000170" version_string="2.0.1"><![CDATA[Если включено, будут отображаться оповещения Бота об активности на форуме. Имя пользователя, которое упоминается в оповещении, будет использовать оформление стилизации, если оно указано.]]></phrase>
+  <phrase title="option_explain.siropuChatAdsAboveEditor" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает объявление над редактором чата. Если Вы добавите несколько объявлений, они будут чередоваться случайным образом с каждой новой загрузки страницы.]]></phrase>
+  <phrase title="option_explain.siropuChatAdsBelowEditor" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает объявления под редактором чата. Если Вы добавите несколько объявлений, они будут чередоваться случайным образом с каждой новой загрузки страницы.]]></phrase>
+  <phrase title="option_explain.siropuChatArchiveMessagesPerPage" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимальное количество сообщений для отображения на каждой странице.]]></phrase>
+  <phrase title="option_explain.siropuChatAutoLoginUsers" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении пользователи автоматически войдут в комнаты, к которым они присоединились, если они неактивны при загрузке чата.]]></phrase>
+  <phrase title="option_explain.siropuChatAvatarInMessageList" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[При включении аватар пользователя будет отображаться в списке сообщений перед именем пользователя.]]></phrase>
+  <phrase title="option_explain.siropuChatAvatarInUserList" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[При включении аватар пользователя будет отображаться в списке пользователей перед именем пользователя.]]></phrase>
+  <phrase title="option_explain.siropuChatBotAvatar" addon_id="Siropu/Chat" version_id="2001170" version_string="2.0.11"><![CDATA[This option allows you to set a custom avatar for the bot. Add here the path to your avatar.]]></phrase>
+  <phrase title="option_explain.siropuChatBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя Бота, который будет использоваться для публикации системных уведомлений в чате. Вы можете использовать HTML для стилизации имени.]]></phrase>
+  <phrase title="option_explain.siropuChatCompactMobileMode" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[If enabled, chat in mobile mode will be more compact.]]></phrase>
+  <phrase title="option_explain.siropuChatComplyWithUserPrivacy" addon_id="Siropu/Chat" version_id="2001970" version_string="2.0.19"><![CDATA[If checked, user online status privacy settings will apply to Chat as well.]]></phrase>
+  <phrase title="option_explain.siropuChatConvLoadMoreButton" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[If enabled, a button to load older conversation messages will show up when scrolling to the end of the messages.]]></phrase>
+  <phrase title="option_explain.siropuChatConvTabCount" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.siropuChatConversationMessageAlert" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[If enabled, users will receive alerts when there are unread messages in private conversations. Please note that this feature requires additional database queries and can impact performance.]]></phrase>
+  <phrase title="option_explain.siropuChatDefaultJoinedRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выберите комнаты, к которым подключатся пользователи, при первом заходе в чат.]]></phrase>
+  <phrase title="option_explain.siropuChatDefaultMiscSettings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Различные настройки по умолчанию для пользователей.]]></phrase>
+  <phrase title="option_explain.siropuChatDefaultNotificationSettings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Настройки по умолчанию для отображения оповещений.]]></phrase>
+  <phrase title="option_explain.siropuChatDefaultSoundSettings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Настройки по умолчанию для звуковых оповещений.]]></phrase>
+  <phrase title="option_explain.siropuChatDeleteMessagesOlderThan" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта опция позволяет автоматически удалять сообщения старше Х дней. Установите 0 для отключения.]]></phrase>
+  <phrase title="option_explain.siropuChatDeleteUserConversationIfDeleted" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[This option allows you to delete all the user's private chat conversations upon account deletion.]]></phrase>
+  <phrase title="option_explain.siropuChatDisableCustomEditorButtons" addon_id="Siropu/Chat" version_id="2000670" version_string="2.0.6"><![CDATA[If there are custom editor buttons that do not use BB codes and want to disable them, specify each one separated by comma.]]></phrase>
+  <phrase title="option_explain.siropuChatDisableSmilieButton" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, это приведет к удалению кнопки "Смайлы" в редакторе чата.]]></phrase>
+  <phrase title="option_explain.siropuChatDisallowedCustomBbCodes" addon_id="Siropu/Chat" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Выберите собственные BB-коды, которые Вы хотите отключить в чате. Нажмите и удерживайте CTRL, чтобы выбрать несколько или отменить выбор.]]></phrase>
+  <phrase title="option_explain.siropuChatDisallowedPages" addon_id="Siropu/Chat" version_id="2011070" version_string="2.1.10"><![CDATA[If you want to hide the chat on certain pages when on "All pages" display mode, specify the URLs of those pages, each on a separate line. You can use the * wildcard if you want to exclude certain routes.]]></phrase>
+  <phrase title="option_explain.siropuChatDisplayMode" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Выберите место, в котором чат будет отображаться для пользователей.]]></phrase>
+  <phrase title="option_explain.siropuChatDynamicTitle" addon_id="Siropu/Chat" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[При включении, заголовок в чате будет изменяться в зависимости от текущей активной комнаты.]]></phrase>
+  <phrase title="option_explain.siropuChatEditorSubmitButton" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении в поле ввода текста будет добавлена ​​кнопка "Отправить".]]></phrase>
+  <phrase title="option_explain.siropuChatEditorToggleBbcode" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении в редакторе чата будет отображаться кнопка "Включить режим BB-коды".]]></phrase>
+  <phrase title="option_explain.siropuChatEnabled" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Эта опция позволяет глобально включить/выключить чат.]]></phrase>
+  <phrase title="option_explain.siropuChatEnabledBBCodes" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выберите, какие BB-коды можно использовать в чате.]]></phrase>
+  <phrase title="option_explain.siropuChatFloodCheckLength" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователям придется ждать указанный здесь интервал времени между публикацией сообщений. Пользователи с правом "Игнорировать проверку на флуд" будут освобождены от этой проверки.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[(Опционально) Имя Бота, от имени которого будут публиковаться уведомления о действиях для XenForo. Вы можете использовать HTML для стилизации имени.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityForums" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Этот параметр позволяет отображать уведомления только с определенных разделов форума.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityPosts" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении уведомления о новых сообщениях будут опубликованы в комнате уведомлений о действиях на форуме.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityPostsExcept" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении будет опубликовано обрезаное сообщение. Второе значение задает длину сообщения. Установите 0 для отображения полного сообщения.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если выбрана комната, уведомления о действиях на форуме будут опубликованы в этой комнате.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityThreads" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении уведомления о новых темах будут опубликованы в комнате уведомлений о действиях на форуме.]]></phrase>
+  <phrase title="option_explain.siropuChatForumActivityUsers" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении уведомления о новых пользователей будут опубликованы в комнате уведомлений о действиях на форуме.]]></phrase>
+  <phrase title="option_explain.siropuChatGuestRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если Вы укажете гостевую комнату, гости смогут публиковать сообщения в этой комнате без регистрации.]]></phrase>
+  <phrase title="option_explain.siropuChatHideMessageContentFromUserGroups" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта опция позволяет скрыть содержимое от определенных групп пользователей.]]></phrase>
+  <phrase title="option_explain.siropuChatIdleStatusTimeout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[После выхода из активного статуса, пользователь будет считаться неактивным в течение установленного здесь времени, прежде чем он будет удален из списка участников чата.]]></phrase>
+  <phrase title="option_explain.siropuChatKeepUsersLoggedIn" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если этот параметр включен, пользователи будут находиться в комнатах, к которым они присоединились, даже если пользователи прекращают публиковать сообщения, но продолжают просматривать чат.]]></phrase>
+  <phrase title="option_explain.siropuChatLoadRoomsIfNoneJoined" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[This option allows you to display the room list by default if the user hasn't joined any rooms. Else, the user will see a message.]]></phrase>
+  <phrase title="option_explain.siropuChatLogoutUserOnSiteLogout" addon_id="Siropu/Chat" version_id="2010870" version_string="2.1.8"><![CDATA[This option allows you to logout the user from all the joined rooms when the user logs out from the site.]]></phrase>
+  <phrase title="option_explain.siropuChatMaxImageSize" addon_id="Siropu/Chat" version_id="2002370" version_string="2.0.23"><![CDATA[Set the maximum upload image size in kilobytes (KB).]]></phrase>
+  <phrase title="option_explain.siropuChatMaxMessageLength" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Максимальное количество символов в сообщении. Включая BB-коды. Используйте 0 для отключения лимита.]]></phrase>
+  <phrase title="option_explain.siropuChatMessageContentReplacementCharacter" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Заменяет символы содержимого сообщения на символ, указанный здесь.]]></phrase>
+  <phrase title="option_explain.siropuChatMessageDisplayLimit" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Установите количество сообщений, отображаемых в чате во время загрузки.]]></phrase>
+  <phrase title="option_explain.siropuChatMultiLineMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[При включении пользователи могут публиковать многострочные сообщения с помощью клавиш Shift+Enter.]]></phrase>
+  <phrase title="option_explain.siropuChatNavIcon" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Укажите иконку Font Awesome для вкладки навигации чата.]]></phrase>
+  <phrase title="option_explain.siropuChatNavUserCount" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта опция позволяет отображать на вкладке навигации чата количество пользователей.]]></phrase>
+  <phrase title="option_explain.siropuChatNavigationPopup" addon_id="Siropu/Chat" version_id="2000770" version_string="2.0.7"><![CDATA[If enabled, the chat navigation link will be opened in a popup.]]></phrase>
+  <phrase title="option_explain.siropuChatNotice" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает примечание над сообщениями чата. Если Вы добавите несколько примечаний, они будут появляться случайно с каждой новой загрузкой страницы.]]></phrase>
+  <phrase title="option_explain.siropuChatNotificationTimeout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Оповещения будет автоматически скрываться после указанного здесь промежутка времени.]]></phrase>
+  <phrase title="option_explain.siropuChatOpenInternalLinksInNewTab" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[This option allows you to open internal links in a new tab instead of in the same window.]]></phrase>
+  <phrase title="option_explain.siropuChatPage" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Если включено, пользователи смогут общаться на отдельной странице.]]></phrase>
+  <phrase title="option_explain.siropuChatPrimaryRoom" addon_id="Siropu/Chat" version_id="2001770" version_string="2.0.17"><![CDATA[If you have selected more than one default joined room, this option allows you to set the primary room.]]></phrase>
+  <phrase title="option_explain.siropuChatPrivateConversations" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Если включено, пользователи смогут общаться в привате.]]></phrase>
+  <phrase title="option_explain.siropuChatReactions" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[This option allows you to use XF's native reactions system instead of the simple chat like system.]]></phrase>
+  <phrase title="option_explain.siropuChatRefreshIntervalActive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Промежуток времени в секундах между обновлениями окна чата, когда пользователь активен и чат видимый.]]></phrase>
+  <phrase title="option_explain.siropuChatRefreshIntervalActiveHidden" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Промежуток времени в секундах между обновлениями окна чата, когда пользователь активен и чат скрытый.]]></phrase>
+  <phrase title="option_explain.siropuChatRefreshIntervalInactive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Промежуток времени в секундах между обновлениями окна чата, когда пользователь неактивен и чат видимый.]]></phrase>
+  <phrase title="option_explain.siropuChatRefreshIntervalInactiveHidden" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Промежуток времени в секундах между обновлениями окна чата, когда пользователь неактивен и чат скрытый.]]></phrase>
+  <phrase title="option_explain.siropuChatRoomJoinLimitAction" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Choose what to do if the user has reached the maximum number of rooms allowed to be joined at the same time.]]></phrase>
+  <phrase title="option_explain.siropuChatRoomLoadMoreButton" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[If enabled, a button to load older room messages will show up when scrolling to the end of the messages.]]></phrase>
+  <phrase title="option_explain.siropuChatRoomNotifications" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выберите оповещения, которые будет публиковать в чате Бот.]]></phrase>
+  <phrase title="option_explain.siropuChatRoomTabUserCount" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[This option allows you to display the number of users after the room name in the room tabs.]]></phrase>
+  <phrase title="option_explain.siropuChatRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, пользователи смогут общаться в комнатах.]]></phrase>
+  <phrase title="option_explain.siropuChatRoomsOrder" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Список комнат будет упорядочен по этому параметру.]]></phrase>
+  <phrase title="option_explain.siropuChatRules" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отображать правила и рекомендации для пользователей чата.]]></phrase>
+  <phrase title="option_explain.siropuChatStatus" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Если включено, пользователи могут установить статус, который будет отображаться под именем пользователя в списке участников.]]></phrase>
+  <phrase title="option_explain.siropuChatStatusMaxLength" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Максимальная длина статуса.]]></phrase>
+  <phrase title="option_explain.siropuChatTabNotification" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, уведомления о новых сообщениях в чате появится на вкладке браузера, когда вкладка неактивна.]]></phrase>
+  <phrase title="option_explain.siropuChatThreadMessageMinLength" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Если Вы пропишете ID темы вместо комнаты, этот параметр позволит установить минимальную длину, необходимую для сообщения чата, чтобы оно было опубликовано в этой теме. Установите 0, чтобы публиковать все сообщения.]]></phrase>
+  <phrase title="option_explain.siropuChatTopChatters" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимальное количество пользователей, которые отображаются в топе.]]></phrase>
+  <phrase title="option_explain.siropuChatUserMentionAlert" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, пользователи будут получать оповещения, когда их упоминаются в сообщениях чата. Пользователи сами могут включить это в своих настройки, чтобы получать оповещения.]]></phrase>
+  <phrase title="option_explain.siropuChatUserSanctionAlert" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[This option allows you to alert users when they get sanctioned.]]></phrase>
+  <phrase title="option_explain.siropuChatUserTagging" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[This option allows you to tag users more easily in chat messages.]]></phrase>
+  <phrase title="option_explain.siropuChatUsersOrder" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Список пользователей будет упорядочен по этому параметру.]]></phrase>
+  <phrase title="option_explain.siropuChatXFMGActivityBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[(Опционально) Имя Бота, от имени которого будут публиковаться уведомления о действиях в XFMG. Вы можете использовать HTML для стилизации имени.]]></phrase>
+  <phrase title="option_explain.siropuChatXFMGActivityComment" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, уведомления о новых комментариях к медиа будут опубликованы в комнате уведомлений действий в XFMG.]]></phrase>
+  <phrase title="option_explain.siropuChatXFMGActivityMediaAlbum" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, уведомления о новых медиа-альбомах будут опубликованы в комнате уведомлений действий в XFMG.]]></phrase>
+  <phrase title="option_explain.siropuChatXFMGActivityMediaItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, уведомления о новых медиа-элементах будут опубликованы в комнате уведомлений действий в XFMG.]]></phrase>
+  <phrase title="option_explain.siropuChatXFMGActivityRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если выбрана комната, уведомления о действиях в XFMG будут размещены в этой комнате.]]></phrase>
+  <phrase title="option_explain.siropuChatXFRMActivityBotName" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[(Опционально) Имя Бота, от имени которого будут публиковаться уведомления о действиях в XFRM. Вы можете использовать HTML для стилизации имени.]]></phrase>
+  <phrase title="option_explain.siropuChatXFRMActivityRating" addon_id="Siropu/Chat" version_id="2001170" version_string="2.0.11"><![CDATA[If enabled, notifications of new resource ratings will be posted in the XFRM activity notification room.]]></phrase>
+  <phrase title="option_explain.siropuChatXFRMActivityRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если выбрана комната, уведомления о действиях в XFRM будут размещены в этой комнате.]]></phrase>
+  <phrase title="option_group.siropuChat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Чат от Siropu]]></phrase>
+  <phrase title="option_group_description.siropuChat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Настройка чата от Siropu.]]></phrase>
+  <phrase title="permission.siropuChatAdmin_editAds" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать объявление]]></phrase>
+  <phrase title="permission.siropuChatAdmin_editNotice" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать примечание]]></phrase>
+  <phrase title="permission.siropuChatAdmin_editRules" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать правила]]></phrase>
+  <phrase title="permission.siropuChatAdmin_postAnnouncements" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Post announcements]]></phrase>
+  <phrase title="permission.siropuChatAdmin_resetUserData" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Reset user data]]></phrase>
+  <phrase title="permission.siropuChatModerator_changeAuthor" addon_id="Siropu/Chat" version_id="2010970" version_string="2.1.9"><![CDATA[Can change author]]></phrase>
+  <phrase title="permission.siropuChatModerator_deleteAnyMessage" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить любое сообщение]]></phrase>
+  <phrase title="permission.siropuChatModerator_deleteAnyRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить любую комнату]]></phrase>
+  <phrase title="permission.siropuChatModerator_editAnyMessage" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать любое сообщение]]></phrase>
+  <phrase title="permission.siropuChatModerator_editAnyRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать любую комнату]]></phrase>
+  <phrase title="permission.siropuChatModerator_joinAnyRoom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Подключиться к любой комнаты]]></phrase>
+  <phrase title="permission.siropuChatModerator_prune" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Очищать чат от сообщений]]></phrase>
+  <phrase title="permission.siropuChatModerator_sanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Применять наказание к пользователям]]></phrase>
+  <phrase title="permission.siropuChatModerator_viewHiddenUsers" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[View hidden users]]></phrase>
+  <phrase title="permission.siropuChatModerator_viewWhispers" addon_id="Siropu/Chat" version_id="2001470" version_string="2.0.14"><![CDATA[View whispers]]></phrase>
+  <phrase title="permission.siropuChat_browseRooms" addon_id="Siropu/Chat" version_id="2010470" version_string="2.1.4"><![CDATA[Browse rooms]]></phrase>
+  <phrase title="permission.siropuChat_bypassFloodCheck" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Игнорировать проверку на флуд]]></phrase>
+  <phrase title="permission.siropuChat_bypassRoomPassword" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Игнорировать пароли к комнатам]]></phrase>
+  <phrase title="permission.siropuChat_changeDisplayMode" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Изменять место отображения]]></phrase>
+  <phrase title="permission.siropuChat_changeSettings" addon_id="Siropu/Chat" version_id="2000370" version_string="2.0.3"><![CDATA[Change settings]]></phrase>
+  <phrase title="permission.siropuChat_chatInPrivate" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Общаться в привате]]></phrase>
+  <phrase title="permission.siropuChat_createRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Создавать комнаты]]></phrase>
+  <phrase title="permission.siropuChat_createThreadRoom" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Create room when starting a thread]]></phrase>
+  <phrase title="permission.siropuChat_deleteOwnMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалять свои сообщения]]></phrase>
+  <phrase title="permission.siropuChat_editOwnMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать свои сообщения]]></phrase>
+  <phrase title="permission.siropuChat_editOwnMessagesTimeLimit" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Лимит времени для редактирования/удаления своих сообщений (минуты)]]></phrase>
+  <phrase title="permission.siropuChat_joinRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Подключаться к комнатам]]></phrase>
+  <phrase title="permission.siropuChat_likeMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Использовать "Мне нравится" для сообщений в чате]]></phrase>
+  <phrase title="permission.siropuChat_passwordProtectRooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Защищать комнаты паролем]]></phrase>
+  <phrase title="permission.siropuChat_reportMessages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Жаловаться на сообщение]]></phrase>
+  <phrase title="permission.siropuChat_roomAuthorSanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Владелец комнаты может выгнать пользователей и запретить писать сообщения]]></phrase>
+  <phrase title="permission.siropuChat_searchArchive" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Поиск по архиву]]></phrase>
+  <phrase title="permission.siropuChat_setColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Установить цвет для сообщения]]></phrase>
+  <phrase title="permission.siropuChat_setRoomUsers" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Set room users]]></phrase>
+  <phrase title="permission.siropuChat_setStatus" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Установить статус]]></phrase>
+  <phrase title="permission.siropuChat_uploadImages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Загружать изображения]]></phrase>
+  <phrase title="permission.siropuChat_useChat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Использовать чат]]></phrase>
+  <phrase title="permission.siropuChat_viewAds" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Просматривать объявления]]></phrase>
+  <phrase title="permission.siropuChat_viewArchive" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Просматривать архив]]></phrase>
+  <phrase title="permission.siropuChat_viewChat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Просматривать чат]]></phrase>
+  <phrase title="permission.siropuChat_viewEditHistory" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Просматривать историю редактирования сообщений]]></phrase>
+  <phrase title="permission.siropuChat_viewPrivateRooms" addon_id="Siropu/Chat" version_id="2000970" version_string="2.0.9"><![CDATA[View private rooms]]></phrase>
+  <phrase title="permission.siropuChat_viewRoomArchiveUponJoin" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[View current room messages after joining it]]></phrase>
+  <phrase title="permission.siropuChat_viewSanctioned" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Просматривать наказание пользователей]]></phrase>
+  <phrase title="permission.siropuChat_viewTopChatters" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Просматривать топ]]></phrase>
+  <phrase title="permission.siropuChat_whisper" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Может использовать личные сообщения]]></phrase>
+  <phrase title="permission_interface.siropuChatAdmin" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Права доступа администратора чате]]></phrase>
+  <phrase title="permission_interface.siropuChatModerator" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Права доступа модератора чата]]></phrase>
+  <phrase title="permission_interface.siropuChatUser" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Права доступа пользователя чата]]></phrase>
+  <phrase title="siropu_ads_manager_bot_message_info_block" addon_id="Siropu/Chat" version_id="2000051" version_string="2.0.0 RC 1"><![CDATA[Убедитесь, что <a href="{url}" target="_blank">часовой пояс для гостей</a> соответствует Вашему часовому поясу.]]></phrase>
+  <phrase title="siropu_chat" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="siropu_chat_add_bot_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Добавить сообщение Бота]]></phrase>
+  <phrase title="siropu_chat_add_bot_response" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Добавить ответ Бота]]></phrase>
+  <phrase title="siropu_chat_add_command" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Добавить команду]]></phrase>
+  <phrase title="siropu_chat_admin_options" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Параметры администратора]]></phrase>
+  <phrase title="siropu_chat_admin_welcome" addon_id="Siropu/Chat" version_id="2000170" version_string="2.0.1"><![CDATA[Добро пожаловать в чат от Siropu!]]></phrase>
+  <phrase title="siropu_chat_ads_above_editor" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Объявление над редактором]]></phrase>
+  <phrase title="siropu_chat_ads_below_editor" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Объявление под редактором]]></phrase>
+  <phrase title="siropu_chat_ads_saved" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Объявления чата были сохранены.]]></phrase>
+  <phrase title="siropu_chat_all_messages_have_been_loaded" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Все сообщения загружены.]]></phrase>
+  <phrase title="siropu_chat_all_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Все комнаты]]></phrase>
+  <phrase title="siropu_chat_all_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Все наказания]]></phrase>
+  <phrase title="siropu_chat_all_time" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[За все время]]></phrase>
+  <phrase title="siropu_chat_announcement_has_been_posted" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[The announcement has been successfully posted.]]></phrase>
+  <phrase title="siropu_chat_any_page" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Любая страница]]></phrase>
+  <phrase title="siropu_chat_any_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Любая комната]]></phrase>
+  <phrase title="siropu_chat_apply_sanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Применить наказание]]></phrase>
+  <phrase title="siropu_chat_apply_sanction_for" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Применить наказание к]]></phrase>
+  <phrase title="siropu_chat_archive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Архив]]></phrase>
+  <phrase title="siropu_chat_are_you_sure_you_want_to_logout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы уверены, что хотите выйти из чата? Это действие выбросит Вас из всех комнат.]]></phrase>
+  <phrase title="siropu_chat_attachment" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Вложение в чате]]></phrase>
+  <phrase title="siropu_chat_attachments" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Вложения в чате]]></phrase>
+  <phrase title="siropu_chat_ban" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Блокировка]]></phrase>
+  <phrase title="siropu_chat_ban_ip" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Блокировка по IP]]></phrase>
+  <phrase title="siropu_chat_ban_length" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Продолжительность блокировки]]></phrase>
+  <phrase title="siropu_chat_ban_reason" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Причина блокировки]]></phrase>
+  <phrase title="siropu_chat_ban_type" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Тип блокировки]]></phrase>
+  <phrase title="siropu_chat_ban_type_chat" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Блокировка в чате]]></phrase>
+  <phrase title="siropu_chat_ban_type_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Блокировка в комнате]]></phrase>
+  <phrase title="siropu_chat_ban_user" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Блокировать пользователя]]></phrase>
+  <phrase title="siropu_chat_banned" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователи, которых заблокировали]]></phrase>
+  <phrase title="siropu_chat_bar_title" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="siropu_chat_bot_hidden_error" addon_id="Siropu/Chat" version_id="2000035" version_string="2.0.0"><![CDATA[Вы должны включить сообщения Бота в настройках пользователя.]]></phrase>
+  <phrase title="siropu_chat_bot_messages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщения Бота]]></phrase>
+  <phrase title="siropu_chat_bot_name" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя Бота]]></phrase>
+  <phrase title="siropu_chat_bot_name_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Имя бота, который даст ответ.]]></phrase>
+  <phrase title="siropu_chat_bot_response_exact_match" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Точное соотношение ключевых слов]]></phrase>
+  <phrase title="siropu_chat_bot_response_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ответ, который будет возвращен. Вы можете добавить несколько ответов, разместив каждый в новой строке.]]></phrase>
+  <phrase title="siropu_chat_bot_response_interval" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Минимальный интервал между ответами]]></phrase>
+  <phrase title="siropu_chat_bot_response_interval_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Минимальный интервал в минутах между ответами.]]></phrase>
+  <phrase title="siropu_chat_bot_response_keyword" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ключевое слово для ответа]]></phrase>
+  <phrase title="siropu_chat_bot_response_keyword_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ключевое слово, которое вызывает ответ. Вы можете добавить несколько ключевых слов, разместив каждое в новой строке.]]></phrase>
+  <phrase title="siropu_chat_bot_response_mention_user" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Упомянуть пользователя]]></phrase>
+  <phrase title="siropu_chat_bot_responses" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ответы Бота]]></phrase>
+  <phrase title="siropu_chat_browse_rooms" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Cписок комнат]]></phrase>
+  <phrase title="siropu_chat_can_leave_room" addon_id="Siropu/Chat" version_id="2001970" version_string="2.0.19"><![CDATA[Can leave room]]></phrase>
+  <phrase title="siropu_chat_can_leave_room_explain" addon_id="Siropu/Chat" version_id="2001970" version_string="2.0.19"><![CDATA[This option allows you to control if the user can leave or not the room once joined.]]></phrase>
+  <phrase title="siropu_chat_cannot_invite_yourself" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не можете пригласить себя.]]></phrase>
+  <phrase title="siropu_chat_cannot_leave_room" addon_id="Siropu/Chat" version_id="2001970" version_string="2.0.19"><![CDATA[You cannot leave this room.]]></phrase>
+  <phrase title="siropu_chat_cannot_start_conversation_with_user_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Вы не можете начать приватный разговор с {user}.]]></phrase>
+  <phrase title="siropu_chat_cannot_submit_empty_message" addon_id="Siropu/Chat" global_cache="1" version_id="1" version_string="2.0.0"><![CDATA[Вы не можете отправить пустое сообщение.]]></phrase>
+  <phrase title="siropu_chat_cannot_whisper_to_self" addon_id="Siropu/Chat" version_id="2000070" version_string="2.0.0"><![CDATA[Вы не можете отправить личное сообщение себе.]]></phrase>
+  <phrase title="siropu_chat_chat_page" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Страница чата]]></phrase>
+  <phrase title="siropu_chat_clear_input" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Очистить введеное]]></phrase>
+  <phrase title="siropu_chat_command_ban_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, за которой следует имя пользователя, продолжительность (hours|days|weeks|months|years|permanent) и причина (необязательно), чтобы заблокировать пользователя в текущей комнате.]]></phrase>
+  <phrase title="siropu_chat_command_cannot_be_used_in_private_conversations" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Эта команда не может использоваться в приватных разговорах.]]></phrase>
+  <phrase title="siropu_chat_command_description" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Описание команды]]></phrase>
+  <phrase title="siropu_chat_command_description_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Информация о том, как использовать команду. Это может быть простой текст, HTML или фраза - <b>phrase:my_phrase_title</b>]]></phrase>
+  <phrase title="siropu_chat_command_find_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем несколько ключевых слов, чтобы найти сообщения в текущей комнате или в текущем приватном разговоре. Чтобы вернуться к текущим сообщениям воспользуйтесь командой без ключевых слов.]]></phrase>
+  <phrase title="siropu_chat_command_giphy_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем ключевое слово (необязательно), чтобы опубликовать случайное анимированное изображение GIF с сайта giphy.com]]></phrase>
+  <phrase title="siropu_chat_command_help_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, чтобы отобразить помощь.]]></phrase>
+  <phrase title="siropu_chat_command_idle_explain" addon_id="Siropu/Chat" version_id="2001570" version_string="2.0.15"><![CDATA[Use this command to change your activity status to idle in the current room.]]></phrase>
+  <phrase title="siropu_chat_command_invite_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя, которого Вы хотите пригласить присоединиться к текущей комнате.]]></phrase>
+  <phrase title="siropu_chat_command_is_enabled" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Команда включена]]></phrase>
+  <phrase title="siropu_chat_command_join_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем название комнаты, чтобы присоединиться к ней.]]></phrase>
+  <phrase title="siropu_chat_command_kick_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя, продолжительность (hours|days|weeks|months|years|permanent) и причину (необязательно), чтобы выгнать пользователя из текущей комнаты. Если продолжительность не задана, пользователь не сможет присоединиться течение 1 часа.]]></phrase>
+  <phrase title="siropu_chat_command_leave_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем сообщение (необязательно), чтобы покинуть текущую комнату.]]></phrase>
+  <phrase title="siropu_chat_command_logout_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем сообщение (необязательно), чтобы покинуть все комнаты, к которым Вы присоединились.]]></phrase>
+  <phrase title="siropu_chat_command_me_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем короткое сообщение, чтобы отобразить это сообщение третьим лицам.]]></phrase>
+  <phrase title="siropu_chat_command_msg_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя и сообщение разделеные запятой, чтобы начать приватный разговор с этим пользователем.]]></phrase>
+  <phrase title="siropu_chat_command_mute_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя, продолжительность (hours|days|weeks|months|years|permanent) и причину (необов'язково), чтобы запретить пользователю писать сообщения в текущей комнате. Если продолжительность не задана, пользователь не сможет писать сообщения в течение 1 часа.]]></phrase>
+  <phrase title="siropu_chat_command_my_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду для отображения собственных команд. Чтобы создать или обновить собственную команду, введите перед названием команды "//", а затем - нужное сообщение. Чтобы удалить собственную команду, введите перед названием команды "//", а затем ключевое слово <b>delete</b>. Чтобы использовать собственную команду, введите перед названием команды "//".]]></phrase>
+  <phrase title="siropu_chat_command_name" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Название команды]]></phrase>
+  <phrase title="siropu_chat_command_name_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Название команды, которая будет использоваться после /]]></phrase>
+  <phrase title="siropu_chat_command_nick_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, чтобы установить гостевой ник.]]></phrase>
+  <phrase title="siropu_chat_command_not_available_for_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта команда недоступна в этой комнате.]]></phrase>
+  <phrase title="siropu_chat_command_options" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Параметры команды]]></phrase>
+  <phrase title="siropu_chat_command_options_template" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Шаблон параметров команды]]></phrase>
+  <phrase title="siropu_chat_command_options_template_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позволяет подключить шаблон, который содержит собственные параметры команды, которые можно использовать в обработчике.]]></phrase>
+  <phrase title="siropu_chat_command_prune_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, чтобы удалить все сообщения в текущей комнате. Если используется ключевое слово <b>all</b>, будут удалены все сообщения чата. Если указано имя пользователя, все сообщения, опубликованные этим пользователем в текущей комнате, будут удалены.]]></phrase>
+  <phrase title="siropu_chat_command_roll_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, чтобы бросить кубик.]]></phrase>
+  <phrase title="siropu_chat_command_status_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем текст, чтобы установить Ваш статус в чате. Ваш статус будет отображаться под Вашим именем в списке пользователей чата.]]></phrase>
+  <phrase title="siropu_chat_command_unban_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя, чтобы разблокировать пользователя в текущей комнате.]]></phrase>
+  <phrase title="siropu_chat_command_unkick_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя, чтобы позволить присоединиться к текущей комнате пользователю, которого выгнали.]]></phrase>
+  <phrase title="siropu_chat_command_unmute_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя пользователя, чтобы снять запрет писать сообщения пользователю в текущей комнате.]]></phrase>
+  <phrase title="siropu_chat_command_whisper_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Используйте эту команду, а затем имя одного или нескольких пользователей (разделенных запятыми) в формате [username1, username2] и сообщение, для отправки личного сообщения пользователю(ям) в текущей комнате.]]></phrase>
+  <phrase title="siropu_chat_commands" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Команды]]></phrase>
+  <phrase title="siropu_chat_confirm_conversation_leave" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Вы уверены, что хотите покинуть приватный разговор?]]></phrase>
+  <phrase title="siropu_chat_conv_messages" addon_id="Siropu/Chat" version_id="2010370" version_string="2.1.3"><![CDATA[Chat conversation messages]]></phrase>
+  <phrase title="siropu_chat_conversation_with_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Приватный разговор с {user}]]></phrase>
+  <phrase title="siropu_chat_create_room" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Создать комнату]]></phrase>
+  <phrase title="siropu_chat_current_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Текущее сообщение]]></phrase>
+  <phrase title="siropu_chat_custom_command_created" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Собственная команда <b>//{command}</b> была создана.]]></phrase>
+  <phrase title="siropu_chat_custom_command_deleted" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Собственная команда <b>//{command}</b> была удалена.]]></phrase>
+  <phrase title="siropu_chat_custom_command_updated" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Собственная команда <b>//{command}</b> была обновлена.]]></phrase>
+  <phrase title="siropu_chat_delete_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить сообщение]]></phrase>
+  <phrase title="siropu_chat_delete_selected" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить выбранное]]></phrase>
+  <phrase title="siropu_chat_desktop_notifications" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Визуальные оповещения]]></phrase>
+  <phrase title="siropu_chat_device_desktop" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Компьютер]]></phrase>
+  <phrase title="siropu_chat_device_mobile" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Смартфон]]></phrase>
+  <phrase title="siropu_chat_device_tablet" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Планшет]]></phrase>
+  <phrase title="siropu_chat_devices" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Устройства]]></phrase>
+  <phrase title="siropu_chat_devices_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выберите устройства, на которых будет отображаться чат.]]></phrase>
+  <phrase title="siropu_chat_disabled" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отключено]]></phrase>
+  <phrase title="siropu_chat_discourage_ip" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Нежелательные IP-адреса]]></phrase>
+  <phrase title="siropu_chat_display_a_message" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Display a message]]></phrase>
+  <phrase title="siropu_chat_display_avatar" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображать аватар]]></phrase>
+  <phrase title="siropu_chat_display_avatar_explain" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Если включено, аватар пользователя будет отображаться перед именем пользователя.]]></phrase>
+  <phrase title="siropu_chat_display_mode" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Место отображения]]></phrase>
+  <phrase title="siropu_chat_display_mode_above_content" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Над содержимым]]></phrase>
+  <phrase title="siropu_chat_display_mode_above_forum_list" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Над списком разделов форума]]></phrase>
+  <phrase title="siropu_chat_display_mode_all_pages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[На всех страницах]]></phrase>
+  <phrase title="siropu_chat_display_mode_below_breadcrumb" addon_id="Siropu/Chat" version_id="2002170" version_string="2.0.21"><![CDATA[Below breadcrumb]]></phrase>
+  <phrase title="siropu_chat_display_mode_below_content" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Под содержимым]]></phrase>
+  <phrase title="siropu_chat_display_mode_below_forum_list" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Под списком разделов форума]]></phrase>
+  <phrase title="siropu_chat_display_mode_chat_page" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Только на странице чата]]></phrase>
+  <phrase title="siropu_chat_display_mode_custom" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Собственное]]></phrase>
+  <phrase title="siropu_chat_display_mode_default" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[По умолчанию]]></phrase>
+  <phrase title="siropu_chat_display_mode_sidebar_bottom" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Боковая панель (Ниже)]]></phrase>
+  <phrase title="siropu_chat_display_mode_sidebar_top" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Боковая панель (Выше)]]></phrase>
+  <phrase title="siropu_chat_display_online_user_count" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[Display online user count]]></phrase>
+  <phrase title="siropu_chat_display_unread_message_count" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[Display unread message count]]></phrase>
+  <phrase title="siropu_chat_do_not_have_permission" addon_id="Siropu/Chat" version_id="2000370" version_string="2.0.3"><![CDATA[You do not have the permission to view the chat.]]></phrase>
+  <phrase title="siropu_chat_do_not_have_permission_to_use" addon_id="Siropu/Chat" version_id="2000570" version_string="2.0.5"><![CDATA[You do not have the permission to use the chat.]]></phrase>
+  <phrase title="siropu_chat_edit_ads" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать объявление]]></phrase>
+  <phrase title="siropu_chat_edit_bot_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать сообщение Бота]]></phrase>
+  <phrase title="siropu_chat_edit_bot_response" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать ответ Бота]]></phrase>
+  <phrase title="siropu_chat_edit_command" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать команду]]></phrase>
+  <phrase title="siropu_chat_edit_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать сообщение]]></phrase>
+  <phrase title="siropu_chat_edit_notice" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать примечание]]></phrase>
+  <phrase title="siropu_chat_edit_rules" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать правила]]></phrase>
+  <phrase title="siropu_chat_edit_sanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Редактировать наказание]]></phrase>
+  <phrase title="siropu_chat_edited" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Отредактировано]]></phrase>
+  <phrase title="siropu_chat_embed" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Embed]]></phrase>
+  <phrase title="siropu_chat_embed_code" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Embed code]]></phrase>
+  <phrase title="siropu_chat_enable" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить чат]]></phrase>
+  <phrase title="siropu_chat_enable_at_selected_hours" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить чат в указаное время]]></phrase>
+  <phrase title="siropu_chat_enable_at_selected_hours_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта опция позволяет включить чат в определенное время.]]></phrase>
+  <phrase title="siropu_chat_enable_disable_bot_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить/Выключить сообщение Бота]]></phrase>
+  <phrase title="siropu_chat_enable_disable_bot_response" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить/Выключить ответ Бота]]></phrase>
+  <phrase title="siropu_chat_enable_disable_command" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить/Выключить команду]]></phrase>
+  <phrase title="siropu_chat_enable_for_selected_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить в выбранных комнатах]]></phrase>
+  <phrase title="siropu_chat_enable_for_selected_rooms_explain" addon_id="Siropu/Chat" version_id="2000051" version_string="2.0.0 RC 1"><![CDATA[Если комнаты не выбраны, сообщение Бота будет опубликовано во всех комнатах.]]></phrase>
+  <phrase title="siropu_chat_enable_for_selected_user_groups" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить для выбранных групп пользователей]]></phrase>
+  <phrase title="siropu_chat_enable_grid_mode" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Включить режим сетки]]></phrase>
+  <phrase title="siropu_chat_enable_grid_mode_explain" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Позволяет отображать только аватар пользователя в режиме сетки.]]></phrase>
+  <phrase title="siropu_chat_enable_on_selected_days" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить чат в выбранные дни]]></phrase>
+  <phrase title="siropu_chat_enable_on_selected_days_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Этот параметр позволяет включить чат в определенные дни.]]></phrase>
+  <phrase title="siropu_chat_enable_search" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить поиск]]></phrase>
+  <phrase title="siropu_chat_enable_search_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включить поиск, если есть больше чем Х результатов.]]></phrase>
+  <phrase title="siropu_chat_enable_thread_reply" addon_id="Siropu/Chat" version_id="2002370" version_string="2.0.23"><![CDATA[Enable thread reply]]></phrase>
+  <phrase title="siropu_chat_enable_thread_reply_explain" addon_id="Siropu/Chat" version_id="2002370" version_string="2.0.23"><![CDATA[This option allows you to post thread replies into the room.]]></phrase>
+  <phrase title="siropu_chat_error" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[(Ошибка)]]></phrase>
+  <phrase title="siropu_chat_find_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Поиск в комнате...]]></phrase>
+  <phrase title="siropu_chat_find_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Найти наказание]]></phrase>
+  <phrase title="siropu_chat_find_sanctions_for_member" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Найти наказание пользователя]]></phrase>
+  <phrase title="siropu_chat_find_user" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Найти пользователя...]]></phrase>
+  <phrase title="siropu_chat_general_room_description" addon_id="Siropu/Chat" global_cache="1" version_id="1" version_string="2.0.0"><![CDATA[Основная комната для чата.]]></phrase>
+  <phrase title="siropu_chat_general_room_name" addon_id="Siropu/Chat" global_cache="1" version_id="1" version_string="2.0.0"><![CDATA[Основной чат]]></phrase>
+  <phrase title="siropu_chat_go_to_conversation" addon_id="Siropu/Chat" version_id="2002470" version_string="2.0.24"><![CDATA[Go to conversation]]></phrase>
+  <phrase title="siropu_chat_guest" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Гость]]></phrase>
+  <phrase title="siropu_chat_guest_nickname" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Гостевой ник]]></phrase>
+  <phrase title="siropu_chat_guest_x_has_joined_the_room" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Гость [B]{user}[/B] присоединился к комнате.]]></phrase>
+  <phrase title="siropu_chat_guest_x_has_left_the_room" addon_id="Siropu/Chat" version_id="2000970" version_string="2.0.9"><![CDATA[Guest [B]{user}[/B] has left the room.]]></phrase>
+  <phrase title="siropu_chat_guest_x_has_left_the_room_message" addon_id="Siropu/Chat" version_id="2000970" version_string="2.0.9"><![CDATA[Guest [B]{user}[/B] has left the room ({message}).]]></phrase>
+  <phrase title="siropu_chat_has_been_disabled" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат отключен. Вы можете включить его снова в том же месте.]]></phrase>
+  <phrase title="siropu_chat_has_keywords" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Есть ключевые слова]]></phrase>
+  <phrase title="siropu_chat_header_title" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="siropu_chat_help" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Помощь]]></phrase>
+  <phrase title="siropu_chat_help_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Здесь Вы можете узнать разные команды и параметры, которые можно использовать в чате.]]></phrase>
+  <phrase title="siropu_chat_hour" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Час]]></phrase>
+  <phrase title="siropu_chat_image_uploads" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Загрузить изображения в чат]]></phrase>
+  <phrase title="siropu_chat_infinite_loop_room_post_error" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[You cannot set "{room2}" room to post in "{room1}" room because "{room1}" room is set to post in "{room2}" room and this will cause an infinite loop.]]></phrase>
+  <phrase title="siropu_chat_insert_selected" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вставить выбранные]]></phrase>
+  <phrase title="siropu_chat_joined_rooms_have_been_reset" addon_id="Siropu/Chat" version_id="2010770" version_string="2.1.7"><![CDATA[Joined rooms have been reset!]]></phrase>
+  <phrase title="siropu_chat_keyword" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ключевое слово]]></phrase>
+  <phrase title="siropu_chat_kick" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выгнать]]></phrase>
+  <phrase title="siropu_chat_kick_user" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь, которого выгнали]]></phrase>
+  <phrase title="siropu_chat_kicked" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователи, которых выгнали]]></phrase>
+  <phrase title="siropu_chat_last_month" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Прошлый месяц]]></phrase>
+  <phrase title="siropu_chat_last_update" addon_id="Siropu/Chat" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Последнее обновление]]></phrase>
+  <phrase title="siropu_chat_last_week" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Прошлая неделя]]></phrase>
+  <phrase title="siropu_chat_leave_conversation" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Покинуть приватный разговор]]></phrase>
+  <phrase title="siropu_chat_leave_conversation_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если Вы покините приватный разговор, Вы больше не будете получать новых сообщений от <b>{user}</b>. Вы можете создать приватный разговор в любое время, но если <b>{user}</b> также покинет приватный разговор, все сообщения будут удалены из истории.]]></phrase>
+  <phrase title="siropu_chat_leave_last_used_room_and_join" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Leave last used room and join]]></phrase>
+  <phrase title="siropu_chat_leave_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Покинуть комнату]]></phrase>
+  <phrase title="siropu_chat_lift_sanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Снять наказание]]></phrase>
+  <phrase title="siropu_chat_lift_sanction_confirmation" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пожалуйста, подтвердите, что Вы хотите, снять наказание со следующего пользователя]]></phrase>
+  <phrase title="siropu_chat_link_to_this_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ссылка на это сообщение]]></phrase>
+  <phrase title="siropu_chat_link_to_this_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ссылка на эту комнату]]></phrase>
+  <phrase title="siropu_chat_load_more_messages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Загрузить больше сообщений?]]></phrase>
+  <phrase title="siropu_chat_loading_conversation" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Загрузка приватного разговора...]]></phrase>
+  <phrase title="siropu_chat_loading_conversation_messages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Загрузка сообщений приватного разговора...]]></phrase>
+  <phrase title="siropu_chat_lock_room" addon_id="Siropu/Chat" version_id="2011170" version_string="2.1.11"><![CDATA[Закрыть комнату]]></phrase>
+  <phrase title="siropu_chat_locked_until" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Закрыто до <br>{date}]]></phrase>
+  <phrase title="siropu_chat_logout" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выйти]]></phrase>
+  <phrase title="siropu_chat_message_count" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Message count]]></phrase>
+  <phrase title="siropu_chat_message_deleted" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщение было удалено.]]></phrase>
+  <phrase title="siropu_chat_message_display_limit" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ограничение отображения сообщений]]></phrase>
+  <phrase title="siropu_chat_message_display_limit_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Установите количество сообщений, которые будут отображаться в чате во время загрузки чата.]]></phrase>
+  <phrase title="siropu_chat_message_edit_history" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[История редактирования сообщения]]></phrase>
+  <phrase title="siropu_chat_message_edited" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщение было отредактировано.]]></phrase>
+  <phrase title="siropu_chat_message_has_been_posted" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ваше сообщение было опубликовано.]]></phrase>
+  <phrase title="siropu_chat_message_in_conversation_with_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщение в приватном разговоре с {username}]]></phrase>
+  <phrase title="siropu_chat_message_in_room_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщение в комнате '{name}']]></phrase>
+  <phrase title="siropu_chat_message_is_required" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Message is required.]]></phrase>
+  <phrase title="siropu_chat_message_likes" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Симпатии за сообщение]]></phrase>
+  <phrase title="siropu_chat_message_url" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[URL-адрес сообщения]]></phrase>
+  <phrase title="siropu_chat_minute" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Минута]]></phrase>
+  <phrase title="siropu_chat_miscellaneous" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Разное]]></phrase>
+  <phrase title="siropu_chat_most_likes_first" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сначала, сообщения в которых больше всего симпатий]]></phrase>
+  <phrase title="siropu_chat_msg_command_invalid_arguments" addon_id="Siropu/Chat" version_id="2000170" version_string="2.0.1"><![CDATA[Недопустимые аргументы. Вы должны указать получателя и сообщение в формате: имя пользователя, сообщение.]]></phrase>
+  <phrase title="siropu_chat_mute" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Запрет писать сообщения]]></phrase>
+  <phrase title="siropu_chat_mute_user" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь, которому запретили писать сообщения]]></phrase>
+  <phrase title="siropu_chat_muted" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователи, которым запретили писать сообщения]]></phrase>
+  <phrase title="siropu_chat_new_media_album_comment_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} прокомментировал(а) медиа-альбом "{album}".]]></phrase>
+  <phrase title="siropu_chat_new_media_album_item_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} добавил(а) [URL={mediaURL}]новые медиа[/URL] в альбом "{album}".]]></phrase>
+  <phrase title="siropu_chat_new_media_album_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} создал(а) новый медиа-альбом "{album}".]]></phrase>
+  <phrase title="siropu_chat_new_media_category_item_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} добавил(а) [URL={mediaURL}]новые медиа[/URL] в категорию "{category}".]]></phrase>
+  <phrase title="siropu_chat_new_media_comment_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} прокомментировал(а) медиа "{media}".]]></phrase>
+  <phrase title="siropu_chat_new_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Новое сообщение]]></phrase>
+  <phrase title="siropu_chat_new_post_notification" addon_id="Siropu/Chat" version_id="2000051" version_string="2.0.0 RC 1"><![CDATA[{user} добавил(а) [URL={url}]новый ответ[/URL] в теме "{thread}".]]></phrase>
+  <phrase title="siropu_chat_new_private_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Новое сообщение в приватном разговоре]]></phrase>
+  <phrase title="siropu_chat_new_public_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Новое публичное сообщение]]></phrase>
+  <phrase title="siropu_chat_new_resource_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} добавил(а) новый ресурс "{resource}" в категории "{category}".]]></phrase>
+  <phrase title="siropu_chat_new_resource_rating_notification" addon_id="Siropu/Chat" version_id="2001170" version_string="2.0.11"><![CDATA[{user} [URL={reviewUrl}]reviewed[/URL] the resource {resource}.]]></phrase>
+  <phrase title="siropu_chat_new_thread_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} добавил(а) новую тему "{thread}" в разделе форума "{forum}".]]></phrase>
+  <phrase title="siropu_chat_new_user_notification" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[У нас новый пользователь {user} . Добро пожаловать!]]></phrase>
+  <phrase title="siropu_chat_new_whisper_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Новое личное сообщение]]></phrase>
+  <phrase title="siropu_chat_newest_messages_first" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сначала, новые сообщения]]></phrase>
+  <phrase title="siropu_chat_nickname_is_currently_in_use" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Указанное имя уже используется.]]></phrase>
+  <phrase title="siropu_chat_no_conversations_started" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы еще не начинали приватных разговоров.]]></phrase>
+  <phrase title="siropu_chat_no_data_retuned_from_giphy" addon_id="Siropu/Chat" version_id="2000570" version_string="2.0.5"><![CDATA[No data was returned from Giphy.]]></phrase>
+  <phrase title="siropu_chat_no_message_likes" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Это сообщение еще не получило симпатий.]]></phrase>
+  <phrase title="siropu_chat_no_messages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[В чате еще нет сообщений. Будьте первым!]]></phrase>
+  <phrase title="siropu_chat_no_messages_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщения не найдены.]]></phrase>
+  <phrase title="siropu_chat_no_one_is_chatting" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Никто не разговаривает в данный момент.]]></phrase>
+  <phrase title="siropu_chat_no_permission_to_edit_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[У Вас нет прав доступа для редактирования это сообщения.]]></phrase>
+  <phrase title="siropu_chat_no_permission_to_use_command" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[У Вас нет прав доступа, чтобы использовать эту команду.]]></phrase>
+  <phrase title="siropu_chat_no_private_conversations_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Не найдены приватные разговоры.]]></phrase>
+  <phrase title="siropu_chat_no_response" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Сервер не ответил вовремя. :(]]></phrase>
+  <phrase title="siropu_chat_no_results_have_been_found_for_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Не найдены результаты для "{term}".]]></phrase>
+  <phrase title="siropu_chat_no_room_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[В этой комнате нет пользователей, к которым были применены наказания.]]></phrase>
+  <phrase title="siropu_chat_no_room_selected" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[No room has been selected.]]></phrase>
+  <phrase title="siropu_chat_no_rooms_joined" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Вы не присоединились ни к одной комнате.]]></phrase>
+  <phrase title="siropu_chat_no_rules" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[В данный момент правила чата отсутствуют.]]></phrase>
+  <phrase title="siropu_chat_no_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[В данный момент наказания отсутствуют.]]></phrase>
+  <phrase title="siropu_chat_no_top_chatters" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[В данный момент топ пользователей отсутствует.]]></phrase>
+  <phrase title="siropu_chat_no_user_custom_commands" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не создали собственные команды.]]></phrase>
+  <phrase title="siropu_chat_not_part_of_the_conversation" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не являетесь участником этого приватного разговора.]]></phrase>
+  <phrase title="siropu_chat_notice" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Примечание]]></phrase>
+  <phrase title="siropu_chat_notice_saved" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Примечание чата было сохранено.]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_been_banned" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь был заблокирован]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_been_kicked" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь был добавлен в список пользователей, которые выгнаны]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_been_muted" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователю запретили писать сообщения]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_been_unbanned" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь был разблокирован]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_been_unkicked" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь был удален из списка пользователей, которые выгнаны]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_been_unmuted" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователю сняли запрет писать сообщения]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_joined_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь присоединился к комнате]]></phrase>
+  <phrase title="siropu_chat_notification_user_has_left_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь покинул комнату]]></phrase>
+  <phrase title="siropu_chat_notifications" addon_id="Siropu/Chat" version_id="2002170" version_string="2.0.21"><![CDATA[Notifications]]></phrase>
+  <phrase title="siropu_chat_oldest_messages_first" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сначала старые сообщения]]></phrase>
+  <phrase title="siropu_chat_open_in_popup" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[В всплывающем окне]]></phrase>
+  <phrase title="siropu_chat_option_not_required" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Этот параметр не является обязательным.]]></phrase>
+  <phrase title="siropu_chat_option_order_alphabetically" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[В алфавитном порядке]]></phrase>
+  <phrase title="siropu_chat_option_order_most_active" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сначала самые активные]]></phrase>
+  <phrase title="siropu_chat_option_order_newest_first" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сначала новые]]></phrase>
+  <phrase title="siropu_chat_option_order_oldest_first" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сначала старые]]></phrase>
+  <phrase title="siropu_chat_options" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Параметры]]></phrase>
+  <phrase title="siropu_chat_paste_ad_code" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Напишите Ваше объявление]]></phrase>
+  <phrase title="siropu_chat_please_enter_valid_command_description" addon_id="Siropu/Chat" version_id="2001870" version_string="2.0.18"><![CDATA[Please enter a valid description name.]]></phrase>
+  <phrase title="siropu_chat_please_enter_valid_command_name" addon_id="Siropu/Chat" version_id="2001870" version_string="2.0.18"><![CDATA[Please enter a valid command name.]]></phrase>
+  <phrase title="siropu_chat_please_select_at_least_one_room" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Please select at least one room.]]></phrase>
+  <phrase title="siropu_chat_please_set_a_nickname" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пожалуйста, установите имя, набрав /{command} , а затем - нужное имя.]]></phrase>
+  <phrase title="siropu_chat_please_wait" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пожалуйста, подождите...]]></phrase>
+  <phrase title="siropu_chat_please_wait_at_least_x_seconds_before_posting" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пожалуйста, перед публикацией нового сообщения, подождите не менее {x} секунд.]]></phrase>
+  <phrase title="siropu_chat_please_wait_x_seconds" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пожалуйста, подождите {num} секунд...]]></phrase>
+  <phrase title="siropu_chat_post_announcement" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Post announcement]]></phrase>
+  <phrase title="siropu_chat_post_announcement_bot_name_explain" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[You can set a bot name if you don't want the announcement to be posted with your username.]]></phrase>
+  <phrase title="siropu_chat_post_at" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Опубликовать в]]></phrase>
+  <phrase title="siropu_chat_post_chat_messages_in_thread" addon_id="Siropu/Chat" version_id="2011170" version_string="2.1.11"><![CDATA[Публиковать в чат сообщения из этой темы]]></phrase>
+  <phrase title="siropu_chat_post_in" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Post in]]></phrase>
+  <phrase title="siropu_chat_post_thread_replies_in_room" addon_id="Siropu/Chat" version_id="2011170" version_string="2.1.11"><![CDATA[Публиковать список ответов в этой комнате]]></phrase>
+  <phrase title="siropu_chat_posted_by" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Опубликовал]]></phrase>
+  <phrase title="siropu_chat_posting_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Публикация сообщения...]]></phrase>
+  <phrase title="siropu_chat_private_conversations" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Приватные разговоры]]></phrase>
+  <phrase title="siropu_chat_read_messages_cannot_be_edited_or_deleted" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщения, прочитанные получателем, нельзя редактировать или удалять.]]></phrase>
+  <phrase title="siropu_chat_remove_ads" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить объявление]]></phrase>
+  <phrase title="siropu_chat_remove_notice" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Удалить примечание]]></phrase>
+  <phrase title="siropu_chat_removing_reactions_for_deleted_messages" addon_id="Siropu/Chat" version_id="2010670" version_string="2.1.6"><![CDATA[Removing reactions for deleted messages]]></phrase>
+  <phrase title="siropu_chat_repost_in_selected_rooms" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Repost in selected rooms]]></phrase>
+  <phrase title="siropu_chat_repost_in_selected_rooms_explain" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[This option allows you to automatically repost the messages you post in this room in other rooms.]]></phrase>
+  <phrase title="siropu_chat_requested_bot_response_not_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Запрашиваемый ответ Бота не найден.]]></phrase>
+  <phrase title="siropu_chat_requested_conversation_not_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Запрашиваемый приватный разговор не найден.]]></phrase>
+  <phrase title="siropu_chat_requested_guest_not_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Запрашиваемый гость не найден.]]></phrase>
+  <phrase title="siropu_chat_requested_message_not_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Запрашиваемое сообщение не найдено.]]></phrase>
+  <phrase title="siropu_chat_requested_room_not_found" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Запрашиваемая комната не найдена.]]></phrase>
+  <phrase title="siropu_chat_requested_sanction_not_found" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Запрашиваемое наказание не найдено.]]></phrase>
+  <phrase title="siropu_chat_reset_chat_data" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Reset chat data]]></phrase>
+  <phrase title="siropu_chat_reset_chat_data_for_x" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Reset chat data for {username}]]></phrase>
+  <phrase title="siropu_chat_reset_color" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Reset color]]></phrase>
+  <phrase title="siropu_chat_reset_joined_rooms" addon_id="Siropu/Chat" version_id="2010770" version_string="2.1.7"><![CDATA[Reset joined rooms]]></phrase>
+  <phrase title="siropu_chat_reset_joined_rooms_explain" addon_id="Siropu/Chat" version_id="2010770" version_string="2.1.7"><![CDATA[This will reset joined rooms for all the Chat users. You can use this option if you want to set up the Chat as a shoutbox.]]></phrase>
+  <phrase title="siropu_chat_response" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ответ]]></phrase>
+  <phrase title="siropu_chat_roll_command_default_dice_count" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Количество кубиков]]></phrase>
+  <phrase title="siropu_chat_roll_command_default_dice_count_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Укажите количество кубиков по умолчанию.]]></phrase>
+  <phrase title="siropu_chat_roll_command_default_dice_sides" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Количество сторон кубика]]></phrase>
+  <phrase title="siropu_chat_roll_command_default_dice_sides_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Укажите количество сторон кубика по умолчанию.]]></phrase>
+  <phrase title="siropu_chat_roll_command_limit_error" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Вы не можете бросить более {dice} кубиков!]]></phrase>
+  <phrase title="siropu_chat_roll_command_max_dice_count" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимальное количество кубиков]]></phrase>
+  <phrase title="siropu_chat_roll_command_max_dice_count_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимальное количество кубиков, которые пользователь может бросить.]]></phrase>
+  <phrase title="siropu_chat_roll_command_max_dice_sides" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимум количество сторон кубика]]></phrase>
+  <phrase title="siropu_chat_roll_command_max_dice_sides_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Максимальное количество сторон кубика, которые пользователь может бросить.]]></phrase>
+  <phrase title="siropu_chat_roll_command_result" addon_id="Siropu/Chat" global_cache="1" version_id="2000033" version_string="2.0.0"><![CDATA[{user} бросил кубик(и) и выпало {result}.]]></phrase>
+  <phrase title="siropu_chat_roll_command_sum_dice" addon_id="Siropu/Chat" version_id="2002370" version_string="2.0.23"><![CDATA[Sum the result of multiple dices]]></phrase>
+  <phrase title="siropu_chat_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Комната]]></phrase>
+  <phrase title="siropu_chat_room_already_joined" addon_id="Siropu/Chat" global_cache="1" version_id="1" version_string="2.0.0"><![CDATA[Вы уже присоединились к этой комнате!]]></phrase>
+  <phrase title="siropu_chat_room_auto_prune" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Авто-очистка сообщений каждые]]></phrase>
+  <phrase title="siropu_chat_room_auto_prune_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта опция позволяет автоматически очищать сообщение каждые Х часа(ов). Установите 0 для отключения.]]></phrase>
+  <phrase title="siropu_chat_room_cannot_be_deleted" addon_id="Siropu/Chat" global_cache="1" version_id="1" version_string="2.0.0"><![CDATA[Эту комнату нельзя удалить.]]></phrase>
+  <phrase title="siropu_chat_room_create" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Создать комнату]]></phrase>
+  <phrase title="siropu_chat_room_description" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Описание комнаты]]></phrase>
+  <phrase title="siropu_chat_room_description_required" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Описание комнаты обязательно.]]></phrase>
+  <phrase title="siropu_chat_room_edit" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Редактировать комнату]]></phrase>
+  <phrase title="siropu_chat_room_embed_code" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вставить код комнаты]]></phrase>
+  <phrase title="siropu_chat_room_full_page_url" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[URL-адрес страницы комнаты]]></phrase>
+  <phrase title="siropu_chat_room_has_been_pruned" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщения в комнате были очищены!]]></phrase>
+  <phrase title="siropu_chat_room_is_locked_until" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Эта комната закрыта до {date}.]]></phrase>
+  <phrase title="siropu_chat_room_is_password_protected" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта комната защищена паролем. Чтобы присоединиться к комнате, введите пароль.]]></phrase>
+  <phrase title="siropu_chat_room_is_read_only" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта комната доступна только для чтения.]]></phrase>
+  <phrase title="siropu_chat_room_join" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Присоединиться к комнате]]></phrase>
+  <phrase title="siropu_chat_room_joined" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Присоединился]]></phrase>
+  <phrase title="siropu_chat_room_leave" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Покинуть комнату]]></phrase>
+  <phrase title="siropu_chat_room_locked" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Закрыта]]></phrase>
+  <phrase title="siropu_chat_room_locked_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если комната закрыта, пользователи не смогут присоединиться к ней до указаной даты.]]></phrase>
+  <phrase title="siropu_chat_room_messages" addon_id="Siropu/Chat" version_id="2010370" version_string="2.1.3"><![CDATA[Chat room messages]]></phrase>
+  <phrase title="siropu_chat_room_name" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Название комнаты]]></phrase>
+  <phrase title="siropu_chat_room_name_must_be_unique" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Название комнаты должно быть уникальным.]]></phrase>
+  <phrase title="siropu_chat_room_name_required" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Необходимо указать название комнаты.]]></phrase>
+  <phrase title="siropu_chat_room_no_permission_to_join" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не имеете прав доступа, чтобы присоединиться к этой комнате.]]></phrase>
+  <phrase title="siropu_chat_room_options" addon_id="Siropu/Chat" version_id="2011170" version_string="2.1.11"><![CDATA[Параметры комнаты чата]]></phrase>
+  <phrase title="siropu_chat_room_password" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Пароль для комнаты]]></phrase>
+  <phrase title="siropu_chat_room_password_explain" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Allow room access using a password.]]></phrase>
+  <phrase title="siropu_chat_room_permission_denied" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Право доступа на присоединение к комнате отклонено.]]></phrase>
+  <phrase title="siropu_chat_room_read_only" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Только для чтения]]></phrase>
+  <phrase title="siropu_chat_room_read_only_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если включено, пользователи, которые присоединятся к этой комнаты, не смогут публиковать в ней сообщение.]]></phrase>
+  <phrase title="siropu_chat_room_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказание в комнате]]></phrase>
+  <phrase title="siropu_chat_room_thread_id" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[ID темы]]></phrase>
+  <phrase title="siropu_chat_room_thread_id_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Если указан ID темы, сообщения, опубликованные в этой комнате, будут опубликованы в теме, ID которой указан выше.]]></phrase>
+  <phrase title="siropu_chat_room_url" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[URL-адрес комнаты]]></phrase>
+  <phrase title="siropu_chat_room_user_groups_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Этот параметр включает доступ в комнату на основе групп пользователей.]]></phrase>
+  <phrase title="siropu_chat_room_users" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Room users]]></phrase>
+  <phrase title="siropu_chat_room_users_explain" addon_id="Siropu/Chat" version_id="2010070" version_string="2.1.0"><![CDATA[The names of the users who can join the room. Users will automatically join the room and get a notification about it.]]></phrase>
+  <phrase title="siropu_chat_room_users_no_valid" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[The room users you set could not be found or they don't have the permission to use the chat.]]></phrase>
+  <phrase title="siropu_chat_rooms" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Rooms]]></phrase>
+  <phrase title="siropu_chat_rules" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Правила]]></phrase>
+  <phrase title="siropu_chat_rules_saved" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Правила чата были сохранены.]]></phrase>
+  <phrase title="siropu_chat_sanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказание]]></phrase>
+  <phrase title="siropu_chat_sanction_by" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказание за]]></phrase>
+  <phrase title="siropu_chat_sanction_command_invalid_arguments" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Неправильные аргументы. Разделяйте аргументы с помощью запятой: имя пользователя, продолжительность (hours/days/weeks/months/years/permanent), причина (необязательно)]]></phrase>
+  <phrase title="siropu_chat_sanction_command_invalid_length" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Неправильная продолжительность наказания. Возможные значения: hours/days/weeks/months/years/permanent]]></phrase>
+  <phrase title="siropu_chat_sanction_end" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказание заканчивается]]></phrase>
+  <phrase title="siropu_chat_sanction_length" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Продолжительность наказания]]></phrase>
+  <phrase title="siropu_chat_sanction_reason" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Причина наказания]]></phrase>
+  <phrase title="siropu_chat_sanction_start" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказание началось]]></phrase>
+  <phrase title="siropu_chat_sanction_type" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Тип наказания]]></phrase>
+  <phrase title="siropu_chat_sanction_user" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказание к пользователю]]></phrase>
+  <phrase title="siropu_chat_sanctioned_users" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказаные пользователи]]></phrase>
+  <phrase title="siropu_chat_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Наказания]]></phrase>
+  <phrase title="siropu_chat_selected_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выбранные комнаты]]></phrase>
+  <phrase title="siropu_chat_setting_option_bot_messages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Сообщения Бота]]></phrase>
+  <phrase title="siropu_chat_setting_option_disable" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Выключить чат]]></phrase>
+  <phrase title="siropu_chat_setting_option_editor_on_top" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображать редактор сверху]]></phrase>
+  <phrase title="siropu_chat_setting_option_hide_bot" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Скрыть сообщения Бота]]></phrase>
+  <phrase title="siropu_chat_setting_option_hide_chatter_list" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Скрыть список участников]]></phrase>
+  <phrase title="siropu_chat_setting_option_hide_status" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Скрыть статусы]]></phrase>
+  <phrase title="siropu_chat_setting_option_images_as_links" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображать изображение как ссылку]]></phrase>
+  <phrase title="siropu_chat_setting_option_inverse_message_direction" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Новые сообщения сверху]]></phrase>
+  <phrase title="siropu_chat_setting_option_maximized_mode" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Включить максимальный режим]]></phrase>
+  <phrase title="siropu_chat_setting_option_mention_messages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщения, в которых упоминали]]></phrase>
+  <phrase title="siropu_chat_setting_option_normal_messages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Обычные сообщение]]></phrase>
+  <phrase title="siropu_chat_setting_option_private_messages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Сообщение в приватных разговорах]]></phrase>
+  <phrase title="siropu_chat_setting_option_receive_mention_alerts" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Получать оповещения при упоминании]]></phrase>
+  <phrase title="siropu_chat_setting_option_show_ignored" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Показывать сообщения пользователей, которых игнорирую]]></phrase>
+  <phrase title="siropu_chat_setting_option_whisper_messages" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Личные сообщения]]></phrase>
+  <phrase title="siropu_chat_settings" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Настройки]]></phrase>
+  <phrase title="siropu_chat_settings_change_reload_page" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Перезагрузите страницу, чтобы изменения применились.]]></phrase>
+  <phrase title="siropu_chat_since_date" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Начиная с даты...]]></phrase>
+  <phrase title="siropu_chat_something_went_wrong" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Упс! Что-то пошло не так!]]></phrase>
+  <phrase title="siropu_chat_sound_notifications" addon_id="Siropu/Chat" version_id="2002170" version_string="2.0.21"><![CDATA[Sound notifications]]></phrase>
+  <phrase title="siropu_chat_start_chat" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Start chat]]></phrase>
+  <phrase title="siropu_chat_start_private_chat_conversation_with_x" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[Start private chat conversation with {name}]]></phrase>
+  <phrase title="siropu_chat_start_private_conversation" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Начать приватный разговор]]></phrase>
+  <phrase title="siropu_chat_status" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Status]]></phrase>
+  <phrase title="siropu_chat_submit" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отправить]]></phrase>
+  <phrase title="siropu_chat_tag_user" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Ник в ответ]]></phrase>
+  <phrase title="siropu_chat_this_month" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Этот месяц]]></phrase>
+  <phrase title="siropu_chat_this_week" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Эта неделя]]></phrase>
+  <phrase title="siropu_chat_thread_reply" addon_id="Siropu/Chat" global_cache="1" version_id="2002370" version_string="2.0.23"><![CDATA[[URL={url}][SIZE=2][I](Thread reply)[I][/SIZE][/URL]]]></phrase>
+  <phrase title="siropu_chat_today" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сегодня]]></phrase>
+  <phrase title="siropu_chat_top_chatters" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Топ пользователей]]></phrase>
+  <phrase title="siropu_chat_top_chatters_limit" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Лимит пользователей в топе]]></phrase>
+  <phrase title="siropu_chat_top_chatters_limit_explain" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Укажите максимальное количество пользователей, которые будут отображаться в этом виджете.]]></phrase>
+  <phrase title="siropu_chat_type_nick_to_set_your_nickname" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Введите /nick, за которым следует имя, которое хотите установить, как ник.]]></phrase>
+  <phrase title="siropu_chat_type_to_find_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Введите, чтобы найти комнаты...]]></phrase>
+  <phrase title="siropu_chat_unavailable_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Сообщение чата, когда он не доступен]]></phrase>
+  <phrase title="siropu_chat_unavailable_message_explain" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Включение этой опции позволит отобразить сообщение, когда чат недоступен.]]></phrase>
+  <phrase title="siropu_chat_unknown_command" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Неизвестная команда: /{command}]]></phrase>
+  <phrase title="siropu_chat_unknown_custom_command" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Неизвестная собственная команда: //{command} . Введите //назву_команды значення_команды, чтобы создать собственную команду.]]></phrase>
+  <phrase title="siropu_chat_unknown_prune_option" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Неизвестная опция для очистки. Доступные опции: all, forum, media, resource или действительное имя пользователя.]]></phrase>
+  <phrase title="siropu_chat_until_date" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[До даты...]]></phrase>
+  <phrase title="siropu_chat_update_status" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Обновить статус]]></phrase>
+  <phrase title="siropu_chat_update_status_explain" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Ваш статус будет отображаться под Вашим именем пользователя в списке участников. Максимальное количество символов {length}.]]></phrase>
+  <phrase title="siropu_chat_upload_image" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Загрузить изображение]]></phrase>
+  <phrase title="siropu_chat_user_cannot_be_sanctioned" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[К пользователю {user} не могут применяться наказания.]]></phrase>
+  <phrase title="siropu_chat_user_data_has_been_reset" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Chat user data has been successfully reset.]]></phrase>
+  <phrase title="siropu_chat_user_has_posted_at_least_x_messages" addon_id="Siropu/Chat" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Пользователь отправил по крайней мере Х сообщений чата]]></phrase>
+  <phrase title="siropu_chat_user_has_posted_no_more_than_x_messages" addon_id="Siropu/Chat" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Пользователь отправил не более Х сообщений чата]]></phrase>
+  <phrase title="siropu_chat_user_language" addon_id="Siropu/Chat" version_id="2001770" version_string="2.0.17"><![CDATA[User language]]></phrase>
+  <phrase title="siropu_chat_user_language_explain" addon_id="Siropu/Chat" version_id="2001770" version_string="2.0.17"><![CDATA[This option allows you to display room based on the user's account language setting.]]></phrase>
+  <phrase title="siropu_chat_user_tagging_button" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Use @ button before the username]]></phrase>
+  <phrase title="siropu_chat_user_tagging_username" addon_id="Siropu/Chat" version_id="2001370" version_string="2.0.13"><![CDATA[Use the username as the button]]></phrase>
+  <phrase title="siropu_chat_user_x_has_not_been_banned_from_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} не может быть заблокирован в этой комнате.]]></phrase>
+  <phrase title="siropu_chat_user_x_has_not_been_kicked_from_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} не может быть выгнан из этой комнаты.]]></phrase>
+  <phrase title="siropu_chat_user_x_has_not_been_muted_in_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Пользователю {user} нельзя запретить писать в этой комнате.]]></phrase>
+  <phrase title="siropu_chat_users" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Пользователи]]></phrase>
+  <phrase title="siropu_chat_view_archive" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Посмотреть архив]]></phrase>
+  <phrase title="siropu_chat_view_message_in_archive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Посмотреть сообщения в архиве]]></phrase>
+  <phrase title="siropu_chat_view_sanctions" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Посмотреть наказания]]></phrase>
+  <phrase title="siropu_chat_view_top_chatters" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Посмотреть топ пользователей]]></phrase>
+  <phrase title="siropu_chat_viewing_chat_archive" addon_id="Siropu/Chat" version_id="2010670" version_string="2.1.6"><![CDATA[Viewing chat archive]]></phrase>
+  <phrase title="siropu_chat_viewing_chat_page" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Посмотреть страницу чата]]></phrase>
+  <phrase title="siropu_chat_viewing_chat_room" addon_id="Siropu/Chat" version_id="2010670" version_string="2.1.6"><![CDATA[Viewing chat room]]></phrase>
+  <phrase title="siropu_chat_viewing_message_by" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Посмотреть сообщение от {username}]]></phrase>
+  <phrase title="siropu_chat_viewing_top_chatters" addon_id="Siropu/Chat" version_id="2010670" version_string="2.1.6"><![CDATA[Viewing top chatters]]></phrase>
+  <phrase title="siropu_chat_whisper" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Личное сообщение]]></phrase>
+  <phrase title="siropu_chat_whisper_command_invalid_arguments" addon_id="Siropu/Chat" version_id="2000035" version_string="2.0.0"><![CDATA[Недопустимые аргументы. Вы должны указать получателя и сообщение в формате: [username] message]]></phrase>
+  <phrase title="siropu_chat_whisper_command_no_message" addon_id="Siropu/Chat" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[Для того, чтобы написать личное сообщение, нужно ввести текст сообщения.]]></phrase>
+  <phrase title="siropu_chat_whisper_command_no_recipients" addon_id="Siropu/Chat" version_id="2000070" version_string="2.0.0"><![CDATA[Не указан получатель.]]></phrase>
+  <phrase title="siropu_chat_widget_no_top_chatters" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Нет пользователей в топе.]]></phrase>
+  <phrase title="siropu_chat_widget_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Комнаты в чате]]></phrase>
+  <phrase title="siropu_chat_widget_top_chatters" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Топ пользователей]]></phrase>
+  <phrase title="siropu_chat_widget_users" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Пользователи в чате]]></phrase>
+  <phrase title="siropu_chat_write_a_message" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Напишите сообщение...]]></phrase>
+  <phrase title="siropu_chat_write_private_message" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Напишите приватное сообщение...]]></phrase>
+  <phrase title="siropu_chat_write_public_message" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Напишите публичное сообщение...]]></phrase>
+  <phrase title="siropu_chat_x_already_joined_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{name} присоединился к этой комнате.]]></phrase>
+  <phrase title="siropu_chat_x_cannot_join_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{name} не может присоединиться к комнате.]]></phrase>
+  <phrase title="siropu_chat_x_has_already_been_invited_to_join_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{name} приглашен присоединиться к комнате.]]></phrase>
+  <phrase title="siropu_chat_x_has_an_active_room_sanction" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{name} имеет активное наказание в комнате и не может присоединиться к комнате.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_banned_by_x_permanently" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} заблокирован {moderator} на постоянно.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_banned_by_x_permanently_for_reason_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} заблокирован {moderator} на постоянно по следующей причине: {reason}]]></phrase>
+  <phrase title="siropu_chat_x_has_been_banned_by_x_until_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} заблокирован {moderator} до {date}.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_banned_by_x_until_x_for_reason_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} заблокирован {moderator} до {date} по следующей причине: {reason}]]></phrase>
+  <phrase title="siropu_chat_x_has_been_invited_to_join_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{name} был приглашен присоединиться к комнате.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_kicked_by_x_permanently" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} был выгнан {moderator} на постоянно.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_kicked_by_x_permanently_for_reason_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} был выгнан {moderator} на постоянно по следующей причине: {reason}]]></phrase>
+  <phrase title="siropu_chat_x_has_been_kicked_by_x_until_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} был выгнан {moderator} до {date}.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_kicked_by_x_until_x_for_reason_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} был выгнан {moderator} до {date} по следующей причине: {reason}]]></phrase>
+  <phrase title="siropu_chat_x_has_been_muted_by_x_permanently" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} было запрещено писать сообщения {moderator} на постоянно.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_muted_by_x_permanently_for_reason_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} было запрещено писать сообщения {moderator} на постоянно по следующей причине: {reason}]]></phrase>
+  <phrase title="siropu_chat_x_has_been_muted_by_x_until_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} было запрещено писать сообщения {moderator} до {date}.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_muted_by_x_until_x_for_reason_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} было запрещено писать сообщения {moderator} до {date} по следующей причине: {reason}]]></phrase>
+  <phrase title="siropu_chat_x_has_been_sanctioned_for_x_hours" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[{user} находится под наказанием {length} часа(ов).]]></phrase>
+  <phrase title="siropu_chat_x_has_been_successfully_banned" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно заблокирован.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_successfully_kicked" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно добавлен в список выгнаных.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_successfully_muted" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно добавлен в список лишеных права писать сообщения.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_successfully_unbanned" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно разблокирован.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_successfully_unkicked" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно удален из списка выгнаных.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_successfully_unmuted" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно удален из списка лишеных права писать сообщения.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_unbanned_by_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно разблокирован {moderator}.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_unkicked_by_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно удален из списка выгнаных {moderator}.]]></phrase>
+  <phrase title="siropu_chat_x_has_been_unmuted_by_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Пользователь {user} успешно удален из списка лишеных права писать сообщения {moderator}.]]></phrase>
+  <phrase title="siropu_chat_x_has_deleted_all_messages_by_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{user} удалил(а) все сообщения, опубликованные {author}.]]></phrase>
+  <phrase title="siropu_chat_x_has_deleted_all_the_messages" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} удалил(а) все сообщения.]]></phrase>
+  <phrase title="siropu_chat_x_has_deleted_forum_notification_messages" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[{user} has deleted the forum notification messages.]]></phrase>
+  <phrase title="siropu_chat_x_has_deleted_media_notification_messages" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[{user} has deleted the media gallery notification messages.]]></phrase>
+  <phrase title="siropu_chat_x_has_deleted_resource_notification_messages" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[{user} has deleted the resource notification messages.]]></phrase>
+  <phrase title="siropu_chat_x_has_deleted_the_last_x_messages" addon_id="Siropu/Chat" version_id="2010170" version_string="2.1.1"><![CDATA[{user} has deleted the last {number} messages.]]></phrase>
+  <phrase title="siropu_chat_x_has_joined_the_room" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} присоединился(лась) к комнате.]]></phrase>
+  <phrase title="siropu_chat_x_has_left_the_conversation" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} покинул(а) приватный разговор и не сможет увидеть новых сообщений. {user} может снова присоединиться к приватному разговору в любое время. Если Вы также покините приватный разговор, приватный разговор будет удален.]]></phrase>
+  <phrase title="siropu_chat_x_has_left_the_room" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} покинул(а) комнату.]]></phrase>
+  <phrase title="siropu_chat_x_has_left_the_room_message" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[{user} покинул(а) комнату ({message}).]]></phrase>
+  <phrase title="siropu_chat_x_has_pruned_the_chat" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{user} очистил(а) чат.]]></phrase>
+  <phrase title="siropu_chat_x_invited_you_to_join_room_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[{name} пригласил(а) Вас присоединиться к комнате "{room}".]]></phrase>
+  <phrase title="siropu_chat_x_mentioned_you_in_a_chat_message_in_room_x" addon_id="Siropu/Chat" version_id="2010270" version_string="2.1.2"><![CDATA[{name} mentioned you in a <a href="{message_url}">chat message</a> in "{room}" room.]]></phrase>
+  <phrase title="siropu_chat_x_reacted_to_your_conversation_message_y" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[{user} reacted to your chat conversation message {item} with {reaction}.]]></phrase>
+  <phrase title="siropu_chat_x_reacted_to_your_room_message_y" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[{user} reacted to your chat room message {item} with {reaction}.]]></phrase>
+  <phrase title="siropu_chat_x_started_a_private_conversation_with_you" addon_id="Siropu/Chat" version_id="2000051" version_string="2.0.0 RC 1"><![CDATA[{name} начал(а) <a href="{conv_url}">приватный разговор</a> с Вами.]]></phrase>
+  <phrase title="siropu_chat_yesterday" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вчера]]></phrase>
+  <phrase title="siropu_chat_you_are_not_logged_in" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не авторизованы.]]></phrase>
+  <phrase title="siropu_chat_you_cannot_join_more_than_one_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не можете присоединиться к нескольких комнат одновременно.]]></phrase>
+  <phrase title="siropu_chat_you_cannot_join_more_than_x_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы не можете присоединяться к более чем {limit} комнатам одновременно.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_from_chat_by_x_until_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned from the chat by {author} until {date}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_from_chat_by_x_until_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned from the chat by {author} until {date} for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_from_room_x_by_x_until_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned from the room "{roomName}" by {author} until {date}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_from_room_x_by_x_until_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned from the room "{roomName}" by {author} until {date} for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_permanently" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Вы были заблокированы в чате на постоянно по следующей причине: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_permanently_from_chat_by_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned permanently from the chat by {author}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_permanently_from_chat_by_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned permanently from the chat by {author} for the following reason: {reason}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_permanently_from_room_x_by_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned permanently from the room "{roomName}" by {author}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_permanently_from_room_x_by_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been banned permanently from the room "{roomName}" by {author} for the following reason: {reason}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_banned_until" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Вы были заблокированы в чате до {date} по следующей причине: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_from_chat_by_x_until_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked from the chat by {author} until {date}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_from_chat_by_x_until_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked from the chat by {author} until {date} for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_from_room_x_by_x_until_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked from the room "{roomName}" by {author} until {date}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_from_room_x_by_x_until_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked from the room "{roomName}" by {author} until {date} for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_permanently" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked permanently for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_permanently_from_chat_by_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked permanently from the chat by {author}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_permanently_from_chat_by_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked permanently from the chat by {author} for the following reason: {reason}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_permanently_from_room_x_by_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked permanently from the room "{roomName}" by {author}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_permanently_from_room_x_by_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been kicked permanently from the room "{roomName}" by {author} for the following reason: {reason}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_kicked_until" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Вы были выгнаны до {date}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_in_chat_by_x_until_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted in the chat by {author} until {date}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_in_chat_by_x_until_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted in the chat by {author} until {date} for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_in_room_x_by_x_until_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted in the room "{roomName}" by {author} until {date}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_in_room_x_by_x_until_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted in the room "{roomName}" by {author} until {date} for the following reason: {reason}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_permanently_in_chat_by_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted permanently in the chat by {author}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_permanently_in_chat_by_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted permanently in the chat by {author} for the following reason: {reason}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_permanently_in_room_x_by_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted permanently in the room "{roomName}" by {author}.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_muted_permanently_in_room_x_by_x_for_the_following_reason_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been muted permanently in the room "{roomName}" by {author} for the following reason: {reason}]]></phrase>
+  <phrase title="siropu_chat_you_have_been_unbanned_from_chat" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been unbanned from the chat.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_unbanned_from_room_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been unbanned from the room "{roomName}".]]></phrase>
+  <phrase title="siropu_chat_you_have_been_unkicked_from_chat" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been unkicked from the chat.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_unkicked_from_room_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been unkicked from the room "{roomName}".]]></phrase>
+  <phrase title="siropu_chat_you_have_been_unmuted_in_chat" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have been unmuted in the chat.]]></phrase>
+  <phrase title="siropu_chat_you_have_been_unmuted_in_room_x" addon_id="Siropu/Chat" version_id="2002670" version_string="2.0.26"><![CDATA[You have neen unmuted in the room "{roomName}".]]></phrase>
+  <phrase title="siropu_chat_you_have_left_the_room" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы вышли из комнаты.]]></phrase>
+  <phrase title="siropu_chat_you_have_left_the_room_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вы вышли из комнаты "{name}".]]></phrase>
+  <phrase title="siropu_chat_you_have_unread_conversation_messages_from_x" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[You have unread <a href="{conv_url}">chat conversation message(s)</a> from {name}.]]></phrase>
+  <phrase title="siropu_chat_you_joined_private_room_x_created_by_x" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[You have joined the private room "{room}" created by "{name}".]]></phrase>
+  <phrase title="siropu_chat_you_left_private_room_x" addon_id="Siropu/Chat" version_id="2002770" version_string="2.0.27"><![CDATA[You have left the private room "{room}".]]></phrase>
+  <phrase title="siropu_chat_your_custom_commands" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ваши собственные команды]]></phrase>
+  <phrase title="siropu_chat_your_message_color" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Цвет Ваших сообщений]]></phrase>
+  <phrase title="siropu_chat_your_nickname_has_been_set_to_x" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Ваш имя изменено на "{nickname}".]]></phrase>
+  <phrase title="siropu_chat_your_status_has_beed_removed" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Ваш статус удален.]]></phrase>
+  <phrase title="siropu_chat_your_status_has_beed_set_to_x" addon_id="Siropu/Chat" global_cache="1" version_id="200010" version_string="2.0.0"><![CDATA[Ваш статус установлен на: {status}]]></phrase>
+  <phrase title="style_prop.siropuChatActiveUserCountBadgeColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет значка счетчика активных пользователей]]></phrase>
+  <phrase title="style_prop.siropuChatActiveUserCountColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет текста количества активных пользователей]]></phrase>
+  <phrase title="style_prop.siropuChatAnnouncement" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Message row announcement]]></phrase>
+  <phrase title="style_prop.siropuChatBarButton" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Кнопка панели чата]]></phrase>
+  <phrase title="style_prop.siropuChatBarContainer" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Контейнер для панели чата]]></phrase>
+  <phrase title="style_prop.siropuChatContainer" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Контейнер чата]]></phrase>
+  <phrase title="style_prop.siropuChatContentHeight" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Высота содержимого в чате]]></phrase>
+  <phrase title="style_prop.siropuChatConversationListItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Элемент списка приватных разговоров]]></phrase>
+  <phrase title="style_prop.siropuChatConversationListItemActive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Элемент списка приватных разговоров активный]]></phrase>
+  <phrase title="style_prop.siropuChatConversationListItemHover" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Элемент списка приватных разговоров при наведении]]></phrase>
+  <phrase title="style_prop.siropuChatDateTime" addon_id="Siropu/Chat" version_id="2000270" version_string="2.0.2"><![CDATA[Дата сообщения]]></phrase>
+  <phrase title="style_prop.siropuChatDeleteIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Удалить"]]></phrase>
+  <phrase title="style_prop.siropuChatEditIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Редактировать"]]></phrase>
+  <phrase title="style_prop.siropuChatEditorInput" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Поле для ввода в чате]]></phrase>
+  <phrase title="style_prop.siropuChatEditorToolbar" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Панель кнопок редактора чата]]></phrase>
+  <phrase title="style_prop.siropuChatHelpIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Помощь"]]></phrase>
+  <phrase title="style_prop.siropuChatIconFontSize" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Размера шрифта иконок]]></phrase>
+  <phrase title="style_prop.siropuChatLikeIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Мне нравится"]]></phrase>
+  <phrase title="style_prop.siropuChatLinkIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Ссылка"]]></phrase>
+  <phrase title="style_prop.siropuChatMaximizedContentHeight" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Высота содержимого чата в максимальном режиме]]></phrase>
+  <phrase title="style_prop.siropuChatMessageText" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[Message text]]></phrase>
+  <phrase title="style_prop.siropuChatNoUserCountBadgeColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет значка количества отсутствующих пользователей]]></phrase>
+  <phrase title="style_prop.siropuChatNoUserCountColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет текста количества отсутствующих пользователей]]></phrase>
+  <phrase title="style_prop.siropuChatOptionsIconColor" addon_id="Siropu/Chat" version_id="2000051" version_string="2.0.0 RC 1"><![CDATA[Цвет иконки "Параметры"]]></phrase>
+  <phrase title="style_prop.siropuChatPageContentHeight" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Высота содержимого страницы в чате]]></phrase>
+  <phrase title="style_prop.siropuChatQuoteIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Цитата"]]></phrase>
+  <phrase title="style_prop.siropuChatReportIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Жалоба"]]></phrase>
+  <phrase title="style_prop.siropuChatRoomListItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Элемент списка комнат]]></phrase>
+  <phrase title="style_prop.siropuChatRulesIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Правила"]]></phrase>
+  <phrase title="style_prop.siropuChatSanctionIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Наказания"]]></phrase>
+  <phrase title="style_prop.siropuChatSettingsIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Настройки"]]></phrase>
+  <phrase title="style_prop.siropuChatTabsContainer" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Контейнер для вкладок]]></phrase>
+  <phrase title="style_prop.siropuChatTabsItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вкладка по умолчанию]]></phrase>
+  <phrase title="style_prop.siropuChatTabsItemActive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вкладка активная]]></phrase>
+  <phrase title="style_prop.siropuChatTabsItemBadge" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Значок количества пользователей на вкладке]]></phrase>
+  <phrase title="style_prop.siropuChatTabsItemHover" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вкладка при наведении]]></phrase>
+  <phrase title="style_prop.siropuChatUnlikeIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Больше не нравится"]]></phrase>
+  <phrase title="style_prop.siropuChatUserMention" addon_id="Siropu/Chat" version_id="2000270" version_string="2.0.2"><![CDATA[Строка сообщения в чате при упоминании пользователя]]></phrase>
+  <phrase title="style_prop.siropuChatUserStatus" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Статус пользователя]]></phrase>
+  <phrase title="style_prop.siropuChatUsersIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Цвет иконки "Пользователи"]]></phrase>
+  <phrase title="style_prop_desc.siropuChatActiveUserCountBadgeColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет значка количества пользователей в навигации на вкладке, когда в чате присутствуют активные пользователи.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatActiveUserCountColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет текста количества пользователей в навигации на вкладке, когда в чате присутствуют активные пользователи.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatAnnouncement" addon_id="Siropu/Chat" version_id="2002570" version_string="2.0.25"><![CDATA[Styling of the message row for announcements.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatBarButton" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Значок на панели, который отображает количество пользователей чата.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatBarContainer" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Панель чата, которая появляется в нижней части экрана при использовании режима "На всех страницах".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatContainer" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Основной контейнер чата.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatContentHeight" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Высота содержимого в чате.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatConversationListItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Индивидуальный элемент приватного разговора в списке пользователей.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatConversationListItemActive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Индивидуальный элемент приватного разговора в списке пользователей, активное состояние.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatConversationListItemHover" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Индивидуальный элемент приватного разговора в списке пользователей, при наведении.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatDateTime" addon_id="Siropu/Chat" version_id="2000270" version_string="2.0.2"><![CDATA[Стилизация даты сообщения.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatDeleteIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Удалить".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatEditIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Редактировать".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatEditorInput" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Поле ввода в редакторе чата.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatEditorToolbar" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Панель редактора чата.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatHelpIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Помощь".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatIconFontSize" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Размер шрифта для всех иконок, используемых в чате.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatLikeIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Мне нравится".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatLinkIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Ссылка".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatMaximizedContentHeight" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Высота содержимого чата в максимальном режиме.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatMessageText" addon_id="Siropu/Chat" version_id="2000870" version_string="2.0.8"><![CDATA[Styling of the message text.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatNoUserCountBadgeColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет значка количества пользователей в навигации на вкладке, когда в чате отсутствуют активные пользователи.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatNoUserCountColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Цвет текста количества пользователей в навигации на вкладке, когда в чате отсутствуют активные пользователи.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatOptionsIconColor" addon_id="Siropu/Chat" version_id="2000051" version_string="2.0.0 RC 1"><![CDATA[Задает цвет иконки "Параметры".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatPageContentHeight" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Высота содержимого чата на выделенной странице чата.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatQuoteIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Цитата".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatReportIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Жалоба".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatRoomListItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Элемент списка отдельных комнат.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatRulesIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Правила".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatSanctionIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Наказания".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatSettingsIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Настройки".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatTabsContainer" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Контейнер вкладки.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatTabsItem" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Стиль отдельных элементов вкладки по умолчанию.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatTabsItemActive" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вкладка активная.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatTabsItemBadge" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Значок количества пользователей на вкладке.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatTabsItemHover" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Вкладка при наведении.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatUnlikeIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Больше не нравится".]]></phrase>
+  <phrase title="style_prop_desc.siropuChatUserMention" addon_id="Siropu/Chat" version_id="2000270" version_string="2.0.2"><![CDATA[Стилизация строки сообщения в чате при упоминании пользователя.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatUserStatus" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Стилизация статуса пользователя.]]></phrase>
+  <phrase title="style_prop_desc.siropuChatUsersIconColor" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0 Beta 1"><![CDATA[Задает цвет иконки "Пользователи".]]></phrase>
+  <phrase title="style_prop_group.siropuChat" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="style_prop_group_desc.siropuChat" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Настройка стиля для Чата от Siropu.]]></phrase>
+  <phrase title="widget_def.siropu_chat" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат]]></phrase>
+  <phrase title="widget_def.siropu_chat_rooms" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Комнаты]]></phrase>
+  <phrase title="widget_def.siropu_chat_top_chatters" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Топ пользователей]]></phrase>
+  <phrase title="widget_def.siropu_chat_users" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Активные пользователи]]></phrase>
+  <phrase title="widget_def_desc.siropu_chat" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает Чат от Siropu.]]></phrase>
+  <phrase title="widget_def_desc.siropu_chat_rooms" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает комнаты Чата от Siropu.]]></phrase>
+  <phrase title="widget_def_desc.siropu_chat_top_chatters" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает топ пользователей Чата от Siropu.]]></phrase>
+  <phrase title="widget_def_desc.siropu_chat_users" addon_id="Siropu/Chat" version_id="1" version_string="2.0.0"><![CDATA[Отображает активных пользователей Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos.siropu_chat_above_content" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Над содержимым]]></phrase>
+  <phrase title="widget_pos.siropu_chat_above_forum_list" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Над списком разделов форума]]></phrase>
+  <phrase title="widget_pos.siropu_chat_all_pages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: На всех страницах]]></phrase>
+  <phrase title="widget_pos.siropu_chat_below_breadcrumb" addon_id="Siropu/Chat" version_id="2002170" version_string="2.0.21"><![CDATA[Chat: Below breadcrumb]]></phrase>
+  <phrase title="widget_pos.siropu_chat_below_content" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Под содержимым]]></phrase>
+  <phrase title="widget_pos.siropu_chat_below_forum_list" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Под списком разделов форума]]></phrase>
+  <phrase title="widget_pos.siropu_chat_page" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Страница чата]]></phrase>
+  <phrase title="widget_pos.siropu_chat_page_sidebar" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Страница чата боковая панель]]></phrase>
+  <phrase title="widget_pos.siropu_chat_sidebar_bottom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Под боковой панелью]]></phrase>
+  <phrase title="widget_pos.siropu_chat_sidebar_top" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Чат: Над боковой панелью]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_above_content" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_above_forum_list" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_all_pages" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_below_breadcrumb" addon_id="Siropu/Chat" version_id="2002170" version_string="2.0.21"><![CDATA[Position for Chat by Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_below_content" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_below_forum_list" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_page" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Выделенная страница чата.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_page_sidebar" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция в боковой панели на странице чата.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_sidebar_bottom" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+  <phrase title="widget_pos_desc.siropu_chat_sidebar_top" addon_id="Siropu/Chat" version_id="200010" version_string="2.0.0"><![CDATA[Позиция для Чата от Siropu.]]></phrase>
+</language>

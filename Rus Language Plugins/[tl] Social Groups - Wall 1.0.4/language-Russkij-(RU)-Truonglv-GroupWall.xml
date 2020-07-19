@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Truonglv/GroupWall" base_version_id="1000400" export_version="2">
+  <phrase title="option.tl_groups_enableWallCategories" addon_id="Truonglv/GroupWall" version_id="1000200" version_string="1.0.2"><![CDATA[Enable Group Wall Categories]]></phrase>
+  <phrase title="option_explain.tl_groups_enableWallCategories" addon_id="Truonglv/GroupWall" version_id="1000200" version_string="1.0.2"><![CDATA[If enabled group owner can create multiple wall category.]]></phrase>
+  <phrase title="tl_group_wall_categories" addon_id="Truonglv/GroupWall" version_id="1000200" version_string="1.0.2"><![CDATA[Categories]]></phrase>
+  <phrase title="tl_group_wall_default_category_title" addon_id="Truonglv/GroupWall" global_cache="1" version_id="1000200" version_string="1.0.2"><![CDATA[Default Category]]></phrase>
+  <phrase title="tl_group_wall_delete_comment_created_by_x" addon_id="Truonglv/GroupWall" version_id="1000000" version_string="1.0.0"><![CDATA[Delete comment created by {user}]]></phrase>
+  <phrase title="tl_group_wall_delete_first_comment_warning" addon_id="Truonglv/GroupWall" version_id="1000000" version_string="1.0.0"><![CDATA[This is first comment of this post. Delete this comment also delete whole comments.]]></phrase>
+  <phrase title="tl_group_wall_edit_comment" addon_id="Truonglv/GroupWall" version_id="1000100" version_string="1.0.1"><![CDATA[Edit comment]]></phrase>
+  <phrase title="tl_group_wall_in_group" addon_id="Truonglv/GroupWall" version_id="1000302" version_string="1.0.3b"><![CDATA[In group]]></phrase>
+  <phrase title="tl_group_wall_manage_post_category" addon_id="Truonglv/GroupWall" version_id="1000200" version_string="1.0.2"><![CDATA[Manage Post Category]]></phrase>
+  <phrase title="tl_group_wall_new_category_title" addon_id="Truonglv/GroupWall" version_id="1000200" version_string="1.0.2"><![CDATA[New category title]]></phrase>
+  <phrase title="tl_group_wall_x_liked_your_comment_in_group_y" addon_id="Truonglv/GroupWall" version_id="1000000" version_string="1.0.0"><![CDATA[{name} liked your comment in the group {title}.]]></phrase>
+</language>

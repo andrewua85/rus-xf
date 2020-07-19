@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="xenbros/Attachmentpro" base_version_id="100" export_version="2">
+  <phrase title="Require_like_and_reply_in_order_to_view_attachment" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Require like and reply in order to view attachment]]></phrase>
+  <phrase title="Require_like_in_order_to_view_attachment" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Require like in order to view attachment]]></phrase>
+  <phrase title="Require_post_reply_in_order_to_view_attachment" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Require post reply in order to view attachment]]></phrase>
+  <phrase title="option.xb_ap_attachment_icon" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Thumbnail replacement image url]]></phrase>
+  <phrase title="option.xb_ap_hide_thumb" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Enable attachments thumbnail]]></phrase>
+  <phrase title="option.xb_ap_require_like" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Require like in order to view attachment]]></phrase>
+  <phrase title="option.xb_ap_require_reply" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Require post reply in order to view attachment]]></phrase>
+  <phrase title="option.xb_ap_xenbros_activation" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Activate Addon]]></phrase>
+  <phrase title="option_explain.xb_ap_attachment_icon" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[Background Image for Attachment]]></phrase>
+  <phrase title="option_explain.xb_ap_hide_thumb" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xb_ap_require_like" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xb_ap_require_reply" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xb_ap_xenbros_activation" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_group.xb_attachment_pro" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[[Xenbros] Attachment Pro]]></phrase>
+  <phrase title="option_group_description.xb_attachment_pro" addon_id="xenbros/Attachmentpro" version_id="100" version_string="1.0.0"><![CDATA[]]></phrase>
+</language>

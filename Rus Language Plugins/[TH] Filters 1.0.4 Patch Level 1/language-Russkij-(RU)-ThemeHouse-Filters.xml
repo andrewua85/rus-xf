@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="ThemeHouse/Filters" base_version_id="1000491" export_version="2">
+  <phrase title="nav.thfilters_all_threads" addon_id="ThemeHouse/Filters" version_id="1000491" version_string="1.0.4 Patch Level 1"><![CDATA[Все темы]]></phrase>
+  <phrase title="nav.thfilters_latest_threads" addon_id="ThemeHouse/Filters" version_id="1000491" version_string="1.0.4 Patch Level 1"><![CDATA[Последние темы]]></phrase>
+  <phrase title="nav.thfilters_newest_threads" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[New posts]]></phrase>
+  <phrase title="nav.thfilters_trending_threads" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Trending threads]]></phrase>
+  <phrase title="option.thfilters_discussionsPerPage" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Thread lists: Threads per page]]></phrase>
+  <phrase title="option.thfilters_filterPrefixes" addon_id="ThemeHouse/Filters" version_id="1000291" version_string="1.0.2 Patch Level 1"><![CDATA[Filter prefixes]]></phrase>
+  <phrase title="option.thfilters_filterThreads" addon_id="ThemeHouse/Filters" version_id="1000170" version_string="1.0.1"><![CDATA[Respect "Find new" forum option on all threads]]></phrase>
+  <phrase title="option.thfilters_filterTogglePosition" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Filter menu toggle position]]></phrase>
+  <phrase title="option.thfilters_filtersOnAllPage" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[All threads page default filter widgets]]></phrase>
+  <phrase title="option.thfilters_invertNodeColor" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Invert node label color]]></phrase>
+  <phrase title="option.thfilters_randomNodeColor" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Enable randomized node label color]]></phrase>
+  <phrase title="option.thfilters_trendingConfiguration" addon_id="ThemeHouse/Filters" version_id="1000070" version_string="1.0.0"><![CDATA[Trending threads configuration]]></phrase>
+  <phrase title="option_explain.thfilters_discussionsPerPage" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.thfilters_filterPrefixes" addon_id="ThemeHouse/Filters" version_id="1000291" version_string="1.0.2 Patch Level 1"><![CDATA[The selected prefixes will be shown in the filter menu on all threads pages.]]></phrase>
+  <phrase title="option_explain.thfilters_filterThreads" addon_id="ThemeHouse/Filters" version_id="1000170" version_string="1.0.1"><![CDATA[If enabled, only forums that are selected to show up in the "Find new" section will have their threads show up on the all threads routes, and will show up on the filter widget.]]></phrase>
+  <phrase title="option_explain.thfilters_filterTogglePosition" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.thfilters_filtersOnAllPage" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Selected default filter widgets will be shown on the all threads page (and hidden from the filter menu).]]></phrase>
+  <phrase title="option_explain.thfilters_invertNodeColor" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[If enabled, the node background color will be used as text color instead.]]></phrase>
+  <phrase title="option_explain.thfilters_randomNodeColor" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[If this option is enabled and nodes do not have a fixed color value set, they'll get assigned a randomized fixed color value.]]></phrase>
+  <phrase title="option_explain.thfilters_trendingConfiguration" addon_id="ThemeHouse/Filters" version_id="1000070" version_string="1.0.0"><![CDATA[The trending configuration to use for the trending threads view.]]></phrase>
+  <phrase title="option_group.thajaxfilters" addon_id="ThemeHouse/Filters" version_id="1000491" version_string="1.0.4 Patch Level 1"><![CDATA[[TH] Filters]]></phrase>
+  <phrase title="option_group.thfilters" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[[TH] Filters]]></phrase>
+  <phrase title="option_group_description.thajaxfilters" addon_id="ThemeHouse/Filters" version_id="1000491" version_string="1.0.4 Patch Level 1"><![CDATA[Options for the [TH] Filters add-on.]]></phrase>
+  <phrase title="option_group_description.thfilters" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Options for the [TH] Filters add-on.]]></phrase>
+  <phrase title="thajaxfilters_filter_bar" addon_id="ThemeHouse/Filters" version_id="1000012" version_string="1.0.0 Alpha 2"><![CDATA[Filter bar]]></phrase>
+  <phrase title="thfilters_auto" addon_id="ThemeHouse/Filters" version_id="1000070" version_string="1.0.0"><![CDATA[Auto]]></phrase>
+  <phrase title="thfilters_condense" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Condense]]></phrase>
+  <phrase title="thfilters_condense_to_trigger" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Condense to trigger]]></phrase>
+  <phrase title="thfilters_condense_to_trigger_hint" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[If enabled, the widget will be hidden by default and condensed to a trigger at the selected location.]]></phrase>
+  <phrase title="thfilters_copy_to_descendants" addon_id="ThemeHouse/Filters" version_id="1000370" version_string="1.0.3"><![CDATA[Copy color to descendants]]></phrase>
+  <phrase title="thfilters_filter_bar" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Filter bar]]></phrase>
+  <phrase title="thfilters_filter_color" addon_id="ThemeHouse/Filters" version_id="1000070" version_string="1.0.0"><![CDATA[Filter color]]></phrase>
+  <phrase title="thfilters_forums" addon_id="ThemeHouse/Filters" version_id="1000012" version_string="1.0.0 Alpha 2"><![CDATA[Forums]]></phrase>
+  <phrase title="thfilters_latest" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Latest]]></phrase>
+  <phrase title="thfilters_latest_threads" addon_id="ThemeHouse/Filters" version_id="1000491" version_string="1.0.4 Patch Level 1"><![CDATA[Последние темы]]></phrase>
+  <phrase title="thfilters_limit_to" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Limit to]]></phrase>
+  <phrase title="thfilters_nav_bar" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Navbar (UI.X styles only)]]></phrase>
+  <phrase title="thfilters_newest" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[New posts]]></phrase>
+  <phrase title="thfilters_newest_threads" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[New posts]]></phrase>
+  <phrase title="thfilters_node" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Node]]></phrase>
+  <phrase title="thfilters_page_action" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Page action]]></phrase>
+  <phrase title="thfilters_show_as_popup_menu" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Trigger popup menu]]></phrase>
+  <phrase title="thfilters_show_as_popup_menu_hint" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[If enabled, the widget will be shown as popup menu instead. Otherwise, the trigger will toggle the widget within the sidebar.]]></phrase>
+  <phrase title="thfilters_title_bar" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Titlebar]]></phrase>
+  <phrase title="thfilters_trending" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Trending]]></phrase>
+  <phrase title="thfilters_trending_threads" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Trending threads]]></phrase>
+  <phrase title="widget_def.thfilters_filters" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[[TH] Filters]]></phrase>
+  <phrase title="widget_def_desc.thfilters_filters" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Displays a dynamic ajax content filtering widget, that automatically refreshes the page with the selected filters. Does not show on pages that do not have a XenForo filter bar.]]></phrase>
+  <phrase title="widget_pos.thfilters_all_threads" addon_id="ThemeHouse/Filters" version_id="1000491" version_string="1.0.4 Patch Level 1"><![CDATA[[TH] Фильтры: Весь список тем]]></phrase>
+  <phrase title="widget_pos_desc.thfilters_all_threads" addon_id="ThemeHouse/Filters" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[]]></phrase>
+</language>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Truonglv/AnonymousPosting" base_version_id="1000800" export_version="2">
+  <phrase title="option.tap_anonymousUser" addon_id="Truonglv/AnonymousPosting" version_id="1000700" version_string="1.0.7"><![CDATA[Use specific user as anonymous]]></phrase>
+  <phrase title="option.tap_showId" addon_id="Truonglv/AnonymousPosting" version_id="1000600" version_string="1.0.6"><![CDATA[Show anonymous ID?]]></phrase>
+  <phrase title="option_explain.tap_anonymousUser" addon_id="Truonglv/AnonymousPosting" version_id="1000700" version_string="1.0.7"><![CDATA[If specified, all anonymous posts are assigned to this user.]]></phrase>
+  <phrase title="option_explain.tap_showId" addon_id="Truonglv/AnonymousPosting" version_id="1000600" version_string="1.0.6"><![CDATA[]]></phrase>
+  <phrase title="option_group.tl_AnonymousPosting" addon_id="Truonglv/AnonymousPosting" version_id="1000600" version_string="1.0.6"><![CDATA[[tl] Anonymous Posting]]></phrase>
+  <phrase title="option_group_description.tl_AnonymousPosting" addon_id="Truonglv/AnonymousPosting" version_id="1000600" version_string="1.0.6"><![CDATA[]]></phrase>
+  <phrase title="permission.forum_tap_canUse" addon_id="Truonglv/AnonymousPosting" version_id="1000000" version_string="1.0.0"><![CDATA[[tl] Anonymous Posting: Can use]]></phrase>
+  <phrase title="permission.forum_tap_canView" addon_id="Truonglv/AnonymousPosting" version_id="1000000" version_string="1.0.0"><![CDATA[[tl] Anonymous Posting: Can view]]></phrase>
+  <phrase title="tap_anonymous" addon_id="Truonglv/AnonymousPosting" global_cache="1" version_id="1000000" version_string="1.0.0"><![CDATA[Anonymous]]></phrase>
+  <phrase title="tap_anonymous_x" addon_id="Truonglv/AnonymousPosting" global_cache="1" version_id="1000000" version_string="1.0.0"><![CDATA[Anonymous ({id})]]></phrase>
+  <phrase title="tap_posting_as_anonymous" addon_id="Truonglv/AnonymousPosting" version_id="1000800" version_string="1.0.8"><![CDATA[Опубликовать анонимно?]]></phrase>
+  <phrase title="tap_this_is_anonymous_post" addon_id="Truonglv/AnonymousPosting" version_id="1000700" version_string="1.0.7"><![CDATA[This is anonymous post]]></phrase>
+</language>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Truonglv/Groups" base_version_id="2020100" export_version="2">
+  <phrase title="admin_navigation.tlGroups_options" addon_id="Truonglv/Groups" version_id="2020100" version_string="2.2.1"><![CDATA[Параметры группы ]]></phrase>
+  <phrase title="admin_navigation.tl_groups" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[[tl] Social Groups]]></phrase>
+  <phrase title="admin_navigation.tl_groups_categories" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Категории]]></phrase>
+  <phrase title="admin_navigation.tl_groups_customFields" addon_id="Truonglv/Groups" version_id="1000170" version_string="1.0.1"><![CDATA[Свои Поля]]></phrase>
+  <phrase title="admin_navigation.tl_groups_memberRoles" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Роли участников]]></phrase>
+  <phrase title="admin_navigation.tl_groups_rebuildCaches" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Перестроить кеш]]></phrase>
+  <phrase title="admin_permission.manageGroups" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Manage Social Groups]]></phrase>
+  <phrase title="api_scope.tl_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Full access to management groups]]></phrase>
+  <phrase title="api_scope.tl_groups_delete" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete group and group data]]></phrase>
+  <phrase title="api_scope.tl_groups_read" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Read group data]]></phrase>
+  <phrase title="api_scope.tl_groups_write" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Post new group, new post, new comment, new event]]></phrase>
+  <phrase title="cron_entry.tl_groups_everyTwoHours" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[[tl] Social Groups: Clean up data (every 2 hours)]]></phrase>
+  <phrase title="cron_entry.tlg_runMinutely" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[[tl] Social Groups: Update group metadata (every minutes)]]></phrase>
+  <phrase title="custom_bb_code_title.group" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Embed groups]]></phrase>
+  <phrase title="nav.tl_groups" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Группы]]></phrase>
+  <phrase title="nav.tl_groups_joined" addon_id="Truonglv/Groups" version_id="1000600" version_string="1.0.6"><![CDATA[Группы]]></phrase>
+  <phrase title="nav.tl_groups_managed" addon_id="Truonglv/Groups" version_id="1000600" version_string="1.0.6"><![CDATA[Управление группами]]></phrase>
+  <phrase title="nav.tl_groups_search" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Поиск групп]]></phrase>
+  <phrase title="nav.tl_groups_upcomingEvents" addon_id="Truonglv/Groups" version_id="1000600" version_string="1.0.6"><![CDATA[Предстоящие События]]></phrase>
+  <phrase title="nav.tlg_feeds" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Your feeds]]></phrase>
+  <phrase title="option.tl_groups_archiveNodeId" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Archive group forums to node]]></phrase>
+  <phrase title="option.tl_groups_commentsPerPage" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Комментарии на странице]]></phrase>
+  <phrase title="option.tl_groups_defaultSort" addon_id="Truonglv/Groups" version_id="2000800" version_string="2.0.8"><![CDATA[Default groups list sort]]></phrase>
+  <phrase title="option.tl_groups_defaultTab" addon_id="Truonglv/Groups" version_id="1000701" version_string="1.0.7 1"><![CDATA[Default tab when viewing group]]></phrase>
+  <phrase title="option.tl_groups_deleteForumAction" addon_id="Truonglv/Groups" version_id="1000170" version_string="1.0.1"><![CDATA[Delete forum action]]></phrase>
+  <phrase title="option.tl_groups_enableForums" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Enable forums inside group]]></phrase>
+  <phrase title="option.tl_groups_enableMedia" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Integrate with XenForo Media Gallery]]></phrase>
+  <phrase title="option.tl_groups_eventsPerPage" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Events Per Page]]></phrase>
+  <phrase title="option.tl_groups_forumSetup" addon_id="Truonglv/Groups" version_id="1000300" version_string="1.0.3"><![CDATA[Default Forum Setup]]></phrase>
+  <phrase title="option.tl_groups_googleMapKey" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Google Map API Key]]></phrase>
+  <phrase title="option.tl_groups_groupNodeCache" addon_id="Truonglv/Groups" version_id="2010900" version_string="2.1.9"><![CDATA[Group node cache]]></phrase>
+  <phrase title="option.tl_groups_groupsPerPage" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Groups Per Page]]></phrase>
+  <phrase title="option.tl_groups_maxMembersInCard" addon_id="Truonglv/Groups" version_id="1000300" version_string="1.0.3"><![CDATA[Maximum members in group card]]></phrase>
+  <phrase title="option.tl_groups_maxNodes" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Maximum forums group can add]]></phrase>
+  <phrase title="option.tl_groups_maxPostStickies" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Maximum post stickies]]></phrase>
+  <phrase title="option.tl_groups_newsFeedPreviewMaxLength" addon_id="Truonglv/Groups" version_id="1000600" version_string="1.0.6"><![CDATA[Maximum news feed content preview length]]></phrase>
+  <phrase title="option.tl_groups_nodeTitleFormat" addon_id="Truonglv/Groups" version_id="1000500" version_string="1.0.5"><![CDATA[Group Forums Title Format]]></phrase>
+  <phrase title="option.tl_groups_watchAlertActiveOnly" addon_id="Truonglv/Groups" version_id="1000200" version_string="1.0.2"><![CDATA[Only send watched content alerts/emails to members active in last:]]></phrase>
+  <phrase title="option_explain.tl_groups_archiveNodeId" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Archive all group forums to node.]]></phrase>
+  <phrase title="option_explain.tl_groups_commentsPerPage" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[The number of comments show in page.]]></phrase>
+  <phrase title="option_explain.tl_groups_defaultSort" addon_id="Truonglv/Groups" version_id="2000800" version_string="2.0.8"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_defaultTab" addon_id="Truonglv/Groups" version_id="1000701" version_string="1.0.7 1"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_deleteForumAction" addon_id="Truonglv/Groups" version_id="1000170" version_string="1.0.1"><![CDATA[The action apply when delete an group forum.]]></phrase>
+  <phrase title="option_explain.tl_groups_enableForums" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_enableMedia" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_eventsPerPage" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[The number of events show in page. Note: This option only effected to event layout list.]]></phrase>
+  <phrase title="option_explain.tl_groups_forumSetup" addon_id="Truonglv/Groups" version_id="1000300" version_string="1.0.3"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_googleMapKey" addon_id="Truonglv/Groups" version_id="1000170" version_string="1.0.1"><![CDATA[You may get one from: <a href="https://console.developers.google.com" target="_blank">https://console.developers.google.com</a>]]></phrase>
+  <phrase title="option_explain.tl_groups_groupNodeCache" addon_id="Truonglv/Groups" version_id="2010900" version_string="2.1.9"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_groupsPerPage" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[The number of groups show in page.]]></phrase>
+  <phrase title="option_explain.tl_groups_maxMembersInCard" addon_id="Truonglv/Groups" version_id="1000300" version_string="1.0.3"><![CDATA[The number of members show in group card. Set to 0 disable it.]]></phrase>
+  <phrase title="option_explain.tl_groups_maxNodes" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[The number of forums which an group can owned.]]></phrase>
+  <phrase title="option_explain.tl_groups_maxPostStickies" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[]]></phrase>
+  <phrase title="option_explain.tl_groups_newsFeedPreviewMaxLength" addon_id="Truonglv/Groups" version_id="1000600" version_string="1.0.6"><![CDATA[The maximum content length show in news feed card. Set to 0 unlimited.]]></phrase>
+  <phrase title="option_explain.tl_groups_nodeTitleFormat" addon_id="Truonglv/Groups" version_id="1000500" version_string="1.0.5"><![CDATA[You may use <b>{nodeTitle}</b> for present forum title and <b>{groupName}</b> for present group name.]]></phrase>
+  <phrase title="option_explain.tl_groups_watchAlertActiveOnly" addon_id="Truonglv/Groups" version_id="1000200" version_string="1.0.2"><![CDATA[If enabled, watched content alerts and emails will only be sent to members that have visited groups within the specified number of days. This can improve performance on large or very active installations.]]></phrase>
+  <phrase title="option_group.tl_groups" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[[tl] Social Groups]]></phrase>
+  <phrase title="option_group_description.tl_groups" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="permission.tl_groups_addSecretGroups" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Добавить секретные группы]]></phrase>
+  <phrase title="permission.tl_groups_approveUnapprove" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Утвердить/отклонить группы]]></phrase>
+  <phrase title="permission.tl_groups_bypassModerated" addon_id="Truonglv/Groups" version_id="1000400" version_string="1.0.4"><![CDATA[Обход проверки модерации]]></phrase>
+  <phrase title="permission.tl_groups_bypassViewPrivacy" addon_id="Truonglv/Groups" version_id="1000400" version_string="1.0.4"><![CDATA[Bypass group view privacy]]></phrase>
+  <phrase title="permission.tl_groups_deleteCommentAny" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete any comments]]></phrase>
+  <phrase title="permission.tl_groups_deleteGroupAny" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Delete group any]]></phrase>
+  <phrase title="permission.tl_groups_editCommentAny" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit any comments]]></phrase>
+  <phrase title="permission.tl_groups_editGroupAny" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Edit group any]]></phrase>
+  <phrase title="permission.tl_groups_featureUnfeature" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Feature/unfeature groups]]></phrase>
+  <phrase title="permission.tl_groups_inlineMod" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Use inline moderation on groups]]></phrase>
+  <phrase title="permission.tl_groups_maxCreateGroups" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[Maximum groups can create]]></phrase>
+  <phrase title="permission.tl_groups_maxInvitesPerDay" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[Maximum invitations in 24 hours]]></phrase>
+  <phrase title="permission.tl_groups_merge" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Merge groups]]></phrase>
+  <phrase title="permission.tl_groups_move" addon_id="Truonglv/Groups" version_id="1000200" version_string="1.0.2"><![CDATA[Move groups]]></phrase>
+  <phrase title="permission.tl_groups_reassign" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Reassign groups]]></phrase>
+  <phrase title="permission.tl_groups_undelete" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[Undelete groups]]></phrase>
+  <phrase title="permission.tl_groups_view" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[View groups]]></phrase>
+  <phrase title="permission.tl_groups_viewDeleted" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[View deleted groups]]></phrase>
+  <phrase title="permission.tl_groups_viewModerated" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[View moderated groups]]></phrase>
+  <phrase title="permission_interface.tl_groups_general" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[[tl] Social Groups: General Permissions]]></phrase>
+  <phrase title="permission_interface.tl_groups_moderator" addon_id="Truonglv/Groups" version_id="1000070" version_string="1.0.0"><![CDATA[[tl] Social Groups: Moderator Permissions]]></phrase>
+  <phrase title="style_prop.tlg_avatarBorderRadius" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[Group avatar border radius]]></phrase>
+  <phrase title="style_prop.tlg_showControlIcons" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[Show icon controls in comment actions?]]></phrase>
+  <phrase title="style_prop_desc.tlg_avatarBorderRadius" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.tlg_showControlIcons" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[]]></phrase>
+  <phrase title="style_prop_group.tl_Groups" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[[tl] Social Groups]]></phrase>
+  <phrase title="style_prop_group_desc.tl_Groups" addon_id="Truonglv/Groups" version_id="2000700" version_string="2.0.7"><![CDATA[]]></phrase>
+  <phrase title="tlg_about" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[О группе]]></phrase>
+  <phrase title="tlg_above_group_description" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Above group description]]></phrase>
+  <phrase title="tlg_add_album" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Add album]]></phrase>
+  <phrase title="tlg_add_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Добавить событие]]></phrase>
+  <phrase title="tlg_add_forum" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Добавить форум]]></phrase>
+  <phrase title="tlg_add_group_in" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Добавить группу в]]></phrase>
+  <phrase title="tlg_add_new_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Добавить Новую Категорию]]></phrase>
+  <phrase title="tlg_add_new_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Добавить Новую Группу]]></phrase>
+  <phrase title="tlg_add_new_member_role" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Add New Member Role]]></phrase>
+  <phrase title="tlg_address" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Адрес]]></phrase>
+  <phrase title="tlg_administrator" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Администратор]]></phrase>
+  <phrase title="tlg_all_categories" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[All categories]]></phrase>
+  <phrase title="tlg_all_requests_must_be_approved_by_a_moderator" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Все заявки на присоединение должны быть одобрены модератором.]]></phrase>
+  <phrase title="tlg_all_requests_must_be_approved_by_a_moderator_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Если установлен этот флажок, все запросы на присоединение к этой группе должны быть одобрены модератором.]]></phrase>
+  <phrase title="tlg_all_threads_belong_to_this_forum_will_be_deleted" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[All threads belong to this forum will be deleted.]]></phrase>
+  <phrase title="tlg_allow_create_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Allow create groups]]></phrase>
+  <phrase title="tlg_allow_create_groups_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[All users belong to this user groups can create new groups in this category.]]></phrase>
+  <phrase title="tlg_allow_viewable_user_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Allow viewable user groups]]></phrase>
+  <phrase title="tlg_allow_viewable_user_groups_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[All users belong to this user groups can view category and it's content.]]></phrase>
+  <phrase title="tlg_alphabetically" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Alphabetically]]></phrase>
+  <phrase title="tlg_also_allow_guest_posting_into_news_feed" addon_id="Truonglv/Groups" version_id="2000800" version_string="2.0.8"><![CDATA[Also allow guest posting into news feed]]></phrase>
+  <phrase title="tlg_always_moderation_new_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Always moderation new groups published this category.]]></phrase>
+  <phrase title="tlg_an_invitation_was_sent_to_the_user_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Приглашение было отправлено {name}.]]></phrase>
+  <phrase title="tlg_applicable_categories" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Applicable categories]]></phrase>
+  <phrase title="tlg_approve_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Утвердить группу]]></phrase>
+  <phrase title="tlg_approve_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Approve groups]]></phrase>
+  <phrase title="tlg_approve_member" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Approve member]]></phrase>
+  <phrase title="tlg_approve_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Approve members]]></phrase>
+  <phrase title="tlg_approve_unapprove_posts" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Approve/unapprove posts]]></phrase>
+  <phrase title="tlg_attach_this_categories_children_to_its_parent" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Attach this categories children to it's parent]]></phrase>
+  <phrase title="tlg_ban_member" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Забанить участника]]></phrase>
+  <phrase title="tlg_ban_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Ban members]]></phrase>
+  <phrase title="tlg_begin_date" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Дата Начала]]></phrase>
+  <phrase title="tlg_below_group_description" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Below group description]]></phrase>
+  <phrase title="tlg_cache_ttl" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[Cache TTL]]></phrase>
+  <phrase title="tlg_cancel_requesting" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Cancel requesting]]></phrase>
+  <phrase title="tlg_categories" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Categories]]></phrase>
+  <phrase title="tlg_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Категория]]></phrase>
+  <phrase title="tlg_category_limit" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Category Limit]]></phrase>
+  <phrase title="tlg_change_member_role_to" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Change member role to]]></phrase>
+  <phrase title="tlg_check_all" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Check All]]></phrase>
+  <phrase title="tlg_choose_date" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Choose Date]]></phrase>
+  <phrase title="tlg_comment_in_events" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Comment in events]]></phrase>
+  <phrase title="tlg_comment_in_group_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Comment in the group {name}]]></phrase>
+  <phrase title="tlg_comments" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Comments]]></phrase>
+  <phrase title="tlg_content_type_categories" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Categories]]></phrase>
+  <phrase title="tlg_content_type_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Category]]></phrase>
+  <phrase title="tlg_content_type_comment" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Comment]]></phrase>
+  <phrase title="tlg_content_type_comments" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Comments]]></phrase>
+  <phrase title="tlg_content_type_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Event]]></phrase>
+  <phrase title="tlg_content_type_events" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Events]]></phrase>
+  <phrase title="tlg_content_type_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Group]]></phrase>
+  <phrase title="tlg_content_type_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Groups]]></phrase>
+  <phrase title="tlg_content_type_post" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Post]]></phrase>
+  <phrase title="tlg_content_type_posts" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[[tl] Social Groups: Posts]]></phrase>
+  <phrase title="tlg_copy_group_bbcode" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Копировать BBCode группы]]></phrase>
+  <phrase title="tlg_creator" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Creator]]></phrase>
+  <phrase title="tlg_custom_fields" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Custom Fields]]></phrase>
+  <phrase title="tlg_custom_template" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Custom Template]]></phrase>
+  <phrase title="tlg_custom_template_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[The template used to render widget content.]]></phrase>
+  <phrase title="tlg_database_does_not_contains_addon_data" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Database does not contains add-on data.]]></phrase>
+  <phrase title="tlg_delete_any_comment" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete any comment]]></phrase>
+  <phrase title="tlg_delete_any_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete any event]]></phrase>
+  <phrase title="tlg_delete_comments" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete comments]]></phrase>
+  <phrase title="tlg_delete_confirmation" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete Confirmation]]></phrase>
+  <phrase title="tlg_delete_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Удалить событие]]></phrase>
+  <phrase title="tlg_delete_existing_image" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Удалить существующее изображение]]></phrase>
+  <phrase title="tlg_delete_forum" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete Forum]]></phrase>
+  <phrase title="tlg_delete_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Удалить группу]]></phrase>
+  <phrase title="tlg_delete_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete groups]]></phrase>
+  <phrase title="tlg_delete_own_comment" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete own comment]]></phrase>
+  <phrase title="tlg_delete_own_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete own event]]></phrase>
+  <phrase title="tlg_delete_posts_any" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Delete posts any]]></phrase>
+  <phrase title="tlg_delete_this_categories_children" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Delete this categories children]]></phrase>
+  <phrase title="tlg_delete_threads_any" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Delete threads any]]></phrase>
+  <phrase title="tlg_description_contains_invalid_characters" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Description contains invalid characters.]]></phrase>
+  <phrase title="tlg_destination_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Категория назначения]]></phrase>
+  <phrase title="tlg_destination_group" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Destination group]]></phrase>
+  <phrase title="tlg_discussion_count" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Discussion Count]]></phrase>
+  <phrase title="tlg_discussions" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Обсуждения]]></phrase>
+  <phrase title="tlg_do_not_have_permission_to_add_secret_group" addon_id="Truonglv/Groups" version_id="2010200" version_string="2.1.2"><![CDATA[You did not have permission to add a secret group.]]></phrase>
+  <phrase title="tlg_do_not_send_notifications" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Do not send notifications]]></phrase>
+  <phrase title="tlg_drag_to_reposition_cover" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Перемещайте фон]]></phrase>
+  <phrase title="tlg_edit_any_comment" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit any comment]]></phrase>
+  <phrase title="tlg_edit_any_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit any event]]></phrase>
+  <phrase title="tlg_edit_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit Category]]></phrase>
+  <phrase title="tlg_edit_comment" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit Comment]]></phrase>
+  <phrase title="tlg_edit_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Редактировать событие]]></phrase>
+  <phrase title="tlg_edit_forum" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit forum]]></phrase>
+  <phrase title="tlg_edit_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Редактировать группу]]></phrase>
+  <phrase title="tlg_edit_member_role" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit Member Role]]></phrase>
+  <phrase title="tlg_edit_own_comment" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit own comment]]></phrase>
+  <phrase title="tlg_edit_own_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit own event]]></phrase>
+  <phrase title="tlg_edit_post" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Edit post]]></phrase>
+  <phrase title="tlg_edit_posts_any" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Edit posts any]]></phrase>
+  <phrase title="tlg_edit_threads_any" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Edit threads any]]></phrase>
+  <phrase title="tlg_end_date" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Дата Окончания]]></phrase>
+  <phrase title="tlg_enter_your_best_group_description_to_help_people_understand_your_group" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Enter your best group description to help other people understand your group.]]></phrase>
+  <phrase title="tlg_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Event]]></phrase>
+  <phrase title="tlg_event_begin" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Event begin]]></phrase>
+  <phrase title="tlg_event_closed" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Closed]]></phrase>
+  <phrase title="tlg_event_closing_in" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Event closing in]]></phrase>
+  <phrase title="tlg_event_comments" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Comments]]></phrase>
+  <phrase title="tlg_event_count" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Event Count]]></phrase>
+  <phrase title="tlg_event_date" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Дата события]]></phrase>
+  <phrase title="tlg_event_end" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Event end]]></phrase>
+  <phrase title="tlg_event_guests" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Guests]]></phrase>
+  <phrase title="tlg_event_information" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Information]]></phrase>
+  <phrase title="tlg_event_intend_going" addon_id="Truonglv/Groups" global_cache="1" version_id="2010700" version_string="2.1.7"><![CDATA[Participating]]></phrase>
+  <phrase title="tlg_event_intend_maybe" addon_id="Truonglv/Groups" global_cache="1" version_id="2000400" version_string="2.0.4"><![CDATA[Maybe]]></phrase>
+  <phrase title="tlg_event_intend_not_going" addon_id="Truonglv/Groups" global_cache="1" version_id="2010700" version_string="2.1.7"><![CDATA[Not participating]]></phrase>
+  <phrase title="tlg_event_intend_to" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Intend to be]]></phrase>
+  <phrase title="tlg_event_intention" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Intention]]></phrase>
+  <phrase title="tlg_event_name" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Название События]]></phrase>
+  <phrase title="tlg_event_ongoing" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Ongoing]]></phrase>
+  <phrase title="tlg_event_opening_after" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Event opening in]]></phrase>
+  <phrase title="tlg_event_options" addon_id="Truonglv/Groups" version_id="2000800" version_string="2.0.8"><![CDATA[Event options]]></phrase>
+  <phrase title="tlg_event_unwatch" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Unwatch]]></phrase>
+  <phrase title="tlg_event_upcoming" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Upcoming]]></phrase>
+  <phrase title="tlg_event_watch" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Watch]]></phrase>
+  <phrase title="tlg_events" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[События]]></phrase>
+  <phrase title="tlg_expires_after" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Истекает после]]></phrase>
+  <phrase title="tlg_extra_information" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Extra information]]></phrase>
+  <phrase title="tlg_feature_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Функции группы]]></phrase>
+  <phrase title="tlg_forum_discussion_options" addon_id="Truonglv/Groups" version_id="2000800" version_string="2.0.8"><![CDATA[Forum discussion options]]></phrase>
+  <phrase title="tlg_forums" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Forums]]></phrase>
+  <phrase title="tlg_full_forum_add_edit_options" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Full forum add or edit options]]></phrase>
+  <phrase title="tlg_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Group]]></phrase>
+  <phrase title="tlg_group_url" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[URL группы]]></phrase>
+  <phrase title="tlg_group_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Group {name}]]></phrase>
+  <phrase title="tlg_group_x_published_in_category_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Group <a href={groupLink}>{groupName}</a> published in the category <a href={categoryLink}>{categoryTitle}</a>]]></phrase>
+  <phrase title="tlg_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Группы]]></phrase>
+  <phrase title="tlg_groups_show_more" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Show more]]></phrase>
+  <phrase title="tlg_groups_x_have_joined" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Groups {name} have joined]]></phrase>
+  <phrase title="tlg_groups_you_have_joined" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Группы, к которым Вы Присоединились]]></phrase>
+  <phrase title="tlg_groups_you_have_management" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Groups you have management]]></phrase>
+  <phrase title="tlg_groups_you_manage" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Группы, которыми Вы Управляете]]></phrase>
+  <phrase title="tlg_hard_delete_forum_and_data_itself" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Hard delete forum and forum data itself.]]></phrase>
+  <phrase title="tlg_host" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Host]]></phrase>
+  <phrase title="tlg_hour" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Hour]]></phrase>
+  <phrase title="tlg_in_group" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[In group]]></phrase>
+  <phrase title="tlg_inline_moderation_delete_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Inline moderation delete groups]]></phrase>
+  <phrase title="tlg_inline_moderation_merge_groups" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Inline moderation merge groups]]></phrase>
+  <phrase title="tlg_inline_moderation_move_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Inline moderation move groups]]></phrase>
+  <phrase title="tlg_invite_member" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Пригласить участника]]></phrase>
+  <phrase title="tlg_invite_other_people_to_join_this_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Пригласите других людей присоединиться к этой группе.]]></phrase>
+  <phrase title="tlg_invite_people" addon_id="Truonglv/Groups" version_id="2010401" version_string="2.1.4 RC1"><![CDATA[Invite people]]></phrase>
+  <phrase title="tlg_items_per_row" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Items Per Row]]></phrase>
+  <phrase title="tlg_join_date" addon_id="Truonglv/Groups" version_id="2000200" version_string="2.0.2"><![CDATA[Дата вступления]]></phrase>
+  <phrase title="tlg_join_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Вступить в Группу]]></phrase>
+  <phrase title="tlg_language_code_explain" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[The primary language used in your group.]]></phrase>
+  <phrase title="tlg_last_activity" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Last Activity]]></phrase>
+  <phrase title="tlg_last_viewed_group" addon_id="Truonglv/Groups" version_id="2000200" version_string="2.0.2"><![CDATA[Последнее посещение]]></phrase>
+  <phrase title="tlg_leave_and_reassign_for" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Leave and reassign group for]]></phrase>
+  <phrase title="tlg_leave_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Покинуть Группу]]></phrase>
+  <phrase title="tlg_lock_unlock_threads" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Lock/unlock threads]]></phrase>
+  <phrase title="tlg_make_admin" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Сделать администратором]]></phrase>
+  <phrase title="tlg_make_moderator" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Сделать модератором]]></phrase>
+  <phrase title="tlg_manage_avatar" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage avatar]]></phrase>
+  <phrase title="tlg_manage_comments" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage Comments]]></phrase>
+  <phrase title="tlg_manage_events" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage Events]]></phrase>
+  <phrase title="tlg_manage_forums" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage Forums]]></phrase>
+  <phrase title="tlg_manage_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage Group]]></phrase>
+  <phrase title="tlg_manage_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage Members]]></phrase>
+  <phrase title="tlg_manage_threads" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Manage threads]]></phrase>
+  <phrase title="tlg_manager_cover" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Manage cover]]></phrase>
+  <phrase title="tlg_maximum_members_show_in_card" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Maximum members show in card]]></phrase>
+  <phrase title="tlg_member_count" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Member Count]]></phrase>
+  <phrase title="tlg_member_role" addon_id="Truonglv/Groups" version_id="2000200" version_string="2.0.2"><![CDATA[Роль]]></phrase>
+  <phrase title="tlg_member_role_has_been_taken" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Member role has been taken.]]></phrase>
+  <phrase title="tlg_member_role_id" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Member Role ID]]></phrase>
+  <phrase title="tlg_member_role_id_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[This is the unique identifier for this field. It cannot be changed once set. Only accept there characters: a-z A-Z 0-9]]></phrase>
+  <phrase title="tlg_member_roles" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Member Roles]]></phrase>
+  <phrase title="tlg_member_state_banned" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Забаненные]]></phrase>
+  <phrase title="tlg_member_state_invited" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Приглашенный]]></phrase>
+  <phrase title="tlg_member_state_moderated" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Moderated]]></phrase>
+  <phrase title="tlg_member_state_valid" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Действующий]]></phrase>
+  <phrase title="tlg_member_status" addon_id="Truonglv/Groups" version_id="2000200" version_string="2.0.2"><![CDATA[Статус]]></phrase>
+  <phrase title="tlg_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Участники]]></phrase>
+  <phrase title="tlg_members_waiting_approval" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Members waiting approval]]></phrase>
+  <phrase title="tlg_merge_group" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Merge group]]></phrase>
+  <phrase title="tlg_merge_groups" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Merge groups]]></phrase>
+  <phrase title="tlg_merge_with_group" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Merge with group]]></phrase>
+  <phrase title="tlg_minimum_required_tags" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Minimum required tags]]></phrase>
+  <phrase title="tlg_minimum_required_tags_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[This will require users to provide at least this many tags when creating a group.]]></phrase>
+  <phrase title="tlg_move_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Переместить группу]]></phrase>
+  <phrase title="tlg_move_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Move groups]]></phrase>
+  <phrase title="tlg_name" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Название]]></phrase>
+  <phrase title="tlg_name_your_group" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[Name your group]]></phrase>
+  <phrase title="tlg_news_feed" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Новостная лента]]></phrase>
+  <phrase title="tlg_no_groups_have_been_created_yet" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[There are no groups have been created yet.]]></phrase>
+  <phrase title="tlg_no_limitation" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Нет ограничений]]></phrase>
+  <phrase title="tlg_no_thanks" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[No thanks]]></phrase>
+  <phrase title="tlg_notifications" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Уведомления]]></phrase>
+  <phrase title="tlg_only_include_groups_in_selected_categories" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Only include groups in selected categories]]></phrase>
+  <phrase title="tlg_own_tab" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Own tab]]></phrase>
+  <phrase title="tlg_owner" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Owner]]></phrase>
+  <phrase title="tlg_parent_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Parent Categrory]]></phrase>
+  <phrase title="tlg_please_confirm_want_to_delete_category_and_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please confirm that you want to delete the following category and all groups belong to this]]></phrase>
+  <phrase title="tlg_please_confirm_want_to_delete_member_role" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please confirm that you want to delete the following member role]]></phrase>
+  <phrase title="tlg_please_enter_valid_date" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please enter a valid date]]></phrase>
+  <phrase title="tlg_please_enter_valid_member_role_id" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please enter a valid member role ID.]]></phrase>
+  <phrase title="tlg_please_select_a_valid_member_role" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please select a valid member role.]]></phrase>
+  <phrase title="tlg_please_select_valid_archive_node" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please select a valia archive node.]]></phrase>
+  <phrase title="tlg_please_upload_image_at_least_xy_pixels" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Please upload an image that have at least {width}x{height} pixels.]]></phrase>
+  <phrase title="tlg_posted_by_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Posted by {name}]]></phrase>
+  <phrase title="tlg_posts" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Posts]]></phrase>
+  <phrase title="tlg_privacy" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Конфиденциальность]]></phrase>
+  <phrase title="tlg_privacy_closed" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Закрытая Группа]]></phrase>
+  <phrase title="tlg_privacy_closed_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Любой может найти группу. Только члены группы и пользователи могут просматривать содержимое группы.]]></phrase>
+  <phrase title="tlg_privacy_public" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Открытая Группа]]></phrase>
+  <phrase title="tlg_privacy_public_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Любой может найти группу и просмотреть ее содержимое.]]></phrase>
+  <phrase title="tlg_privacy_secret" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Скрытая Группа]]></phrase>
+  <phrase title="tlg_privacy_secret_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Только члены группы или пользователи имеют право просматривать группу и ее содержимое.]]></phrase>
+  <phrase title="tlg_promote_member" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Повысить участника]]></phrase>
+  <phrase title="tlg_promote_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Promote members]]></phrase>
+  <phrase title="tlg_promote_user_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Promote to user groups]]></phrase>
+  <phrase title="tlg_promote_user_groups_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[The extra user groups members has when be promoted to this member role. When member be removed out of this member role, the user groups will be revoke.]]></phrase>
+  <phrase title="tlg_quick_overview" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Краткая Информация]]></phrase>
+  <phrase title="tlg_reassign_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Передать права на группу]]></phrase>
+  <phrase title="tlg_reassign_to_user" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Передать права пользователю]]></phrase>
+  <phrase title="tlg_rebuild_comment_metadata" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Rebuild comment metadata]]></phrase>
+  <phrase title="tlg_rebuild_group_counters" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Rebuild group counters]]></phrase>
+  <phrase title="tlg_rebuild_position_and_counters" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Rebuild position and counters]]></phrase>
+  <phrase title="tlg_rebuild_post_metadata" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Rebuild post metadata]]></phrase>
+  <phrase title="tlg_rebuild_user_caches" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Rebuild user caches]]></phrase>
+  <phrase title="tlg_receive_group_notifications_via" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Получать уведомления через]]></phrase>
+  <phrase title="tlg_register_now" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Register now]]></phrase>
+  <phrase title="tlg_remove_as_admin" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Снфть с должности Админа]]></phrase>
+  <phrase title="tlg_remove_as_moderator" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Снять с должности Модератора]]></phrase>
+  <phrase title="tlg_remove_banned_users" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Remove banned users]]></phrase>
+  <phrase title="tlg_remove_banned_users_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[If checked, users banned from XenForo system will be removed from the group.]]></phrase>
+  <phrase title="tlg_remove_deleted_users" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Remove deleted users]]></phrase>
+  <phrase title="tlg_remove_deleted_users_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[If checked, users deleted from XenForo system will be removed from the group.]]></phrase>
+  <phrase title="tlg_remove_member" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Удалить участника]]></phrase>
+  <phrase title="tlg_remove_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Remove members]]></phrase>
+  <phrase title="tlg_report_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Жалоба на группу]]></phrase>
+  <phrase title="tlg_reposition_cover" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Переместить обложку]]></phrase>
+  <phrase title="tlg_request_to_join" addon_id="Truonglv/Groups" version_id="2000300" version_string="2.0.3"><![CDATA[Request to join]]></phrase>
+  <phrase title="tlg_requested_category_not_found" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Requested category could not found.]]></phrase>
+  <phrase title="tlg_requested_comment_not_found" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Requested comment could not found.]]></phrase>
+  <phrase title="tlg_requested_event_not_found" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Requested event could not found.]]></phrase>
+  <phrase title="tlg_requested_group_not_found" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Requested group could not be found.]]></phrase>
+  <phrase title="tlg_search_child_categories_as_well" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Поск так же в дочерних категориях]]></phrase>
+  <phrase title="tlg_search_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Поиск групп]]></phrase>
+  <phrase title="tlg_search_in_categories" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Искать в категориях]]></phrase>
+  <phrase title="tlg_see_all_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Просмотреть всех пользователей]]></phrase>
+  <phrase title="tlg_send_invite" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Отправить Приглашение]]></phrase>
+  <phrase title="tlg_send_notifications_to_admin_and_moderator_only" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Send notifications to admin and moderator of source group only.]]></phrase>
+  <phrase title="tlg_send_notifications_to_all_members" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Send notifications to all members of source group.]]></phrase>
+  <phrase title="tlg_share_this_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Поделиться этой группой]]></phrase>
+  <phrase title="tlg_short_description" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Краткое описание]]></phrase>
+  <phrase title="tlg_show_full_message" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Show full message]]></phrase>
+  <phrase title="tlg_show_member_staff_only" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Показывать только сотрудников]]></phrase>
+  <phrase title="tlg_show_only_featured_groups" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[Show only featured groups]]></phrase>
+  <phrase title="tlg_show_only_groups_user_joined" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[Show only groups which user (visitor) joined]]></phrase>
+  <phrase title="tlg_show_only_groups_user_joined_explain" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[This option does not work with option `Use guest permissions` enabled.]]></phrase>
+  <phrase title="tlg_simple_forum_add_edit_options_with_predefined_options" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Simple forum add/edit with predefined options]]></phrase>
+  <phrase title="tlg_some_people_has_invited_you_join_this_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Кто-то пригласил Вас вступить в эту группу]]></phrase>
+  <phrase title="tlg_staff_only" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Staff Only]]></phrase>
+  <phrase title="tlg_stick_post" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Stick]]></phrase>
+  <phrase title="tlg_stick_unstick_posts" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Stick/Unstick posts]]></phrase>
+  <phrase title="tlg_stick_unstick_threads" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Stick/unstick threads]]></phrase>
+  <phrase title="tlg_sticky_posts" addon_id="Truonglv/Groups" version_id="2020100" version_string="2.2.1"><![CDATA[Закрепить публикацию]]></phrase>
+  <phrase title="tlg_submission_date" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Submission Date]]></phrase>
+  <phrase title="tlg_sure_you_want_to_delete_forum" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Are you want to delete forum?]]></phrase>
+  <phrase title="tlg_sure_you_want_to_join_following_group" addon_id="Truonglv/Groups" version_id="2000300" version_string="2.0.3"><![CDATA[Are you sure you want to join the following group?]]></phrase>
+  <phrase title="tlg_sure_you_want_to_leave_the_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Вы действительно хотите покинуть эту группу?]]></phrase>
+  <phrase title="tlg_sure_you_want_to_remove_following_member" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Do you want to remove this member from the group?]]></phrase>
+  <phrase title="tlg_there_are_no_events_to_display" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Нет событий для отображения.]]></phrase>
+  <phrase title="tlg_there_are_no_posts_to_display" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Нет записей для отображения]]></phrase>
+  <phrase title="tlg_there_more_comments_to_display" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Нет комментариев для отображения.]]></phrase>
+  <phrase title="tlg_there_no_groups_matching_your_filters" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[There are no groups matching your filters.]]></phrase>
+  <phrase title="tlg_this_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[This category]]></phrase>
+  <phrase title="tlg_thread_created_by_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Thread created by {name}]]></phrase>
+  <phrase title="tlg_time_period" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Временной Период]]></phrase>
+  <phrase title="tlg_time_period_explain" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[ Если указана специальная дата, контент автоматически удаляется после этой даты.]]></phrase>
+  <phrase title="tlg_too_many_sticky_posts_unstick_some_and_try_again" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Too many sticky posts. Please unstick some posts and try again.]]></phrase>
+  <phrase title="tlg_total_albums" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Total albums]]></phrase>
+  <phrase title="tlg_total_discussions" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Всего обсуждений]]></phrase>
+  <phrase title="tlg_total_events" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Всего событий]]></phrase>
+  <phrase title="tlg_total_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Всего пользователей]]></phrase>
+  <phrase title="tlg_total_views" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Всего просмотров]]></phrase>
+  <phrase title="tlg_unapprove_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Поставить группу на утверждение]]></phrase>
+  <phrase title="tlg_unapprove_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Unapprove groups]]></phrase>
+  <phrase title="tlg_unassociate_with_group_and_archive_forum_to" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Unassociate with group and archive forum to]]></phrase>
+  <phrase title="tlg_undelete_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Восстановить группу]]></phrase>
+  <phrase title="tlg_undelete_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Undelete groups]]></phrase>
+  <phrase title="tlg_undelete_thread_posts" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Undelete thread posts]]></phrase>
+  <phrase title="tlg_unfeature_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Unfeature group]]></phrase>
+  <phrase title="tlg_unstick_post" addon_id="Truonglv/Groups" version_id="2000400" version_string="2.0.4"><![CDATA[Unstick]]></phrase>
+  <phrase title="tlg_upcoming_events" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Предстоящие События]]></phrase>
+  <phrase title="tlg_update_privacy" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Обновить конфиденциальность]]></phrase>
+  <phrase title="tlg_upload_attachments_to_comments" addon_id="Truonglv/Groups" version_id="2010401" version_string="2.1.4 RC1"><![CDATA[Upload attachments to comments]]></phrase>
+  <phrase title="tlg_upload_avatar" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Загрузить аватар]]></phrase>
+  <phrase title="tlg_upload_cover" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Загрузить обложку]]></phrase>
+  <phrase title="tlg_upload_new_cover" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Загрузить новую обложку]]></phrase>
+  <phrase title="tlg_upload_new_group_avatar" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Загрузить новый групповой аватар]]></phrase>
+  <phrase title="tlg_use_guest_permissions" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[Use guest permissions]]></phrase>
+  <phrase title="tlg_use_guest_permissions_explain" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[If enabled, widget only contains groups which viewable by guest.]]></phrase>
+  <phrase title="tlg_user_already_in_the_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Пользователь уже находится в этой группе.]]></phrase>
+  <phrase title="tlg_user_x_has_been_banned_and_not_allowed_join_any" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[User {user} has been banned and not allowed join any groups.]]></phrase>
+  <phrase title="tlg_user_x_invalid_and_not_join_any" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[User {user} has invalid and cannot join any groups yet.]]></phrase>
+  <phrase title="tlg_users_belong_to_user_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[All users belong to this user groups]]></phrase>
+  <phrase title="tlg_view_count" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[View Count]]></phrase>
+  <phrase title="tlg_view_deleted_posts" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[View deleted posts]]></phrase>
+  <phrase title="tlg_view_group_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[View group {id}]]></phrase>
+  <phrase title="tlg_view_moderated_posts" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[View moderated posts]]></phrase>
+  <phrase title="tlg_view_previous_comments" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[View previous comments]]></phrase>
+  <phrase title="tlg_view_previous_replies" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[View previous replies]]></phrase>
+  <phrase title="tlg_viewing_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Просматривает группу]]></phrase>
+  <phrase title="tlg_viewing_group_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Viewing group category]]></phrase>
+  <phrase title="tlg_viewing_group_event" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Viewing group event]]></phrase>
+  <phrase title="tlg_x_approved_your_request_to_join_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} approved your request to join the group {title}.]]></phrase>
+  <phrase title="tlg_x_assigned_you_to_be_admin_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} assigned you to be administration of the group {title}]]></phrase>
+  <phrase title="tlg_x_assigned_you_to_be_moderator_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} assigned you to be moderator of the group {title}]]></phrase>
+  <phrase title="tlg_x_assigned_you_to_be_owner_of_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} назначил вас владельцем группы {title}]]></phrase>
+  <phrase title="tlg_x_commented_in_event_y_in_the_group_z" addon_id="Truonglv/Groups" version_id="2000200" version_string="2.0.2"><![CDATA[{name} commented in the event {event} in the group {title}.]]></phrase>
+  <phrase title="tlg_x_commented_in_your_event_y_in_the_group_z" addon_id="Truonglv/Groups" version_id="2000200" version_string="2.0.2"><![CDATA[{name} commented in your event {event} in the group {title}.]]></phrase>
+  <phrase title="tlg_x_commented_on_post_following_in_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} commented on the post you are following in the group {title}]]></phrase>
+  <phrase title="tlg_x_commented_on_your_posts_in_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} commented on your posts in the group {title}]]></phrase>
+  <phrase title="tlg_x_created_an_event_y_in_the_group_z" addon_id="Truonglv/Groups" version_id="2000100" version_string="2.0.1"><![CDATA[{name} created an event {event} in the group {title}]]></phrase>
+  <phrase title="tlg_x_intended_to_going_your_event_y" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[{name} intends to participate in your event {title}.]]></phrase>
+  <phrase title="tlg_x_intended_to_maybe_going_your_event_y" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[{name} intends to maybe participate in your event {title}.]]></phrase>
+  <phrase title="tlg_x_invited_you_join_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} пригласил Вас вступить в группу {title}.]]></phrase>
+  <phrase title="tlg_x_members" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{count} members]]></phrase>
+  <phrase title="tlg_x_mentioned_you_in_the_comment_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} mentioned you in a comment in the group {title}.]]></phrase>
+  <phrase title="tlg_x_merged_group_y_into_group_z" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[{name} merged the group {source} into the group {title}.]]></phrase>
+  <phrase title="tlg_x_promoted_you_to_y_in_group_z" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} promoted you to {role} in the group {title}]]></phrase>
+  <phrase title="tlg_x_published_a_post_in_the_group_y_may_be_more" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} published a post in the group {title}. There may be more posts after this.]]></phrase>
+  <phrase title="tlg_x_reacted_to_your_comment_in_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} reacted to your comment in the group {title} with {reaction}.]]></phrase>
+  <phrase title="tlg_x_reacted_to_your_post_in_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} reacted to your post in the group {title} with {reaction}.]]></phrase>
+  <phrase title="tlg_x_reacted_to_ys_comment_in_the_group_z" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} reacted to <a {posterParams}>{poster}'s comment</a> in the group {title} with {reaction}.]]></phrase>
+  <phrase title="tlg_x_replied_on_comment_following_in_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} replied on comment you are following in the group {title}.]]></phrase>
+  <phrase title="tlg_x_sent_request_to_join_the_group_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{name} sent an request to join the group {title}.]]></phrase>
+  <phrase title="tlg_x_to_y" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[{from} to {to}]]></phrase>
+  <phrase title="tlg_you_already_in_this_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You are already in this group]]></phrase>
+  <phrase title="tlg_you_are_not_going_to_this_event" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[You are not participating in this event.]]></phrase>
+  <phrase title="tlg_you_cannot_delete_reserve_member_roles" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You cannot delete reserve member roles.]]></phrase>
+  <phrase title="tlg_you_cannot_invite_yourself_join_this_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You cannot invite yourself to join this group.]]></phrase>
+  <phrase title="tlg_you_did_not_joined_any_groups_yet" addon_id="Truonglv/Groups" version_id="2020100" version_string="2.2.1"><![CDATA[You did not joined any groups yet.]]></phrase>
+  <phrase title="tlg_you_have_banned_to_access_this_group" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You have been banned to access this group.]]></phrase>
+  <phrase title="tlg_you_have_banned_to_access_this_group_banned_expire_after_x" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You have been banned to access this group. You can only access after {date}.]]></phrase>
+  <phrase title="tlg_you_intended_going_to_this_event" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[You intend to participate in this event.]]></phrase>
+  <phrase title="tlg_you_intended_maybe_going_to_this_event" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[You intend to maybe participate in this event.]]></phrase>
+  <phrase title="tlg_you_may_become_to_a_member_of_this_group_x_to_view_the_content" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You may become to a member of this group <a href={url}>{title}</a> to view the content.]]></phrase>
+  <phrase title="tlg_you_may_not_add_groups_to_this_category" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[You may not add groups to this category]]></phrase>
+  <phrase title="tlg_you_reached_maximum_invites_today_allowed_x" addon_id="Truonglv/Groups" version_id="2010600" version_string="2.1.6"><![CDATA[You have reached maximum invites today. Allowed: {max}]]></phrase>
+  <phrase title="tlg_you_sure_you_want_to_ban_x_members" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[Are you sure you want to ban {count} members?]]></phrase>
+  <phrase title="tlg_you_sure_you_want_to_delete_x_groups" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[Are you want to delete {count} groups?]]></phrase>
+  <phrase title="tlg_you_sure_you_want_to_merge_x_groups" addon_id="Truonglv/Groups" version_id="2010301" version_string="2.1.3"><![CDATA[Are you sure that you want to merge {total} groups?]]></phrase>
+  <phrase title="tlg_you_sure_you_want_to_promote_x_members" addon_id="Truonglv/Groups" version_id="2000500" version_string="2.0.5"><![CDATA[Are you sure you want to promote {count} members?]]></phrase>
+  <phrase title="tlg_you_will_receive_a_notice_when_new_content_published" addon_id="Truonglv/Groups" version_id="2000000" version_string="2.0.0"><![CDATA[С помощью отмеченных опций оповещения, вы получите уведомление, когда новое содержимое (событие, темы, ...) будет опубликовано в этой группе.]]></phrase>
+  <phrase title="tlg_your_current_addon_version_in_xf1" addon_id="Truonglv/Groups" version_id="2010400" version_string="2.1.4"><![CDATA[Your current add-on version in XenForo 1.x]]></phrase>
+  <phrase title="tlg_your_feeds" addon_id="Truonglv/Groups" version_id="2020000" version_string="2.2.0"><![CDATA[Your feeds]]></phrase>
+  <phrase title="widget_def.tl_groups_group" addon_id="Truonglv/Groups" version_id="1000200" version_string="1.0.2"><![CDATA[[tl] Social Groups: Groups]]></phrase>
+  <phrase title="widget_def_desc.tl_groups_group" addon_id="Truonglv/Groups" version_id="1000200" version_string="1.0.2"><![CDATA[]]></phrase>
+  <phrase title="widget_pos.tlg_category_view" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[[tl] Social Groups: Category view sidebar (left)]]></phrase>
+  <phrase title="widget_pos.tlg_group_index" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[[tl] Social Groups: Group index sidebar (left)]]></phrase>
+  <phrase title="widget_pos.tlg_group_view_sidenav" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[[tl] Social Groups: Group view sidebar (left)]]></phrase>
+  <phrase title="widget_pos_desc.tlg_category_view" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[]]></phrase>
+  <phrase title="widget_pos_desc.tlg_group_index" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[]]></phrase>
+  <phrase title="widget_pos_desc.tlg_group_view_sidenav" addon_id="Truonglv/Groups" version_id="2010700" version_string="2.1.7"><![CDATA[]]></phrase>
+</language>

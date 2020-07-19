@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="MMO/Hide" base_version_id="2010970" export_version="2">
+  <phrase title="custom_bb_code_desc.club" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Information inside the code is displayed only to members of the club.]]></phrase>
+  <phrase title="custom_bb_code_desc.days" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Number of days from the date of registration on the forum, which the user needs to be able to view]]></phrase>
+  <phrase title="custom_bb_code_desc.groups" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[The tag hides content from people who are not members of X,Y,Z usergroups.]]></phrase>
+  <phrase title="custom_bb_code_desc.hide" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Hidden text: For register users only]]></phrase>
+  <phrase title="custom_bb_code_desc.likes" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Number of like on the forum, which the user needs to be able to view]]></phrase>
+  <phrase title="custom_bb_code_desc.posts" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Number of posts on the forum, which the user needs to be able to view]]></phrase>
+  <phrase title="custom_bb_code_desc.reacts" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text for which you need to select a specific reaction]]></phrase>
+  <phrase title="custom_bb_code_desc.reply" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Hidden text until the user answers the thread.]]></phrase>
+  <phrase title="custom_bb_code_desc.replyandthanks" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text until the user responds to the thread and clicks Like on this message.]]></phrase>
+  <phrase title="custom_bb_code_desc.replythanks" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text until the user responds to the thread or clicks Like on this message.]]></phrase>
+  <phrase title="custom_bb_code_desc.thanks" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[This tag hides the text until the user clicks the <b>Like button</b> in the message.]]></phrase>
+  <phrase title="custom_bb_code_desc.trophies" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Number of trophies on the forum, which the user needs to be able to view]]></phrase>
+  <phrase title="custom_bb_code_desc.users" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Hides the text from users, except for the parameters listed in the list of BB-code.]]></phrase>
+  <phrase title="custom_bb_code_desc.usersexc" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Hides the text from users that are listed in the list of parameters of the BB-code.]]></phrase>
+  <phrase title="custom_bb_code_desc.usersid" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Hides the text from users by id, except for the parameters listed in the list of BB-code.]]></phrase>
+  <phrase title="custom_bb_code_desc.usersidexc" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[Hides the text from users by id that are listed in the list of parameters of the BB-code.]]></phrase>
+  <phrase title="custom_bb_code_example.club" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[CLUB]Hello World![/CLUB] - Hidden text for club members]]></phrase>
+  <phrase title="custom_bb_code_example.days" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[DAYS=5]Hello World![/DAYS] - Only registered users who are registered not earlier than 5 days ago are displayed.]]></phrase>
+  <phrase title="custom_bb_code_example.groups" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[GROUPS=2]Hello World![/GROUPS] - Displayed only for group members with ID 2.]]></phrase>
+  <phrase title="custom_bb_code_example.hide" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[HIDE]Hello World![/HIDE] - only registered users see the hidden text]]></phrase>
+  <phrase title="custom_bb_code_example.likes" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[LIKES=5]Hello World![/LIKES] - Displayed only registered users whose number of reactions on the forum is greater than or equal to 5.]]></phrase>
+  <phrase title="custom_bb_code_example.posts" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[POSTS=5]Hello World![/POSTS] - Displays users who have 5 or more posts on the forum.]]></phrase>
+  <phrase title="custom_bb_code_example.reacts" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.reply" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[REPLY]Hello World![/REPLY] - Displayed to users when they reply to the thread.]]></phrase>
+  <phrase title="custom_bb_code_example.replyandthanks" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[[REPLYANDTHANKS]Hello World![/REPLYANDTHANKS] - It is displayed to users when they reply to the thread and click "I like".]]></phrase>
+  <phrase title="custom_bb_code_example.replythanks" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[[REPLYTHANKS]Hello World![/REPLYTHANKS] - It is displayed to users when they reply to the thread or click "I like".]]></phrase>
+  <phrase title="custom_bb_code_example.thanks" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[THANKS]Hello World![/THANKS] - This tag hides the text until the user clicks the <b>Like button</b> in the message.]]></phrase>
+  <phrase title="custom_bb_code_example.trophies" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[[TROPHIES=5]Hello World![/TROPHIES] - It is displayed only to registered users, the number of points for trophies on the forum which is greater than or equal to 5.]]></phrase>
+  <phrase title="custom_bb_code_example.users" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[USERS=Alex,John,Bryan]Hello World![/USERS] - Displayed only by user Alex, John, Bryan.]]></phrase>
+  <phrase title="custom_bb_code_example.usersexc" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[USERSEXC=Alex,John,Bryan]Hello World![/USERSEXC] - Displayed to all users except Alex, John, Bryan.]]></phrase>
+  <phrase title="custom_bb_code_example.usersid" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[[USERIDS=1,2,3]Hello World![/USERIDS] - Appears only for users with ids 1, 2, 3.]]></phrase>
+  <phrase title="custom_bb_code_example.usersidexc" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[[USERSIDEXC=1,2,3]Hello World![/USERSIDEXC] - Appears only for all users except with ids 1, 2, 3.]]></phrase>
+  <phrase title="custom_bb_code_output.club" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.days" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.groups" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.hide" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.likes" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.posts" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.reacts" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.reply" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.replyandthanks" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.replythanks" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.thanks" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.trophies" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.users" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.usersexc" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.usersid" addon_id="MMO/Hide" version_id="2010012" version_string="2.1.0 Alpha 2"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.usersidexc" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.club" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[For club members]]></phrase>
+  <phrase title="custom_bb_code_title.days" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Number of days]]></phrase>
+  <phrase title="custom_bb_code_title.groups" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[For user groups]]></phrase>
+  <phrase title="custom_bb_code_title.hide" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[For register only]]></phrase>
+  <phrase title="custom_bb_code_title.likes" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Number of likes]]></phrase>
+  <phrase title="custom_bb_code_title.posts" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Number of posts]]></phrase>
+  <phrase title="custom_bb_code_title.reacts" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[By the reacts]]></phrase>
+  <phrase title="custom_bb_code_title.reply" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Answers the thread]]></phrase>
+  <phrase title="custom_bb_code_title.replyandthanks" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Answer and click Like]]></phrase>
+  <phrase title="custom_bb_code_title.replythanks" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Answer or click Like]]></phrase>
+  <phrase title="custom_bb_code_title.thanks" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Click "Like"]]></phrase>
+  <phrase title="custom_bb_code_title.trophies" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Number of trophies]]></phrase>
+  <phrase title="custom_bb_code_title.users" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[For users]]></phrase>
+  <phrase title="custom_bb_code_title.usersexc" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Exclude users]]></phrase>
+  <phrase title="custom_bb_code_title.usersid" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Users by id]]></phrase>
+  <phrase title="custom_bb_code_title.usersidexc" addon_id="MMO/Hide" version_id="2010870" version_string="2.1.8"><![CDATA[Exclude users by id]]></phrase>
+  <phrase title="editor_dropdown.mh_hide" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Hide]]></phrase>
+  <phrase title="mh_auth_or_register" addon_id="MMO/Hide" version_id="2010010" version_string="2.1.0 Alpha 1"><![CDATA[To view the content, you need to <a href="{login}">Sign In</a> or <a href="{register}">Register</a>.]]></phrase>
+  <phrase title="mh_buy_tag_hide" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[Purchase hidden content tag hidebuy]]></phrase>
+  <phrase title="mh_dialog_hide_club_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content for club members]]></phrase>
+  <phrase title="mh_dialog_hide_club_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text for club members]]></phrase>
+  <phrase title="mh_dialog_hide_days_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Contents by number of days]]></phrase>
+  <phrase title="mh_dialog_hide_days_label" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[The number of days the user needs to be able to view]]></phrase>
+  <phrase title="mh_dialog_hide_days_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text for days]]></phrase>
+  <phrase title="mh_dialog_hide_groups_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content for groups]]></phrase>
+  <phrase title="mh_dialog_hide_groups_label" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Only users of selected groups will be able to view the hidden text inside this tag.]]></phrase>
+  <phrase title="mh_dialog_hide_groups_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text for groups]]></phrase>
+  <phrase title="mh_dialog_hide_hide_content" addon_id="MMO/Hide" version_id="2010670" version_string="2.1.6"><![CDATA[Enter content for registered users]]></phrase>
+  <phrase title="mh_dialog_hide_hide_title" addon_id="MMO/Hide" version_id="2010670" version_string="2.1.6"><![CDATA[Hide content only for users]]></phrase>
+  <phrase title="mh_dialog_hide_likes_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content]]></phrase>
+  <phrase title="mh_dialog_hide_likes_label" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[The number of likes the user needs to be able to view.]]></phrase>
+  <phrase title="mh_dialog_hide_posts_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[What you need to hide]]></phrase>
+  <phrase title="mh_dialog_hide_posts_label" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[The number of messages that the user needs to be able to view]]></phrase>
+  <phrase title="mh_dialog_hide_posts_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text by the number of posts]]></phrase>
+  <phrase title="mh_dialog_hide_reactions_title" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text by the number of likes]]></phrase>
+  <phrase title="mh_dialog_hide_reacts_content" addon_id="MMO/Hide" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Hidden content for reaction]]></phrase>
+  <phrase title="mh_dialog_hide_reacts_label" addon_id="MMO/Hide" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Choose a reaction to hide the content.]]></phrase>
+  <phrase title="mh_dialog_hide_reacts_title" addon_id="MMO/Hide" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Hidden text for Reacts]]></phrase>
+  <phrase title="mh_dialog_hide_reply_and_thanks_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content]]></phrase>
+  <phrase title="mh_dialog_hide_reply_and_thanks_title" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text until the user answers the thread and clicks "I like".]]></phrase>
+  <phrase title="mh_dialog_hide_reply_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content]]></phrase>
+  <phrase title="mh_dialog_hide_reply_thanks_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content]]></phrase>
+  <phrase title="mh_dialog_hide_reply_thanks_title" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text until the user answers the threads or clicks "I like".]]></phrase>
+  <phrase title="mh_dialog_hide_reply_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text until the user answers the thread.]]></phrase>
+  <phrase title="mh_dialog_hide_thanks_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content]]></phrase>
+  <phrase title="mh_dialog_hide_thanks_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text until the user clicks "I like"]]></phrase>
+  <phrase title="mh_dialog_hide_trophies_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content for points]]></phrase>
+  <phrase title="mh_dialog_hide_trophies_label" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[The number of points that the user needs to be able to view.]]></phrase>
+  <phrase title="mh_dialog_hide_trophies_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text by the number of points for trophies.]]></phrase>
+  <phrase title="mh_dialog_hide_users_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[User Content]]></phrase>
+  <phrase title="mh_dialog_hide_users_exc_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content]]></phrase>
+  <phrase title="mh_dialog_hide_users_exc_id_content" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[Content for users except with ID]]></phrase>
+  <phrase title="mh_dialog_hide_users_exc_id_title" addon_id="MMO/Hide" version_id="2010570" version_string="2.1.5"><![CDATA[Hidden text prohibits viewing users by id]]></phrase>
+  <phrase title="mh_dialog_hide_users_exc_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text prohibits viewing users]]></phrase>
+  <phrase title="mh_dialog_hide_users_id_content" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content for users with an ID]]></phrase>
+  <phrase title="mh_dialog_hide_users_id_label" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[What is a user ID? Hover over the avatar or nickname of the user and at the end of the link will be numbers. This is the user ID.]]></phrase>
+  <phrase title="mh_dialog_hide_users_id_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden content by user id]]></phrase>
+  <phrase title="mh_dialog_hide_users_title" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text for users]]></phrase>
+  <phrase title="mh_hide_user_group_id" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[User group id]]></phrase>
+  <phrase title="mh_strip_noquote" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[*** Hidden text: cannot be quoted. ***
+]]></phrase>
+  <phrase title="mh_strip_visited_thread" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[[B]*** Hidden text: You do not have sufficient rights to view the hidden text. Visit the forum thread! ***[/B]]]></phrase>
+  <phrase title="mh_tag_club" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden content for club members.]]></phrase>
+  <phrase title="mh_tag_club_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [CLUB].]]></phrase>
+  <phrase title="mh_tag_days_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [DAYS].]]></phrase>
+  <phrase title="mh_tag_days_x_y" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[To view the hidden text, you must post it on the forum <font color="#c22825">{days}</font> days since registration, and now you have <font color="#29769d">{now_days}</font>.]]></phrase>
+  <phrase title="mh_tag_groups" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Content of this hidden block can only be seen by members of: <font color="#c22825">{groups}</font>]]></phrase>
+  <phrase title="mh_tag_groups_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [GROUPS].]]></phrase>
+  <phrase title="mh_tag_hide" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[View hidden content is available for registered users!]]></phrase>
+  <phrase title="mh_tag_hide_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [HIDE].]]></phrase>
+  <phrase title="mh_tag_likes_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [LIKES].]]></phrase>
+  <phrase title="mh_tag_likes_x_y" addon_id="MMO/Hide" version_id="2010470" version_string="2.1.4"><![CDATA[Hidden text, you need have <font color="#c22825">{need_likes}</font> reactions, now you have <font color="#29769d">{now_likes}</font> reactions.]]></phrase>
+  <phrase title="mh_tag_posts_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [POSTS].]]></phrase>
+  <phrase title="mh_tag_posts_x_y" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text, you need have <font color="#c22825">{need_posts}</font> messages, now you have <font color="#29769d">{now_posts}</font> messages.]]></phrase>
+  <phrase title="mh_tag_react" addon_id="MMO/Hide" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[To see this hidden content, you must react with one of the following reactions: ]]></phrase>
+  <phrase title="mh_tag_reacts_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [REACTS].]]></phrase>
+  <phrase title="mh_tag_reply" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[You must reply in thread to view hidden text.]]></phrase>
+  <phrase title="mh_tag_reply_and_thanks" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[You must either reply and click 'Like' to see the hidden information contained here.]]></phrase>
+  <phrase title="mh_tag_reply_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [REPLY].]]></phrase>
+  <phrase title="mh_tag_reply_or_thanks" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[You must either reply or click 'Like' to see the hidden information contained here.]]></phrase>
+  <phrase title="mh_tag_replyandthanks_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [REPLYANDTHANKS]]]></phrase>
+  <phrase title="mh_tag_replythanks_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [REPLYTHANKS].]]></phrase>
+  <phrase title="mh_tag_thanks" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[You must click 'Like' before you can see the hidden data contained here]]></phrase>
+  <phrase title="mh_tag_thanks_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [THANKS].]]></phrase>
+  <phrase title="mh_tag_trophies_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [TROPHIES].]]></phrase>
+  <phrase title="mh_tag_trophies_x_y" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text, you need have <font color="#c22825">{need_trophies}</font> trophies, now you have <font color="#29769d">{now_trophies}</font> trophies.]]></phrase>
+  <phrase title="mh_tag_users_exc_x" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text exclude for users: {users}]]></phrase>
+  <phrase title="mh_tag_users_id_exc_x" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden content that prohibits users with identifiers from viewing: {user_id}]]></phrase>
+  <phrase title="mh_tag_users_id_x" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden content for users with ids: {user_id}]]></phrase>
+  <phrase title="mh_tag_users_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [USERS].]]></phrase>
+  <phrase title="mh_tag_users_x" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Hidden text for users: {users}]]></phrase>
+  <phrase title="mh_tag_usersexc_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [USERSEXC].]]></phrase>
+  <phrase title="mh_tag_usersid_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [USERSID]]]></phrase>
+  <phrase title="mh_tag_usersidexc_no_permission" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[You do not have permissions to use the BB-code [USERSIDEXC].]]></phrase>
+  <phrase title="option.mhClubGroups" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[Club member groups]]></phrase>
+  <phrase title="option.mhHideUserGroups" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[Hide user groups in tag groups]]></phrase>
+  <phrase title="option.mhUserGroupsDefaultSortOrder" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[Default sort order]]></phrase>
+  <phrase title="option_explain.mhClubGroups" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[These user groups will be presented as members of the club.]]></phrase>
+  <phrase title="option_explain.mhHideUserGroups" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[Displays available groups when selecting hidden content groups in the groups tag]]></phrase>
+  <phrase title="option_explain.mhUserGroupsDefaultSortOrder" addon_id="MMO/Hide" version_id="2010770" version_string="2.1.7"><![CDATA[When viewing the dialog hide tag, this will be the default sort order for user groups.]]></phrase>
+  <phrase title="option_group.mh_hide" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[[MMO] Hide]]></phrase>
+  <phrase title="option_group_description.mh_hide" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Various settings for hiding content and related]]></phrase>
+  <phrase title="permission.forum_mh_bypass" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[The ability to always see hidden content]]></phrase>
+  <phrase title="permission.hide_bypassTagClub" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [CLUB]]]></phrase>
+  <phrase title="permission.hide_bypassTagDays" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [DAYS]]]></phrase>
+  <phrase title="permission.hide_bypassTagGroups" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [GROUPS]]]></phrase>
+  <phrase title="permission.hide_bypassTagHide" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [HIDE]]]></phrase>
+  <phrase title="permission.hide_bypassTagLikes" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [LIKES]]]></phrase>
+  <phrase title="permission.hide_bypassTagPosts" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [POSTS]]]></phrase>
+  <phrase title="permission.hide_bypassTagReacts" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [REACTS]]]></phrase>
+  <phrase title="permission.hide_bypassTagReply" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [REPLY]]]></phrase>
+  <phrase title="permission.hide_bypassTagReplyandthanks" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [REPLYANDTHANKS]]]></phrase>
+  <phrase title="permission.hide_bypassTagReplythanks" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [REPLYTHANKS]]]></phrase>
+  <phrase title="permission.hide_bypassTagThanks" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [THANKS]]]></phrase>
+  <phrase title="permission.hide_bypassTagTrophies" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [TROPHIES]]]></phrase>
+  <phrase title="permission.hide_bypassTagUsers" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [USERS]]]></phrase>
+  <phrase title="permission.hide_bypassTagUsersexc" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [USERSEXC]]]></phrase>
+  <phrase title="permission.hide_bypassTagUsersid" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [USERSID]]]></phrase>
+  <phrase title="permission.hide_bypassTagUsersidexc" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Ignoring code content [USERSIDEXC]]]></phrase>
+  <phrase title="permission.hide_useTagClub" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [CLUB]]]></phrase>
+  <phrase title="permission.hide_useTagDays" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [DAYS]]]></phrase>
+  <phrase title="permission.hide_useTagGroups" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [GROUPS]]]></phrase>
+  <phrase title="permission.hide_useTagHide" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [HIDE]]]></phrase>
+  <phrase title="permission.hide_useTagLikes" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [LIKES]]]></phrase>
+  <phrase title="permission.hide_useTagPosts" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [POSTS]]]></phrase>
+  <phrase title="permission.hide_useTagReacts" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [REACTS]]]></phrase>
+  <phrase title="permission.hide_useTagReply" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [REPLY]]]></phrase>
+  <phrase title="permission.hide_useTagReplyandthanks" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [REPLYANDTHANKS]]]></phrase>
+  <phrase title="permission.hide_useTagReplythanks" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [REPLYTHANKS]]]></phrase>
+  <phrase title="permission.hide_useTagThanks" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [THANKS]]]></phrase>
+  <phrase title="permission.hide_useTagTrophies" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [TROPHIES]]]></phrase>
+  <phrase title="permission.hide_useTagUsers" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [USERS]]]></phrase>
+  <phrase title="permission.hide_useTagUsersexc" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [USERSEXC]]]></phrase>
+  <phrase title="permission.hide_useTagUsersid" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [USERSID]]]></phrase>
+  <phrase title="permission.hide_useTagUsersidexc" addon_id="MMO/Hide" version_id="2010270" version_string="2.1.2"><![CDATA[Use tag code content [USERSIDEXC]]]></phrase>
+  <phrase title="permission_interface.mh_hide" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[[MMO] Hide]]></phrase>
+  <phrase title="style_prop.mh_block_hidden" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[BB code block - hide (hidden)]]></phrase>
+  <phrase title="style_prop.mh_block_shown" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[BB code block - hide (shown)]]></phrase>
+  <phrase title="style_prop.mh_block_type" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Use tag style [QUOTE]]]></phrase>
+  <phrase title="style_prop.mh_hide_link_from_guests_error_link" addon_id="MMO/Hide" version_id="2010670" version_string="2.1.6"><![CDATA[Block displayed to guests when viewing hidden content]]></phrase>
+  <phrase title="style_prop_desc.mh_block_hidden" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Special styling rules for the hide BB codes content in hidden state.]]></phrase>
+  <phrase title="style_prop_desc.mh_block_shown" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Special styling rules for the hide BB codes content in shown state.]]></phrase>
+  <phrase title="style_prop_desc.mh_block_type" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[If selected, the same style as the quote will be used.
+&#10;If not selected, the usual block that is configured in these settings will be used.]]></phrase>
+  <phrase title="style_prop_desc.mh_hide_link_from_guests_error_link" addon_id="MMO/Hide" version_id="2010670" version_string="2.1.6"><![CDATA[Setting the display of hidden content to guests with a request to log in or register]]></phrase>
+  <phrase title="style_prop_group.mh_hide" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[[MMO] Hide Style Properties]]></phrase>
+  <phrase title="style_prop_group_desc.mh_hide" addon_id="MMO/Hide" version_id="2000070" version_string="2.0.0"><![CDATA[Select the type of block, setting the background, fonts, etc.]]></phrase>
+</language>

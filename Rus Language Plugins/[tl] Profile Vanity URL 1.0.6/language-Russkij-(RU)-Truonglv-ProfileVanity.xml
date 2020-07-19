@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="Truonglv/ProfileVanity" base_version_id="1000600" export_version="2">
+  <phrase title="cron_entry.tpv_autoRemoveVanity" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[[tl] Profile vanity url: Automatically remove invalid vanity]]></phrase>
+  <phrase title="option.tpv_changeDays" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Minimum days between change vanity]]></phrase>
+  <phrase title="option.tpv_disallowUrls" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Disallow vanity URLs]]></phrase>
+  <phrase title="option.tpv_vanityLength" addon_id="Truonglv/ProfileVanity" version_id="1000500" version_string="1.0.5"><![CDATA[Minimum vanity length]]></phrase>
+  <phrase title="option.tpv_vanityURLType" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Vanity URL format]]></phrase>
+  <phrase title="option_explain.tpv_changeDays" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Set to 0 to disable the limit.]]></phrase>
+  <phrase title="option_explain.tpv_disallowUrls" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[List of all possible vanity URLs which user could not be taken. Each value should be separate by new line.]]></phrase>
+  <phrase title="option_explain.tpv_vanityLength" addon_id="Truonglv/ProfileVanity" version_id="1000500" version_string="1.0.5"><![CDATA[If you change this option value and do rebuild vanity caches, it's will remove all existing vanities which not matching with this requirement.]]></phrase>
+  <phrase title="option_explain.tpv_vanityURLType" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Note: Use the format <code>https://example.com/members/vanity</code> prevent conflict with existing routes.]]></phrase>
+  <phrase title="option_group.tpv_ProfileVanity" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[[tl] Profile Vanity URL]]></phrase>
+  <phrase title="option_group_description.tpv_ProfileVanity" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="permission.general_tpv_canUse" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[[tl] Profile Vanity URL:  Can use]]></phrase>
+  <phrase title="tpv_please_enter_vanity_at_least_x_characters" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Please enter vanity at least {min} characters.]]></phrase>
+  <phrase title="tpv_profile_vanity_rebuild_username_vanity" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[[tl] Profile Vanity URL: Rebuild caches]]></phrase>
+  <phrase title="tpv_rebuild_username_vanity" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[[tl] Profile Vanity URL: Rebuild vanity caches]]></phrase>
+  <phrase title="tpv_vanity_may_only_contain_alphanumeric_underscore" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Vanity may only contain A-Z, 0-9 and underscores.]]></phrase>
+  <phrase title="tpv_vanity_must_be_unique" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Vanity URL must be unique. Please try with another value. ]]></phrase>
+  <phrase title="tpv_vanity_url" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Vanity URL]]></phrase>
+  <phrase title="tpv_you_may_only_change_vanity_url_after_x" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[You may only change the vanity URL after: {date}.]]></phrase>
+  <phrase title="tpv_your_vanity_url" addon_id="Truonglv/ProfileVanity" version_id="1000400" version_string="1.0.4"><![CDATA[Your vanity URL]]></phrase>
+</language>

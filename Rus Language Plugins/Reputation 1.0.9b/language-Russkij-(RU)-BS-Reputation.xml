@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="BS/Reputation" base_version_id="1000972" export_version="2">
+  <phrase title="admin_navigation.reputation" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Reputation]]></phrase>
+  <phrase title="admin_navigation.reputationDropdown" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Reputation dropdown]]></phrase>
+  <phrase title="bs_rep_add_item" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Add item]]></phrase>
+  <phrase title="bs_rep_add_reputation" addon_id="BS/Reputation" global_cache="1" version_id="1000470" version_string="1.0.4"><![CDATA[Put reputation]]></phrase>
+  <phrase title="bs_rep_count_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation count]]></phrase>
+  <phrase title="bs_rep_delete_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Delete reputation]]></phrase>
+  <phrase title="bs_rep_disable_reputation_in_thread" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Disable reputation in thread]]></phrase>
+  <phrase title="bs_rep_dropdown" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Reputation dropdown]]></phrase>
+  <phrase title="bs_rep_edit_item" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Edit item]]></phrase>
+  <phrase title="bs_rep_enable_reputation_in_thread" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Enable reputation in thread]]></phrase>
+  <phrase title="bs_rep_given_reputation" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Given reputation]]></phrase>
+  <phrase title="bs_rep_given_reputation_by_user_x" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Given reputation by user {name}]]></phrase>
+  <phrase title="bs_rep_import_from_content_types" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[Import from content types]]></phrase>
+  <phrase title="bs_rep_item_is_active" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Item is active]]></phrase>
+  <phrase title="bs_rep_most_recent_reputation_points" addon_id="BS/Reputation" global_cache="1" version_id="1000771" version_string="1.0.7a"><![CDATA[Most recent reputation points]]></phrase>
+  <phrase title="bs_rep_negative" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Negative]]></phrase>
+  <phrase title="bs_rep_negative_factor" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[Negative factor]]></phrase>
+  <phrase title="bs_rep_neutral" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Neutral]]></phrase>
+  <phrase title="bs_rep_positive" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Positive]]></phrase>
+  <phrase title="bs_rep_positive_factor" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[Positive factor]]></phrase>
+  <phrase title="bs_rep_rebuild_reputation" addon_id="BS/Reputation" version_id="1000570" version_string="1.0.5"><![CDATA[Rebuild reputation]]></phrase>
+  <phrase title="bs_rep_received_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Received reputation]]></phrase>
+  <phrase title="bs_rep_reputation" addon_id="BS/Reputation" global_cache="1" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation]]></phrase>
+  <phrase title="bs_rep_reputation_comment" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Comment]]></phrase>
+  <phrase title="bs_rep_reputation_count" addon_id="BS/Reputation" global_cache="1" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation count]]></phrase>
+  <phrase title="bs_rep_reputation_points" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Points]]></phrase>
+  <phrase title="bs_rep_reputed_user" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Reputed user]]></phrase>
+  <phrase title="bs_rep_sort_dropdown_items" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Sort dropdown items]]></phrase>
+  <phrase title="bs_rep_this_user_did_not_give_reputation" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[This user did not give reputation]]></phrase>
+  <phrase title="bs_rep_this_user_has_not_been_reputed" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[This user has no reputation]]></phrase>
+  <phrase title="bs_rep_user_has_submitted_at_least_x_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[User has at least X reputation]]></phrase>
+  <phrase title="bs_rep_user_x_give_you_reputation" addon_id="BS/Reputation" version_id="1000770" version_string="1.0.7"><![CDATA[User {name} has given you a <a href="{link}">reputation</a>.]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[User {name} gived reputation]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation_for_post_thread_x" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[User {name} gived reputation for post in thread '{title}'.]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation_to_user_x" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[User {name} gived reputation to user {name2}]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation_to_your_post_in_the_thread_y" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[{name} gived reputation ({reputation}) to <a {posterParams}>your post</a> in the thread {title}.]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation_to_ys_post_in_the_thread_z" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[{name} gived reputation ({reputation}) to <a {posterParams}>{poster}'s post</a> in the thread {title}.]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation_x_to_user_z" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[User {name} gived reputation ({reputation}) to user {name2}.]]></phrase>
+  <phrase title="bs_rep_user_x_gived_reputation_x_to_you" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[User {name} gived reputation ({reputation}) to you.]]></phrase>
+  <phrase title="bs_rep_user_x_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation of user {name}]]></phrase>
+  <phrase title="bs_rep_you_have_not_received_a_reputation_yet" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[You have not received a reputation yet]]></phrase>
+  <phrase title="bs_rep_you_havent_given_anyone_a_reputation_yet" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[You haven’t given anyone a reputation yet]]></phrase>
+  <phrase title="bs_rep_you_need_to_wait_another_seconds_to_put_a_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[You need to wait another {x} seconds to put a reputation.]]></phrase>
+  <phrase title="bs_rep_your_given_reputation" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Your given reputation]]></phrase>
+  <phrase title="bs_rep_your_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Your reputation]]></phrase>
+  <phrase title="bs_reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation]]></phrase>
+  <phrase title="member_stat.bs_rep_highest_reputation" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Most reputation points]]></phrase>
+  <phrase title="option.bsReputationDisablePostReactions" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Disable reactions on thread posts]]></phrase>
+  <phrase title="option.bsReputationLastSlice" addon_id="BS/Reputation" version_id="1000970" version_string="1.0.9"><![CDATA[Limit of displaying the most recent reputation points on a post]]></phrase>
+  <phrase title="option.bsReputationNewsFeed" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[Display reputation in the news feed]]></phrase>
+  <phrase title="option.bsReputationPlaces" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Places where users can give a reputation]]></phrase>
+  <phrase title="option.bsReputationShowDropdownInsteadInput" addon_id="BS/Reputation" version_id="1000670" version_string="1.0.6"><![CDATA[Display a drop-down list instead of an input field when putting a reputation]]></phrase>
+  <phrase title="option_explain.bsReputationDisablePostReactions" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="option_explain.bsReputationLastSlice" addon_id="BS/Reputation" version_id="1000970" version_string="1.0.9"><![CDATA[]]></phrase>
+  <phrase title="option_explain.bsReputationNewsFeed" addon_id="BS/Reputation" version_id="1000870" version_string="1.0.8"><![CDATA[]]></phrase>
+  <phrase title="option_explain.bsReputationPlaces" addon_id="BS/Reputation" version_id="1000770" version_string="1.0.7"><![CDATA[]]></phrase>
+  <phrase title="option_explain.bsReputationShowDropdownInsteadInput" addon_id="BS/Reputation" version_id="1000670" version_string="1.0.6"><![CDATA[You need to create entries for the drop-down menu <a href="/admin.php?reputation/dropdown/">here</a>.]]></phrase>
+  <phrase title="option_group.reputationOptions" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation]]></phrase>
+  <phrase title="option_group_description.reputationOptions" addon_id="BS/Reputation" version_id="1000173" version_string="1.0.1c"><![CDATA[]]></phrase>
+  <phrase title="permission.forum_enableReputationInThread" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Enable / disable reputation in the thread]]></phrase>
+  <phrase title="permission.forum_insertReputation" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Can give reputation]]></phrase>
+  <phrase title="permission.forum_maxReputationPoint" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[The maximum number of reputation points that a user can give]]></phrase>
+  <phrase title="permission.forum_oneUserReputation24hLimit" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Can set the same user X reputation once a day]]></phrase>
+  <phrase title="permission.forum_oneUserReputationGap" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Need to put a reputation on X users before you put a reputation on the same user]]></phrase>
+  <phrase title="permission.forum_removeReputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Delete own reputation]]></phrase>
+  <phrase title="permission.forum_removeReputationTimeLimit" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation delete time limit (in minutes)]]></phrase>
+  <phrase title="permission.forum_reputationPer24Hours" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation limit per day]]></phrase>
+  <phrase title="permission.forum_reputationTimeout" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation timeout]]></phrase>
+  <phrase title="permission.reputation_deleteAny" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Delete any reputation]]></phrase>
+  <phrase title="permission.reputation_viewGiven" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[View reputation given by users]]></phrase>
+  <phrase title="permission_interface.reputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation]]></phrase>
+  <phrase title="permission_interface.reputationModerator" addon_id="BS/Reputation" version_id="1000771" version_string="1.0.7a"><![CDATA[Reputation moderator permissions]]></phrase>
+  <phrase title="style_prop.bsRepBlockRowNegative" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Negative reputation block row]]></phrase>
+  <phrase title="style_prop.bsRepBlockRowPositive" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Positive reputation block row]]></phrase>
+  <phrase title="style_prop.bsRepDropdownItem" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Dropdown item]]></phrase>
+  <phrase title="style_prop.bsRepDropdownItemNegative" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Dropdown item negative]]></phrase>
+  <phrase title="style_prop.bsRepDropdownItemPositive" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[Dropdown item positive]]></phrase>
+  <phrase title="style_prop.bsRepEnableBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Display reputation badge near avatar]]></phrase>
+  <phrase title="style_prop.bsRepNegativeReputationBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Negative reputation badge]]></phrase>
+  <phrase title="style_prop.bsRepPointsNegative" addon_id="BS/Reputation" version_id="1000970" version_string="1.0.9"><![CDATA[Negative reputation points]]></phrase>
+  <phrase title="style_prop.bsRepPointsPositive" addon_id="BS/Reputation" version_id="1000970" version_string="1.0.9"><![CDATA[Positive reputation points]]></phrase>
+  <phrase title="style_prop.bsRepPositiveReputationBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Positive reputation badge]]></phrase>
+  <phrase title="style_prop.bsRepReputationBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation badge]]></phrase>
+  <phrase title="style_prop_desc.bsRepBlockRowNegative" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepBlockRowPositive" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepDropdownItem" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepDropdownItemNegative" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepDropdownItemPositive" addon_id="BS/Reputation" version_id="1000571" version_string="1.0.5a"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepEnableBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepNegativeReputationBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepPointsNegative" addon_id="BS/Reputation" version_id="1000970" version_string="1.0.9"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepPointsPositive" addon_id="BS/Reputation" version_id="1000970" version_string="1.0.9"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepPositiveReputationBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.bsRepReputationBadge" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="style_prop_group.bsReputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[Reputation]]></phrase>
+  <phrase title="style_prop_group_desc.bsReputation" addon_id="BS/Reputation" version_id="1000470" version_string="1.0.4"><![CDATA[]]></phrase>
+</language>

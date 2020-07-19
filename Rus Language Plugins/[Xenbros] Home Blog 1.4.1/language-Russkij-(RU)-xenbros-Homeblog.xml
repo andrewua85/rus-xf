@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="xenbros/Homeblog" base_version_id="14100" export_version="2">
+  <phrase title="nav.thread_home_xenbros" addon_id="xenbros/Homeblog" version_id="14100" version_string="1.4.1"><![CDATA[Блог]]></phrase>
+  <phrase title="option.hb_enable_featured_thread" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[Enable Featured Thread Section]]></phrase>
+  <phrase title="option.hb_enable_sidebar" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[Enable Sidebar]]></phrase>
+  <phrase title="option.hb_image_size" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[Image Height]]></phrase>
+  <phrase title="option.hb_node_oder_by" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Threads Display By]]></phrase>
+  <phrase title="option.hb_sticky_thread_only" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Sticky thread only]]></phrase>
+  <phrase title="option.hb_xenbros_default_image" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[Default Thumbnail Image]]></phrase>
+  <phrase title="option.hb_xenbros_max" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Max Threads in page]]></phrase>
+  <phrase title="option.hb_xenbros_node" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[Select nodes to get threads]]></phrase>
+  <phrase title="option.home_page_title_hb" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[Title of Blog page]]></phrase>
+  <phrase title="option.where_show_feature_hb" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[Where to show feature button]]></phrase>
+  <phrase title="option.xb_hb_hide_pagination" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Hide pagination]]></phrase>
+  <phrase title="option.xb_hb_layout_type" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Thread list layout type]]></phrase>
+  <phrase title="option.xb_hb_number_of_expert" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[How much text in the list layout]]></phrase>
+  <phrase title="option.xb_hb_select_dispaly_order" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Order By]]></phrase>
+  <phrase title="option.xb_hb_thread_section_title" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[Thread section Title]]></phrase>
+  <phrase title="option.xb_home_enable_ajax" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Enable Ajax Scroll]]></phrase>
+  <phrase title="option_explain.hb_enable_featured_thread" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.hb_enable_sidebar" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.hb_image_size" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.hb_node_oder_by" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.hb_sticky_thread_only" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[With this it only select sticky threads from selected nodes]]></phrase>
+  <phrase title="option_explain.hb_xenbros_default_image" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.hb_xenbros_max" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.hb_xenbros_node" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.home_page_title_hb" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[leave it empty if you don't want any title]]></phrase>
+  <phrase title="option_explain.where_show_feature_hb" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xb_hb_hide_pagination" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[When using ajax pagination hide automatically so don't tick both check box if you do ajax will not work]]></phrase>
+  <phrase title="option_explain.xb_hb_layout_type" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Choose the layout type you want to use to display thread on Home]]></phrase>
+  <phrase title="option_explain.xb_hb_number_of_expert" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xb_hb_select_dispaly_order" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Ascending = 1,2,3,4,5 And Descending order = 5,4,3,2,1]]></phrase>
+  <phrase title="option_explain.xb_hb_thread_section_title" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[]]></phrase>
+  <phrase title="option_explain.xb_home_enable_ajax" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="option_group.xenbros_home_blog" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[[Xenbros] Home blog]]></phrase>
+  <phrase title="option_group_description.xenbros_home_blog" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="permission.xb_home_blog_xb_feature_thread" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Feature Thread To blog]]></phrase>
+  <phrase title="permission_interface.xb_home_blog" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[[Xenbros] Home Blog]]></phrase>
+  <phrase title="style_prop.hb_thead_category_background" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Category Background Color]]></phrase>
+  <phrase title="style_prop.xb_hb_bakcground_color" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Block Background Color]]></phrase>
+  <phrase title="style_prop.xb_hb_block_height" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Height of the List layout blocks]]></phrase>
+  <phrase title="style_prop.xb_hb_category_font_color" addon_id="xenbros/Homeblog" version_id="12200" version_string="1.2.2"><![CDATA[Category Text Color]]></phrase>
+  <phrase title="style_prop.xb_hb_font_family" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[Font Family]]></phrase>
+  <phrase title="style_prop.xb_hb_read_more" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Read more button For list style]]></phrase>
+  <phrase title="style_prop.xb_hb_slider_width" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Slider width]]></phrase>
+  <phrase title="style_prop.xb_tag_ornament" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Slider right Grid style]]></phrase>
+  <phrase title="style_prop_desc.hb_thead_category_background" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_hb_bakcground_color" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_hb_block_height" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_hb_category_font_color" addon_id="xenbros/Homeblog" version_id="12200" version_string="1.2.2"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_hb_font_family" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_hb_read_more" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_hb_slider_width" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.xb_tag_ornament" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[]]></phrase>
+  <phrase title="style_prop_group.xb_homeblog" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[[Xenbros] Home Blog]]></phrase>
+  <phrase title="style_prop_group_desc.xb_homeblog" addon_id="xenbros/Homeblog" version_id="10100" version_string="1.1.0"><![CDATA[]]></phrase>
+  <phrase title="widget_def.xb_hb_thread_grid" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[[Xenbros] Home Blog Thread Widget]]></phrase>
+  <phrase title="widget_def.xenbros_node_list" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[[Xenbros] Node List]]></phrase>
+  <phrase title="widget_def_desc.xb_hb_thread_grid" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[]]></phrase>
+  <phrase title="widget_def_desc.xenbros_node_list" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="widget_pos.hb_xenbros_sidebar" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[[Xenbros] Home Blog :  Sidebar]]></phrase>
+  <phrase title="widget_pos.xb_hb_below_thread" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[[Xenbros] Home blog below thread]]></phrase>
+  <phrase title="widget_pos.xb_ht_above_thread" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[[Xenbros] Home blog above thread]]></phrase>
+  <phrase title="widget_pos_desc.hb_xenbros_sidebar" addon_id="xenbros/Homeblog" version_id="10000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="widget_pos_desc.xb_hb_below_thread" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[]]></phrase>
+  <phrase title="widget_pos_desc.xb_ht_above_thread" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[]]></phrase>
+  <phrase title="xb_hb_attach_background_link" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Attached Background Link]]></phrase>
+  <phrase title="xb_hb_by" addon_id="xenbros/Homeblog" version_id="13300" version_string="1.3.3"><![CDATA[by]]></phrase>
+  <phrase title="xb_hb_custom_background_link" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Custom Background Link]]></phrase>
+  <phrase title="xb_hb_expert" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Expert]]></phrase>
+  <phrase title="xb_hb_featured_to" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Featured thread to]]></phrase>
+  <phrase title="xb_hb_read_more" addon_id="xenbros/Homeblog" version_id="12000" version_string="1.2.1"><![CDATA[Read More ⇾]]></phrase>
+  <phrase title="xb_hb_successfully_featured" addon_id="xenbros/Homeblog" version_id="12200" version_string="1.2.2"><![CDATA[Thread Successfully featured]]></phrase>
+  <phrase title="xb_hb_successfully_unfeatured" addon_id="xenbros/Homeblog" version_id="12200" version_string="1.2.2"><![CDATA[Thread Successfully Unfeatured]]></phrase>
+  <phrase title="xb_hb_title" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[Title]]></phrase>
+  <phrase title="xb_hb_view_all_featured_thread" addon_id="xenbros/Homeblog" version_id="12300" version_string="1.2.3"><![CDATA[View all featured thread >>]]></phrase>
+  <phrase title="xv_hb_featured_thread" addon_id="xenbros/Homeblog" version_id="14100" version_string="1.4.1"><![CDATA[Сделать популярной]]></phrase>
+  <phrase title="xv_hb_unfeatured_thread" addon_id="xenbros/Homeblog" version_id="12200" version_string="1.2.2"><![CDATA[Unfeature]]></phrase>
+</language>

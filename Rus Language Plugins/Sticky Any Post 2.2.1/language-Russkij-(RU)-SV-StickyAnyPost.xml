@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Русский (RU)" date_format="d.m.Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="SV/StickyAnyPost" base_version_id="2020100" export_version="2">
+  <phrase title="moderator_log_thread_stick_post" addon_id="SV/StickyAnyPost" version_id="1010003" version_string="1.1.0"><![CDATA[Thread first post stuck]]></phrase>
+  <phrase title="moderator_log_thread_unstick_post" addon_id="SV/StickyAnyPost" version_id="1010003" version_string="1.1.0"><![CDATA[Thread first post unstuck]]></phrase>
+  <phrase title="option.sv_stickpost_always" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Always stick sticky post to top of a thread]]></phrase>
+  <phrase title="option.sv_stickpost_always_except_first" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[... Except first post on the first page]]></phrase>
+  <phrase title="option.sv_stickpost_only_first_page" addon_id="SV/StickyAnyPost" version_id="2010000" version_string="2.1.0"><![CDATA[Only sticky post to first page]]></phrase>
+  <phrase title="option_explain.sv_stickpost_always" addon_id="SV/StickyAnyPost" version_id="1020300" version_string="1.2.3"><![CDATA[By default, sticky posts are not "stuck" on the page the naturally land on.]]></phrase>
+  <phrase title="option_explain.sv_stickpost_always_except_first" addon_id="SV/StickyAnyPost" version_id="1020300" version_string="1.2.3"><![CDATA[Do not sticky the first post if it is stick on the first page]]></phrase>
+  <phrase title="option_explain.sv_stickpost_only_first_page" addon_id="SV/StickyAnyPost" version_id="2010000" version_string="2.1.0"><![CDATA[(Ignores 'Always stick sticky post to top of a thread' option)]]></phrase>
+  <phrase title="option_group.stickyAnyPost" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Sticky Any Post]]></phrase>
+  <phrase title="option_group_description.stickyAnyPost" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="permission.forum_canStickyFirstPost" addon_id="SV/StickyAnyPost" version_id="1020000" version_string="1.2.0"><![CDATA[Can sticky/unsticky post in own thread]]></phrase>
+  <phrase title="permission.forum_canStickyFirstPostOthers" addon_id="SV/StickyAnyPost" version_id="1020000" version_string="1.2.0"><![CDATA[Can sticky/unsticky post in others threads]]></phrase>
+  <phrase title="permission.forum_stickyFirstPostOverride" addon_id="SV/StickyAnyPost" version_id="1020000" version_string="1.2.0"><![CDATA[Can override always sticky post]]></phrase>
+  <phrase title="stickyFirstPost_all_posts_stickied_in_forum" addon_id="SV/StickyAnyPost" version_id="10007" version_string="1.0.7"><![CDATA[All threads have their first post stickied in this forum.]]></phrase>
+  <phrase title="stickyFirstPost_always_sticky_first_post" addon_id="SV/StickyAnyPost" version_id="2020100" version_string="2.2.1"><![CDATA[Всегда закреплять публикацию первой сверху]]></phrase>
+  <phrase title="stickyFirstPost_explain" addon_id="SV/StickyAnyPost" version_id="10002" version_string="1.0.2"><![CDATA[If this is enabled, the first post of this thread will appear at the top of all pages instead of just the first page.]]></phrase>
+  <phrase title="stickyFirstPost_explain_2" addon_id="SV/StickyAnyPost" version_id="1020000" version_string="1.2.0"><![CDATA[If this is set to a post number, that post of this thread will appear at the top of all pages instead of just the first page. Enter 0 to disable.]]></phrase>
+  <phrase title="stickyFirstPost_explain_3" addon_id="SV/StickyAnyPost" version_id="2020100" version_string="2.2.1"><![CDATA[Если флажок установлен, публикация будет отображаться сверху всех публикаций этой темы.]]></phrase>
+  <phrase title="stickyFirstPost_if_enabled_first_post_stickied_all_pages" addon_id="SV/StickyAnyPost" version_id="10002" version_string="1.0.2"><![CDATA[If this option is enabled, then all threads in the forum will have their first post stickied, regardless of user choice or permission.]]></phrase>
+  <phrase title="stickyFirstPost_please_enter_valid_post_number" addon_id="SV/StickyAnyPost" version_id="1020100" version_string="1.2.1"><![CDATA[Please enter a valid post number.]]></phrase>
+  <phrase title="stickyFirstPost_sticky_first_post" addon_id="SV/StickyAnyPost" version_id="10002" version_string="1.0.2"><![CDATA[Sticky First Post]]></phrase>
+  <phrase title="stickyFirstPost_sticky_post" addon_id="SV/StickyAnyPost" version_id="2020100" version_string="2.2.1"><![CDATA[Закрепить публикацию]]></phrase>
+  <phrase title="style_prop.liam_stickiedFirstPost_container" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Stickied Post - Container]]></phrase>
+  <phrase title="style_prop.liam_stickiedFirstPost_message" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Stickied Post - Message]]></phrase>
+  <phrase title="style_prop_desc.liam_stickiedFirstPost_container" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Control the appearance of the container of a first post that has been stuck]]></phrase>
+  <phrase title="style_prop_desc.liam_stickiedFirstPost_message" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Control appearance of the message container of a stickied post]]></phrase>
+  <phrase title="style_prop_group.liam_stickyFirstPost" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[Sticky Any Post]]></phrase>
+  <phrase title="style_prop_group_desc.liam_stickyFirstPost" addon_id="SV/StickyAnyPost" version_id="2000000" version_string="2.0.0"><![CDATA[]]></phrase>
+  <phrase title="style_property_group_liam_stickyFirstPost_master" addon_id="SV/StickyAnyPost" version_id="10005" version_string="1.0.5"><![CDATA[Sticky First Post]]></phrase>
+  <phrase title="style_property_group_liam_stickyFirstPost_master_desc" addon_id="SV/StickyAnyPost" version_id="10005" version_string="1.0.5"><![CDATA[]]></phrase>
+  <phrase title="style_property_liam_stickiedFirstPost_container_description_master" addon_id="SV/StickyAnyPost" version_id="10005" version_string="1.0.5"><![CDATA[Control the appearance of the container of a first post that has been stuck.]]></phrase>
+  <phrase title="style_property_liam_stickiedFirstPost_container_master" addon_id="SV/StickyAnyPost" version_id="10005" version_string="1.0.5"><![CDATA[Stickied First Post - Container]]></phrase>
+  <phrase title="style_property_liam_stickiedFirstPost_message_description_master" addon_id="SV/StickyAnyPost" version_id="10005" version_string="1.0.5"><![CDATA[Control appearance of the message container of a stickied first post.]]></phrase>
+  <phrase title="style_property_liam_stickiedFirstPost_message_master" addon_id="SV/StickyAnyPost" version_id="10005" version_string="1.0.5"><![CDATA[Stickied First Post - Message]]></phrase>
+</language>
